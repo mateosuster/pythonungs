@@ -3,7 +3,7 @@
 
 ## Diapos clases
 
-- [Clase 1](https://github.com/sebasped/pythonungs/blob/master/pythonClase1.pdf)
+- [Clase 1](https://github.com/sebasped/pythonungs/blob/master/pythonClase1.pdf): intro programación y Python. Algoritmo y programa. Tipos de datos. Variables y expresiones. Asignación. Listas.
 
 
 ## Software
