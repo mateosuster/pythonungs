@@ -2,7 +2,7 @@
 
 ## Diapos clases
 
-- Clase 1: [Link](url)
+- Clase 1: [Link](https://github.com/sebasped/pythonungs/blob/master/pythonClase1.pdf)
 
 ## Software
 
