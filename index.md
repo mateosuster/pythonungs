@@ -13,18 +13,18 @@
 
 ## Recursos Python
 ### Comunidades:
-- http://www.python.org.ar/
-- https://argentinaenpython.com/
-- https://twitter.com/pibesdesistemas
-- https://www.chicasentecnologia.org/
-- https://twitter.com/lasdesistemas}
-- https://www.meetup.com/Buenos-Aires-Python-Meetup/
-- https://twitter.com/linuxchixar
+- [http://www.python.org.ar/](http://www.python.org.ar/)
+- [https://argentinaenpython.com/](https://argentinaenpython.com/)
+- [Pibes de Sistemas](https://twitter.com/pibesdesistemas)
+- [Chicas en Tecnología](https://www.chicasentecnologia.org/)
+- [Las de Sistemas](https://twitter.com/lasdesistemas)
+- [Bs As Python MeetUp](https://www.meetup.com/Buenos-Aires-Python-Meetup/)
+- [Linux Chix Argentina](https://twitter.com/linuxchixar)
 
 ### Material, cursos, tutoriales, bibliografía:
-- http://www.python.org.ar/wiki/AprendiendoPython
-- https://argentinaenpython.com/quiero-aprender-python/aprenda-a-pensar-como-un-programador-con-python.pdf
-- https://launchpadlibrarian.net/18980633/Python%20para%20todos.pdf
+- [Aprendiendo Python](http://www.python.org.ar/wiki/AprendiendoPython)
+- [Aprenda a pensar como un programador con Python](https://argentinaenpython.com/quiero-aprender-python/aprenda-a-pensar-como-un-programador-con-python.pdf)
+- [Python para todos](https://launchpadlibrarian.net/18980633/Python%20para%20todos.pdf)
 - Cursos online (en inglés): coursera, datacamp, udemy, Stanford online, edx, codeacademy, Harvard online, etc.
 	
  
