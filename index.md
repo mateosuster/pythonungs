@@ -27,5 +27,5 @@
 - [Python para todos](https://launchpadlibrarian.net/18980633/Python%20para%20todos.pdf)
 - Cursos online (en inglés): coursera, datacamp, udemy, Stanford online, edx, codeacademy, Harvard online, etc.
 	
- 
- ## Material de interés
+
+## Material de interés
