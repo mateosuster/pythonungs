@@ -29,3 +29,5 @@
 	
 
 ## Material de interés
+- [Estabilidad ODEs orden 1](https://github.com/sebasped/pythonungs/blob/master/edosOrden1Estabilidad.pdf)
+
