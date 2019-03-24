@@ -10,8 +10,8 @@
 
 ## Recursos Python
 ### Comunidades:
-		- http://www.python.org.ar/
-		- https://argentinaenpython.com/
-		- https://twitter.com/pibesdesistemas
+- (http://www.python.org.ar/)
+- https://argentinaenpython.com/
+- https://twitter.com/pibesdesistemas
 
 ## Material de interés
