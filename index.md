@@ -23,6 +23,7 @@
 - [Linux Chix Argentina](https://twitter.com/linuxchixar)
 
 ### Material, cursos, tutoriales, bibliografía:
+- [Tutorial de Python para no programadores](http://jjc.freeshell.org/easytut/easytut_es/easytut.html)
 - [Aprendiendo Python](http://www.python.org.ar/wiki/AprendiendoPython)
 - [Aprenda a pensar como un programador con Python](https://argentinaenpython.com/quiero-aprender-python/aprenda-a-pensar-como-un-programador-con-python.pdf)
 - [Python para todos](https://launchpadlibrarian.net/18980633/Python%20para%20todos.pdf)
