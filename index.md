@@ -28,6 +28,6 @@
 - Cursos online (en inglés): coursera, datacamp, udemy, Stanford online, edx, codeacademy, Harvard online, etc.
 	
 
-## Material de interés
+## Material de interés/extra
 - [Estabilidad ODEs orden 1](https://github.com/sebasped/pythonungs/blob/master/edosOrden1Estabilidad.pdf)
 
