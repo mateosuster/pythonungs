@@ -35,5 +35,4 @@
 
 ## Eventos
 - [FLISol UNGS](https://eventol.flisol.org.ar/events/malvinas-argentinas/)
-	-- bla
-
+	- bla
