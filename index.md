@@ -33,3 +33,7 @@
 ## Material de interés/extra
 - [Estabilidad ODEs orden 1](https://github.com/sebasped/pythonungs/blob/master/edosOrden1Estabilidad.pdf)
 
+## Eventos
+- [FLISol UNGS](https://eventol.flisol.org.ar/events/malvinas-argentinas/)
+-- bla
+
