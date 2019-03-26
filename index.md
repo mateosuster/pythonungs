@@ -35,4 +35,7 @@
 
 ## Eventos
 - [FLISol UNGS](https://eventol.flisol.org.ar/events/malvinas-argentinas/)
-	- bla
+	- [Instagram](https://www.instagram.com/flisolungs/)
+	- [Twitter](https://www.twitter.com/flisol_ungs)
+	- [Facebook](https://www.facebook.com/groups/guffslug/)
+
