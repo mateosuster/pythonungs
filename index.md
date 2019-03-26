@@ -34,7 +34,7 @@
 - [Estabilidad ODEs orden 1](https://github.com/sebasped/pythonungs/blob/master/edosOrden1Estabilidad.pdf)
 
 ## Eventos
-- [FLISol UNGS](https://eventol.flisol.org.ar/events/malvinas-argentinas/): Sáb 27-Abr-2019 desde las 9:00 hs. Entrada libre y gratuita.
+- [FLISoL UNGS](https://eventol.flisol.org.ar/events/malvinas-argentinas/): Sáb 27-Abr-2019 desde las 9:00 hs. Entrada libre y gratuita.
 	- [Instagram](https://www.instagram.com/flisolungs/)
 	- [Twitter](https://www.twitter.com/flisol_ungs)
 	- [Facebook](https://www.facebook.com/groups/guffslug/)
