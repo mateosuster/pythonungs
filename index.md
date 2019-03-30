@@ -28,6 +28,12 @@
 - [Aprenda a pensar como un programador con Python](https://argentinaenpython.com/quiero-aprender-python/aprenda-a-pensar-como-un-programador-con-python.pdf)
 - [Python para todos](https://launchpadlibrarian.net/18980633/Python%20para%20todos.pdf)
 - Cursos online (en inglés): coursera, datacamp, udemy, Stanford online, edx, codeacademy, Harvard online, etc.
+
+### Intérpretes online
+- [https://www.jdoodle.com/python-programming-online](https://www.jdoodle.com/python-programming-online)
+- [https://paiza.io/en/projects/new?language=pytho](nhttps://paiza.io/en/projects/new?language=python)
+- [https://repl.it/languages/Python](2https://repl.it/languages/Python2)
+- [https://tio.run/#python](2https://tio.run/#python2)
 	
 
 ## Material de interés/extra
