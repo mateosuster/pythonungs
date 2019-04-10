@@ -29,6 +29,7 @@
 - El anterior en inglés: [How to Think Like a Computer Scientist](http://openbookproject.net/thinkcs/python/english2e/)
 - [Python para todos](https://launchpadlibrarian.net/18980633/Python%20para%20todos.pdf)
 - Cursos online (en inglés): coursera, datacamp, udemy, Stanford online, edx, codeacademy, Harvard online, etc.
+- [Python Tutorials freeCodeCamp](https://www.youtube.com/playlist?list=PLWKjhJtqVAbnqBxcdjVGgT3uVR10bzTEB) (videos en inglés)
 
 ### Intérpretes online
 - [https://www.jdoodle.com/python-programming-online](https://www.jdoodle.com/python-programming-online)
