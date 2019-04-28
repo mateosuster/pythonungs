@@ -1,11 +1,12 @@
 # Python UNGS
 
 
-## Diapos clases
+## Diapos y material clases
 
 - [Clase 1](https://github.com/sebasped/pythonungs/blob/master/pythonClase1.pdf): intro programación y Python. Algoritmo y programa. Tipos de datos. Variables y expresiones. Asignación. Listas.
 - [Clase 2 (primera parte)](https://github.com/sebasped/pythonungs/blob/master/pythonClase2.pdf): ciclo, importar paquetes en Python, graficar.
 - [Clase 2 (segunda parte)](https://github.com/sebasped/pythonungs/blob/master/pythonClase2parte2.pdf): funciones.
+- [Programa resuelve EDOs](https://github.com/sebasped/pythonungs/blob/masterresuelveEcDif.py)
 
 
 ## Software
