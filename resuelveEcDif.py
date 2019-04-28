@@ -30,7 +30,7 @@ y = symbols('y', cls=Function) # la función
 
 
 # defino la ecuación diferencial
-# Eq es la función de Python para definidir ecuaciones diferenciales. La coma es como el igual.
+# Eq es la función de Python para definir ecuaciones diferenciales. La coma es como el igual.
 # y(t).diff(t) es la derivada primera
 # y(t).diff(t,t) es la derivada segunda
 # defino  y'' + 6y' + 9y = 45  (cambiar a gusto)
