@@ -34,9 +34,9 @@
 
 ### Intérpretes online
 - [https://www.jdoodle.com/python-programming-online](https://www.jdoodle.com/python-programming-online)
-- [https://paiza.io/en/projects/new?language=pytho](nhttps://paiza.io/en/projects/new?language=python)
-- [https://repl.it/languages/Python](2https://repl.it/languages/Python2)
-- [https://tio.run/#python](2https://tio.run/#python2)
+- [https://paiza.io/en/projects/new?language=python](https://paiza.io/en/projects/new?language=python)
+- [https://repl.it/languages/Python2](https://repl.it/languages/Python2)
+- [https://tio.run/#python2](https://tio.run/#python2)
 	
 
 ## Material de interés/extra
