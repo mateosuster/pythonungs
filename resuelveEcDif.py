@@ -16,7 +16,7 @@ from IPython.display import display
 # para generar una lista de valores equiespaciados
 from numpy import linspace
 
-# para graficara
+# para graficar
 import matplotlib.pyplot as plt
 
 
@@ -57,7 +57,7 @@ print 'La solución:'
 display(sol)
 
 
-# si lo anterior forma de mostrar la ec. dif. y la solución no funciona
+# si la anterior forma de mostrar la ec. dif. y la solución no funciona
 # se pueden imprimir más rudimentariamente así
 # (descomentar este y comentar el anterior)
 #print 'La ecuación diferencial:'
