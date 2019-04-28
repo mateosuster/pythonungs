@@ -6,6 +6,10 @@ Created on Sun Apr 28 14:14:59 2019
 """
 
 
+# RECORDAR: lo que viene después de un '#' es un comentario y Python no le da bola.
+
+
+
 #para resolver ecuaciones diferenciales
 from sympy import *
 
