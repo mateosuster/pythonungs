@@ -7,6 +7,7 @@
 - [Clase 2 (primera parte)](https://github.com/sebasped/pythonungs/blob/master/pythonClase2.pdf): ciclo, importar paquetes en Python, graficar.
 - [Clase 2 (segunda parte)](https://github.com/sebasped/pythonungs/blob/master/pythonClase2parte2.pdf): funciones.
 - [Programa resuelve EDOs](https://github.com/sebasped/pythonungs/blob/master/resuelveEcDif.py)
+- [Ejercicio](https://github.com/sebasped/pythonungs/blob/master/pythonEjercicio.pdf)
 
 
 ## Software
