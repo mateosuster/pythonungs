@@ -14,6 +14,7 @@
 ## Software
 
 - [Anaconda](https://www.anaconda.com/distribution/#download-section)
+- [Python.org](https://www.python.org/downloads/)
 
 
 ## Recursos Python
