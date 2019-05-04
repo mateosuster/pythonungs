@@ -7,6 +7,7 @@
 - [Clase 2 (primera parte)](https://github.com/sebasped/pythonungs/blob/master/pythonClase2.pdf): ciclo, importar paquetes en Python, graficar.
 - [Clase 2 (segunda parte)](https://github.com/sebasped/pythonungs/blob/master/pythonClase2parte2.pdf): funciones.
 - [Ejercicio](https://github.com/sebasped/pythonungs/blob/master/pythonEjercicio.pdf): función y condicional.
+- [Ejercicio 2](https://github.com/sebasped/pythonungs/blob/master/pythonEjercicio2.pdf): entendiendo código, función/ciclo/condicional.
 - [Clase 3](https://github.com/sebasped/pythonungs/blob/master/pythonClase3.pdf): primer programa para resolver EDOs.
 - [Programa resuelve EDOs](https://github.com/sebasped/pythonungs/blob/master/resuelveEcDif.py)
 
