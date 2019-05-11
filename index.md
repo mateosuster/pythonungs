@@ -47,6 +47,7 @@
 
 ## Material de interés/extra
 - [Estabilidad ODEs orden 1](https://github.com/sebasped/pythonungs/blob/master/edosOrden1Estabilidad.pdf)
+- [Int. a las ecuaciones diferenciales ordinarias, Noemí Wolanski](http://cms.dm.uba.ar/depto/public/Curso%20de%20grado/fascgrado1.pdf)
 
 ## Eventos
 - [FLISoL UNGS](https://eventol.flisol.org.ar/events/malvinas-argentinas/): Sáb 27-Abr-2019 desde las 9:00 hs. Entrada libre y gratuita.
