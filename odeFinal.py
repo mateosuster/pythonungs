@@ -25,7 +25,7 @@ def f(t, M):
 
 # rango de tiempo donde deseo resolver
 # es tiempo inicial, tiempo final, cantidad de pasitos entre inicio y fin
-tspan = linspace(0,100,1000) #acá serían 1000 pasos para ir de t=0 a t=100
+tspan = linspace(0,10,100) #acá serían 100 pasos para ir de t=0 a t=10
 
 # condiciones iniciales. Sería [x(0), y(0)]
 cond_inic = [-0.9, 1.1]
@@ -34,15 +34,28 @@ cond_inic = [-0.9, 1.1]
 sol = solve_ivp(lambda t, M: f(t, M), [tspan[0],tspan[-1]], cond_inic, t_eval=tspan)
 
 
+# si lo prueban online y no pueden graficar
+# al menos impriman el resultado (descomenten los prints)
+
+# imprimir los valores de x(t)
+#print('Los valores de x\n:')
+#print(sol.y[0])
+
+# imprimir los valores de y(t)
+#print('Los valores de y\n:')
+#print(sol.y[1])
+
+
+
 #descomentar y comentar, dependiendo de qué se quiere graficar
 
 #graficar t vs. x(t)
-plt.plot(sol.t, sol.y[0], 'k--s')
+#plt.plot(sol.t, sol.y[0], 'k--s')
 
 #graficar t vs. y(t)
 #plt.plot(sol.t, sol.y[1], 'k--s')
 
 #graficar x(t) vs. y(t)
-#plt.plot(sol.y[0], sol.y[1], 'k--s')
+plt.plot(sol.y[0], sol.y[1], 'k--s')
 
 plt.show()
