@@ -37,7 +37,7 @@
 - [Python para todos](https://launchpadlibrarian.net/18980633/Python%20para%20todos.pdf)
 - Cursos online (en inglés): coursera, datacamp, udemy, Stanford online, edx, codeacademy, Harvard online, etc.
 - [Python Tutorials freeCodeCamp](https://www.youtube.com/playlist?list=PLWKjhJtqVAbnqBxcdjVGgT3uVR10bzTEB) (videos en inglés)
-- [Automate the Boring Stuff](https://automatetheboringstuff.com): variosn libros y videos en inglés (Automate the Boring Stuff with Python, Cracking Codes with Python, Making Games with Python & Pygame, Invent Your Own Computer Games with Python).
+- [Automate the Boring Stuff](https://automatetheboringstuff.com): varios libros y videos en inglés (Automate the Boring Stuff with Python, Cracking Codes with Python, Making Games with Python & Pygame, Invent Your Own Computer Games with Python).
 
 ### Intérpretes online
 - [https://www.jdoodle.com/python-programming-online](https://www.jdoodle.com/python-programming-online)
