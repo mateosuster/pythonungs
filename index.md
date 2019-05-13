@@ -17,6 +17,7 @@
 
 - [Anaconda](https://www.anaconda.com/distribution/#download-section)
 - [Python.org](https://www.python.org/downloads/)
+- [Python IDEs](https://wiki.python.org/moin/IntegratedDevelopmentEnvironments)
 
 
 ## Recursos Python
