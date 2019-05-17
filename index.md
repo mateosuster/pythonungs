@@ -11,6 +11,7 @@
 - [Clase 3](https://github.com/sebasped/pythonungs/blob/master/pythonClase3.pdf): primer programa para resolver EDOs.
 - [Programa resuelve EDOs](https://github.com/sebasped/pythonungs/blob/master/resuelveEcDif.py): cálculo simbólico para EDOs lineales (adaptable fácilmenta a sistemas). También se puede graficar la solución. (Para no lineales funciona, aunque puede llegar a ser un poquitín más trabajoso). 
 - [Programa resuelve EDOs 2](https://github.com/sebasped/pythonungs/blob/master/odeFinal.py): cálculo numérico para EDOs o sistemas, lineales o no lineales (de la forma dy/dt=f(t,y)). Como resuelve numéricamente, solamente se puede graficar la solución (pero no da la solución simbólicamente).
+- [Trabajo Práctico entregable](https://github.com/sebasped/pythonungs/blob/master/tp_python.pdf)
 
 
 ## Software
