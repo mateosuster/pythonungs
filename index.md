@@ -40,6 +40,7 @@
 - Cursos online (en inglés): coursera, datacamp, udemy, Stanford online, edx, codeacademy, Harvard online, etc.
 - [Python Tutorials freeCodeCamp](https://www.youtube.com/playlist?list=PLWKjhJtqVAbnqBxcdjVGgT3uVR10bzTEB) (videos en inglés)
 - [Automate the Boring Stuff](https://automatetheboringstuff.com): varios libros y videos en inglés (Automate the Boring Stuff with Python, Cracking Codes with Python, Making Games with Python & Pygame, Invent Your Own Computer Games with Python).
+- [650 free online programming or computer science courses](https://www.freecodecamp.org/news/650-free-online-programming-computer-science-courses-you-can-start-this-summer/).
 
 ### Intérpretes online
 - [https://colab.research.google.com/notebooks/welcome.ipynb](https://colab.research.google.com/notebooks/welcome.ipynb): intérprete online que se banca gráficos. [Instructivo de cómo usarlo.](https://github.com/sebasped/pythonungs/blob/master/python_online_con_graficos.pdf)
