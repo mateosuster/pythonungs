@@ -44,6 +44,7 @@
 - [Automate the Boring Stuff](https://automatetheboringstuff.com): varios libros y videos en inglés (Automate the Boring Stuff with Python, Cracking Codes with Python, Making Games with Python & Pygame, Invent Your Own Computer Games with Python).
 - [650 free online programming or computer science courses](https://www.freecodecamp.org/news/650-free-online-programming-computer-science-courses-you-can-start-this-summer/).
 - [Scipy Lectures](https://scipy-lectures.org/index.html)
+- [Scikit-learn](https://scikit-learn.org/)
 
 ### Intérpretes online
 - [https://colab.research.google.com/notebooks/welcome.ipynb](https://colab.research.google.com/notebooks/welcome.ipynb): intérprete online que se banca gráficos. [Instructivo de cómo usarlo.](https://github.com/sebasped/pythonungs/blob/master/python_online_con_graficos.pdf)
