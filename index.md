@@ -43,7 +43,7 @@
 - [Python Tutorials freeCodeCamp](https://www.youtube.com/playlist?list=PLWKjhJtqVAbnqBxcdjVGgT3uVR10bzTEB) (videos en inglés)
 - [Automate the Boring Stuff](https://automatetheboringstuff.com): varios libros y videos en inglés (Automate the Boring Stuff with Python, Cracking Codes with Python, Making Games with Python & Pygame, Invent Your Own Computer Games with Python).
 - [650 free online programming or computer science courses](https://www.freecodecamp.org/news/650-free-online-programming-computer-science-courses-you-can-start-this-summer/).
-- [The Hitchhiker’s Guide to Python!](https://docs.python-guide.org/).
+- [The Hitchhiker’s Guide to Python!](https://docs.python-guide.org/)
 - [Scipy Lectures](https://scipy-lectures.org/index.html)
 - [Scikit-learn](https://scikit-learn.org/)
 - [NumFOCUS](https://numfocus.org/sponsored-projects)
