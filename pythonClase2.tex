@@ -1,0 +1,420 @@
+\documentclass[9pt]{beamer}
+%\documentclass[handout,9pt]{beamer}
+
+\mode<presentation>
+{
+%  \usetheme{Warsaw}
+  % or ...
+
+%  \setbeamercovered{transparent}
+  % or whatever (possibly just delete it)
+}
+
+
+\setbeamertemplate{navigation symbols}{}
+
+\usepackage[utf8]{inputenc}
+\usepackage[spanish, es-tabla, es-nodecimaldot]{babel}
+
+\usepackage{listings}
+
+%\usepackage{times}
+%\usepackage[T1]{fontenc}
+% Or whatever. Note that the encoding and the font should match. If T1
+% does not look nice, try deleting the line with the fontenc.
+
+
+\title[Intro Prog] % (optional, use only with long paper titles)
+{Introducción a la programación}
+
+\subtitle
+{Usando Python}
+
+\author[SP]
+{G. Sebastián Pedersen}%\inst{1}}
+% - Give the names in the same order as the appear in the paper.
+% - Use the \inst{?} command only if the authors have different
+%   affiliation.
+
+\institute[UNGS] % (optional, but mostly needed)
+{
+%  \inst{1}%
+  Instituto de Industria\\
+  Universidad Nacional de General Sarmiento
+%  \and
+%  \inst{2}%
+%  Department of Theoretical Philosophy\\
+%  University of Elsewhere}
+% - Use the \inst command only if there are several affiliations.
+% - Keep it simple, no one is interested in your street address.
+}
+
+\date[] % (optional, should be abbreviation of conference name)
+{Matemática para Economistas III, 1er. cuat. 2019\\ 
+\vspace{.5cm}
+\url{https://sebasped.github.io/pythonungs/}
+}
+
+
+
+% If you have a file called "university-logo-filename.xxx", where xxx
+% is a graphic format that can be processed by latex or pdflatex,
+% resp., then you can add a logo as follows:
+
+% \pgfdeclareimage[height=0.5cm]{university-logo}{university-logo-filename}
+% \logo{\pgfuseimage{university-logo}}
+
+
+
+% Delete this, if you do not want the table of contents to pop up at
+% the beginning of each subsection:
+%\AtBeginSubsection[]
+%{
+%  \begin{frame}<beamer>{Outline}
+%    \tableofcontents[currentsection,currentsubsection]
+%  \end{frame}
+%}
+
+
+% If you wish to uncover everything in a step-wise fashion, uncomment
+% the following command: 
+
+%\beamerdefaultoverlayspecification{<+->}
+
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+
+\begin{frame}[fragile]{Repaso clase anterior}
+%\begin{block}{Programa}
+¿Qué hace el siguiente programa en Python?
+\footnotesize{\begin{verbatim}
+# m2k_v1.py
+# Ingreso las millas (en float para no hacer división entera)
+mills = 34.122
+
+# Hago la conversión a kilómetros
+kms = 34.122*1.6
+
+# Imprimo por pantalla el resultado
+print mills,"millas son",kms,"kilómetros"
+\end{verbatim}}\pause
+%\end{block}\pause
+La salida queda así: 34.122 millas son 54.5952 kilómetros\pause
+\begin{itemize}
+%	\item ¿Qué hace el anterior programa?\pause
+	\item ¿Qué problemas tiene?\pause 
+		\begin{itemize}
+			\item \alert{Duplicación de información:} 34.122 lo estoy guardando en mills pero después vuelvo a poner 34.112 en kms
+		\end{itemize}\pause
+	\item ¿Cómo se podría arreglar?
+\end{itemize}
+
+\end{frame}
+
+
+
+\begin{frame}[fragile]{Repaso clase anterior}
+%\begin{block}{Programa}
+Lo mismo \alert{sin duplicar información}
+\footnotesize{\begin{verbatim}
+# m2k_v2.py
+	# Ingreso las millas (en float para no hacer división entera)
+	mills = 34.122
+	
+	# Hago la conversión a kilómetros
+	kms = mills*1.6
+	
+	# Imprimo por pantalla el resultado
+	print mills,"millas son",kms,"kilómetros"
+	\end{verbatim}}\pause
+%\end{block}\pause
+La salida sigue igual: 34.122 millas son 54.5952 kilómetros\pause
+\begin{itemize}
+	%	\item ¿Qué hace el anterior programa?\pause
+	\item \alert{Duplicación de información corregida:} 34.122 lo estoy guardando en mills, y después uso la variable mills y no vuelvo a poner 34.112 en kms
+	
+\end{itemize}
+
+\end{frame}
+
+
+\begin{frame}[fragile]{Repaso clase anterior}
+%\begin{block}{Programa}
+¿Qué hace el siguiente programa en Python?
+\footnotesize{\begin{verbatim}
+# m2k_v3.py
+# Ingreso las millas
+mills = 34.122  # la ingreso float para no hacer división entera
+
+# Hago la conversión a kilómetros
+kms = mills*1.6
+
+round(54.592, 2)
+
+# Imprimo por pantalla el resultado
+print mills,"millas son",kms,"kilómetros"
+	\end{verbatim}}\pause
+%\end{block}\pause
+La salida sigue igual: 34.122 millas son 54.5952 kilómetros\pause
+\begin{itemize}
+	%	\item ¿Qué hace el anterior programa?\pause
+	\item Lo mismo que la versión 2 (\verb|m2k_v2.py|) \pause
+	\item Bah, casi... ¿Qué pasa con \verb|round(54.592, 2)|? \pause 
+	\begin{itemize}
+		\item \verb|round(54.592, 2)| redondea 54.592 a dos decimales después de la coma, pero \alert{el resultado no se guarda en ningún lado} ¿por qué?
+	\end{itemize}\pause
+	\item ¿Cómo se podría guardar el resultado del redondeo para utilizarlo después en el programa?\pause
+	\item ¿Qué otro problema hay?\pause\hspace{.1cm}Nuevamente \alert{duplicación de información}: en vez de 54.592 podemos usar \verb|kms| que es la variable que guarda ese valor.
+\end{itemize}
+
+\end{frame}
+
+
+
+\begin{frame}[fragile]{Repaso clase anterior}
+%\begin{block}{Programa}
+Guardo el resultado de redondear, y reutilizo el valor de \verb|kms|
+\footnotesize{\begin{verbatim}
+	# m2k_v4.py
+	# Ingreso las millas
+	mills = 34.122  # la ingreso float para no hacer división entera
+	
+	# Hago la conversión a kilómetros
+	kms = mills*1.6
+	
+	kmsRedon = round(kms, 2)
+	
+	# Imprimo por pantalla el resultado
+	print mills,"millas son",kms,"kilómetros"
+	\end{verbatim}}\pause
+%\end{block}\pause
+La salida sigue igual: 34.122 millas son 54.5952 kilómetros\pause
+\begin{itemize}
+		\item ¿Qué hace ahora el programa?\pause
+		\begin{itemize}
+			\item Esencialmente, todavía lo mismo que la versión 2 (\verb|m2k_v2.py|)...
+		\end{itemize}\pause
+		\item ¿Uso en algún lado el valor de \verb|kmsRedon|?\pause
+		\begin{itemize}
+			\item No... ¿cómo lo podría usar?\pause
+			\item En vez de mostrar (imprimir por pantalla) el valor de \verb|kms|, podría mostrar el valor redondeado \verb|kmsRedon|
+		\end{itemize}
+\end{itemize}
+
+\end{frame}
+
+
+
+\begin{frame}[fragile]{Repaso clase anterior}
+%\begin{block}{Programa}
+Mostrando el valor redondeado de los kilómetros
+\footnotesize{\begin{verbatim}
+	# m2k_v5.py
+	# Ingreso las millas
+	mills = 34.122  # la ingreso float para no hacer división entera
+	
+	# Hago la conversión a kilómetros
+	kms = mills*1.6
+	
+	kmsRedon = round(kms, 2)
+	
+	# Imprimo por pantalla el resultado
+	print mills,"millas son",kmsRedon,"kilómetros"
+	\end{verbatim}}\pause
+
+La salida ahora son kms redondeados: 34.122 millas son 54.6 kilómetros%\pause
+\end{frame}
+
+
+
+\begin{frame}[fragile]{Utilizando listas}
+¿Qué hace el siguiente programa?
+\footnotesize{\begin{verbatim}
+# m2k_v6.py
+# Ingreso las millas
+mills = [34.122, 17.588, 3.187]  # la ingreso float para no hacer división entera
+
+# Hago la conversión a kilómetros
+kms = [mills[0]*1.6, mills[1]*1.6, mills[2]*1.6] 
+
+# Imprimo por pantalla el resultado
+print mills[0],"millas son",kms[0],"kilómetros"
+print mills[1],"millas son",kms[1],"kilómetros"
+print mills[2],"millas son",kms[2],"kilómetros"
+	\end{verbatim}}\pause
+La salida ahora queda:\\
+
+34.122 millas son 54.5952 kilómetros\\
+17.588 millas son 28.1408 kilómetros\\
+3.187 millas son 5.0992 kilómetros\\ \pause
+
+\begin{itemize}
+	\item ¿Cuál es la diferencia fundamental con los anteriores?\pause
+		\begin{itemize}
+			\item Esencialmente que ahora son listas de floats y no un único float.
+		\end{itemize}\pause	
+	\item ¿Tiene información duplicada?\pause
+	\begin{itemize}
+		\item El \verb|1.6| aparece 3 veces... ¿podríamos evitar esta duplicación de información?\pause
+		\item Sí, guardar el \verb|1.6| en una variable, y utilizarla en vez del \verb|1.6|
+	\end{itemize}
+\end{itemize}
+
+\end{frame}
+
+
+
+\begin{frame}[fragile]{Graficando el resultado}
+\footnotesize{\begin{verbatim}
+	# m2k_v7.py
+	
+	# importo la librería para graficar
+	import matplotlib.pyplot as plt
+	
+	# Ingreso las millas
+	mills = [34.122, 17.588, 3.187]  # la ingreso float para no hacer división entera
+	
+	# Hago la conversión a kilómetros
+	kms = [mills[0]*1.6, mills[1]*1.6, mills[2]*1.6] 
+	
+	# Imprimo por pantalla el resultado
+	print mills[0],"millas son",kms[0],"kilómetros"
+	print mills[1],"millas son",kms[1],"kilómetros"
+	print mills[2],"millas son",kms[2],"kilómetros"
+	
+	# Imprimo el resultado en un gráfico
+	plt.plot(mills,kms,'*')  # plot genera un gráfico X contra Y
+	plt.show()  # show muestra el gráfico
+	\end{verbatim}}\pause
+\begin{columns}
+	\begin{column}{0.5\textwidth}
+		La salida queda así:\\
+		\vspace{.5cm}
+		\centering
+		34.122 millas son 54.5952 kilómetros\\
+		17.588 millas son 28.1408 kilómetros\\
+		3.187 millas son 5.0992 kilómetros
+	\end{column}
+	\begin{column}{0.5\textwidth}  %%<--- here
+		\begin{center}
+			\includegraphics[height=2.5cm]{m2kpy_graf1.png}
+		\end{center}
+	\end{column}
+\end{columns}
+\end{frame}
+
+
+
+\begin{frame}[fragile]{Que funcione para lista de cualquier longitud}
+¿Qué hace el siguiente programa?
+\footnotesize{\begin{verbatim}
+# m2k_v8.py
+import matplotlib.pyplot as plt
+
+# Ingreso las millas
+mills = [1.1, 33.4, 13.2, 60.0, 17.35]  # la ingreso float para no hacer división entera
+
+# guardo la longitud de la lista
+long = len(mills)
+
+# Hago la conversión a kilómetros
+kms = [0]*long  # lista de ceros de longitud adecuada
+
+i = 0 # variable para posición en la lista
+while i < long : # mientras que la posición no se salga de la lista
+    kms[i] = mills[i]*1.6  # convertir
+    i = i + 1  # avanzar una posición
+
+# Imprimo el resultado en un gráfico
+plt.plot(mills,kms,'*')
+plt.show()
+\end{verbatim}}\pause
+\begin{columns}
+	\begin{column}{0.5\textwidth}
+		La salida queda así:\\
+\begin{center}
+	\includegraphics[height=2cm]{m2kpy_graf2.png}\pause
+\end{center}
+	\end{column}
+	\begin{column}{0.5\textwidth}  %%<--- here
+		\begin{itemize}
+			\item ¿Funciona este programa para lista de cualquier longitud?\pause
+			\item Sí, porque me fijo la longitud de la lista y la recorro toda.
+		\end{itemize}
+	\end{column}
+\end{columns}
+
+\end{frame}
+
+
+
+
+\begin{frame}{¡A codear se ha dicho!}
+	Tener presente que:
+	\begin{itemize}
+		\item Cualquier \emph{valor que quiera ser reutilizado} (para un cálculo posterior, para una salida, etc.) \alert{debe ser almacenado previamente en una variable}
+		\item Siempre que sea posible \alert{no duplicar información} en el código.
+	\end{itemize}
+\begin{block}{Ejercicios:}
+	\begin{enumerate}
+		\item Escribir un script en un archivo d2p.py. El programa tiene que tomar como entrada una lista de dólares, y convertirla a una lista de sus equivalentes en pesos (tomar algún tipo de cambio).
+		\begin{itemize}
+			\item El programa tiene que funcionar para lista de cualquier longitud
+			\item La salida del programa tiene que ser un gráfico Dólares vs. Pesos.
+		\end{itemize}
+		\item Escribir un script en un archivo variacion.py. El programa tiene que tomar como entrada una lista de cotizaciones (en pesos) del dólar, y convertirla a una lista de variaciones porcentuales en la cotización.
+		\begin{itemize}
+			\item El programa tiene que funcionar para lista de cualquier longitud.
+			\item La salida del programa tiene que ser un gráfico de la evolución de las variaciones.
+		\end{itemize}
+		\item Modificar el script del punto 1. y guardarlo en un archivo d2p\_v2.py. Ahora la salida del programa además del gráfico, también debe incluir una salida por pantalla indicando para cada monto de dólares su correspondiente monto equivalente en pesos. 
+	\end{enumerate}
+	%	
+\end{block}
+
+\end{frame}
+
+
+
+
+
+
+%%
+%%% All of the following is optional and typically not needed. 
+%%\appendix
+%%\section<presentation>*{\appendixname}
+%%\subsection<presentation>*{For Further Reading}
+%%
+%%\begin{frame}[allowframebreaks]
+%%  \frametitle<presentation>{For Further Reading}
+%%    
+%%  \begin{thebibliography}{10}
+%%    
+%%  \beamertemplatebookbibitems
+%%  % Start with overview books.
+%%
+%%  \bibitem{Author1990}
+%%    A.~Author.
+%%    \newblock {\em Handbook of Everything}.
+%%    \newblock Some Press, 1990.
+%% 
+%%    
+%%  \beamertemplatearticlebibitems
+%%  % Followed by interesting articles. Keep the list short. 
+%%
+%%  \bibitem{Someone2000}
+%%    S.~Someone.
+%%    \newblock On this and that.
+%%    \newblock {\em Journal of This and That}, 2(1):50--100,
+%%    2000.
+%%  \end{thebibliography}
+%%\end{frame}
+
+\end{document}
+
+

@@ -1,0 +1,208 @@
+\documentclass[a4paper,12pt]{article}
+%\documentclass[a4paper,11pt,landscape,twocolumn]{article}
+%\documentclass[a4paper]{memoir}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish, es-tabla, es-nodecimaldot]{babel}
+\usepackage{amsmath}  %permite usar \text{} en el entorno Matemática
+\usepackage{amssymb} % para el de números reales
+%\usepackage{fancyhdr} %para encabezados y pies de página lindos
+%\usepackage{lastpage} %para poder referenciar el número de la última página
+\usepackage{graphicx} %para insertar gráficos
+\usepackage{float} %para que funcione el H de la posición de las figuras
+%\usepackage{chngpage} %para cambiar márgenes temporalmente. Por ejemplo tabla o figura un poco más grande que el text width
+%\usepackage[format=plain, indention=0cm, font=small, labelfont=bf, labelsep=period, textfont=sl]{caption} %tuneado del caption de las figuras
+\usepackage{mathtools} % para usar dcases, la versión displayMath de cases (funciones partidas)
+\usepackage{enumerate} %para personalizar los enumeradores
+\usepackage{framed} %para poner párrafos adentro de un caja con marco
+%\usepackage{hyperref} %para que el índice tenga enlaces internos
+%\usepackage{lastpage} %para poder referenciar el número de la última página
+\usepackage{fullpage}
+%\usepackage[cm]{fullpage}
+\usepackage{wrapfig} %para poner tablas o figuras con texto alrededor.
+\usepackage{array}
+\usepackage{hyperref}
+\usepackage{epigraph}
+\usepackage{wrapfig} %para poner tablas o figuras con texto alrededor.
+
+\newcolumntype{x}[1]{>{\centering\arraybackslash\hspace{0pt}}p{#1}}
+
+%\setlength{\columnseprule}{0.5pt}
+\setlength{\columnsep}{.8cm}
+
+\setlength{\epigraphwidth}{.34\textwidth}
+%\setlength{\epigraphwidth}{0.7\textwidth}
+
+\usepackage{listings}
+\usepackage{color}
+
+\definecolor{mygreen}{rgb}{0,0.6,0}
+\definecolor{mygray}{rgb}{0.5,0.5,0.5}
+\definecolor{mymauve}{rgb}{0.58,0,0.82}
+
+\lstset{ 
+	backgroundcolor=\color{white},   % choose the background color; you must add \usepackage{color} or \usepackage{xcolor}; should come as last argument
+	basicstyle=\footnotesize,        % the size of the fonts that are used for the code
+	breakatwhitespace=false,         % sets if automatic breaks should only happen at whitespace
+	breaklines=true,                 % sets automatic line breaking
+	captionpos=b,                    % sets the caption-position to bottom
+	commentstyle=\color{mygreen},    % comment style
+	deletekeywords={...},            % if you want to delete keywords from the given language
+	escapeinside={\%*}{*)},          % if you want to add LaTeX within your code
+	extendedchars=true,              % lets you use non-ASCII characters; for 8-bits encodings only, does not work with UTF-8
+	firstnumber=1,                % start line enumeration with line 1000
+	frame=single,	                   % adds a frame around the code
+	keepspaces=true,                 % keeps spaces in text, useful for keeping indentation of code (possibly needs columns=flexible)
+	keywordstyle=\color{blue},       % keyword style
+	language=Python,                 % the language of the code
+	morekeywords={*,...},            % if you want to add more keywords to the set
+	numbers=left,                    % where to put the line-numbers; possible values are (none, left, right)
+	numbersep=5pt,                   % how far the line-numbers are from the code
+	numberstyle=\tiny\color{mygray}, % the style that is used for the line-numbers
+	rulecolor=\color{black},         % if not set, the frame-color may be changed on line-breaks within not-black text (e.g. comments (green here))
+	showspaces=false,                % show spaces everywhere adding particular underscores; it overrides 'showstringspaces'
+	showstringspaces=false,          % underline spaces within strings only
+	showtabs=false,                  % show tabs within strings adding particular underscores
+	stepnumber=1,                    % the step between two line-numbers. If it's 1, each line will be numbered
+	stringstyle=\color{mymauve},     % string literal style
+	tabsize=2,	                   % sets default tabsize to 2 spaces
+	title=\lstname                   % show the filename of files included with \lstinputlisting; also try caption instead of title
+}
+
+
+
+
+\title{Trabajo Práctico 2 Python/Programación\\ Matemática III Econ., turno noche, 2019 cuat. 1.\\ IDEI-UNGS.}
+\author{G. Sebastián Pedersen --- sebasped@gmail.com}
+\date{Vie 21-Jun-2019}
+
+
+\renewcommand{\arraystretch}{1.3}  %para que las celdas de las tablas sean un poco más altas y entre bien el Q moño.
+\begin{document}
+\maketitle
+\epigraph{La parte más importante de enseñar es enseñar qué es saber.}{Simone Weil (1909-1943)}	
+%\noindent Autor: G. Sebastián Pedersen --- sebasped@gmail.com --- Vie 21-Jun-2019.
+%\begin{framed}
+%	\noindent Los cálculos deben ir acompañados de explicaciones escritas que aclaren su significado. Un resultado suelto, no acompañado de explicación se considerará como problema no resuelto.
+%\end{framed}
+%\vspace{-0.5cm}
+%\section*{Trabajo Práctico Python/Programación. \\Mate III Econ., turno noche, 2019 cuat. 1.\\ IDEI-UNGS.}
+\section{Códigos ejemplo}
+\subsection{Calculando una suma con un ciclo}
+\label{subsec:codEj1}
+El siguiente programa en Python calcula la suma: $$\frac{1}{x^1} + \frac{1}{x^2} + \dots + \frac{1}{x^{n-1}}$$ para un valor de $n$ antes fijado. Define una función \verb|suma|, que luego utiliza para $x=3$, y finalmente imprime el resultado. A continuación el código:
+
+\lstinputlisting[frame=single]{cicloSuma.py}
+Observar el detalle del \verb|1.0| en la división para evitar que Python realice una división entera.
+%\small{
+%\begin{verbatim}
+%# -*- coding: utf-8 -*-
+%n=10
+%
+%def suma(x):
+%    i=1
+%    total = 0
+%    while i < n :
+%        total = total + 1.0/x**i
+%        i = i + 1
+%    return total
+%
+%resultado=suma(3)
+%print(resultado)
+%\end{verbatim}
+%}
+
+\subsection{Encontrando una raíz por Newton-Raphson}
+\label{subsec:codEj2}
+El siguiente programa en Python calcula (aproximadamente) la única raíz de la función $f(x) = -3x-2^x$, es decir resuelve (aproximadamente) la ecuación $$ -3x-2^x=0$$ utilizando el método de Newton-Raphson\footnote{\url{https://es.wikipedia.org/wiki/M\%C3\%A9todo_de_Newton}}. Los parámetros $a$ y $b$ están definidos previamente a la función \verb|f|, luego llama a la función e imprime el resultado. Finalmente comprueba que el resultado es efectivamente una raíz. A continuación el código:
+\lstinputlisting[frame=single]{ejemploNR.py}
+%
+%\small{\begin{verbatim}
+%	# -*- coding: utf-8 -*-
+%	from scipy import optimize
+%	a=-3
+%	b=2
+%	
+%	def f(x):
+%	    func = a*x - b**x 
+%	    return func
+%	
+%	# la entrada para optimize es la función y un valor inicial
+%	# para que Newton-Raphson empiece.
+%	raiz = optimize.newton(f, 0.5)
+%	print(raiz)
+%	
+%	comprobar = a*raiz-b**raiz
+%	print(comprobar)
+%	\end{verbatim}}
+
+\section{Enunciado del TP}
+\label{sec:enunciado}
+%Resolver un sistema de EDOs no lineal, siguiendo estos lineamientos:
+	\begin{enumerate}[I)]
+		\item Para un caso sencillo ($n=4$ y $x=2$ por ejemplo) describir en detalle todas las iteraciones del \verb|while| de la sección \ref{subsec:codEj1}, indicando en cada iteración los valores de \verb|i|, \verb|n|, \verb|x| y \verb|total|, y por qué el ciclo se sigue ejecutando o por qué para.
+		\item Explicar la diferencia entre definir una función y utilizar una función ya definida. Se puede explicar a partir de los códigos ejemplo de las secciones \ref{subsec:codEj1} y \ref{subsec:codEj2}.
+		\item Elegir alguna ecuación donde aparezca la Yield to Maturity (YTM) y la misma no se pueda despejar. Explicar la elección de la ecuación (de mínima el origen) y el significado de cada uno de sus parámetros.
+		\item Hacer un programa en Python que resuelva (aproximadamente) por Newton-Raphson la anterior ecuación (es decir, calcule la YTM para valores de los parámetros ya fijados). Tener en cuenta que puede llegar a ser necesario elegir adecuadamente el valor inicial de Newton-Raphson (el \verb|0.5| del código ejemplo de la sección \ref{subsec:codEj2}). 
+		\item Hacer varias corridas del programa variando los valores de los parámetros, e interpretar los resultados. Se pueden elegir variaciones de los parámetros que se consideren relevantes (es decir, no simplemente variar al azar y correr el programa). No es necesario hacer algo exhaustivo.
+		\item (Bonus) Explicar cómo se usa el valor inicial de Newton-Raphson (el \verb|0.5| del código ejemplo de la sección \ref{subsec:codEj2}). Explicar cómo funciona Newton-Raphson, tanto la idea del método como el algoritmo propiamente dicho, y dar ejemplos de cúando funciona bien y cuándo tiene problemas. Investigar métodos superadores.
+	\end{enumerate}
+%\end{enumerate}
+
+
+
+\section{Pautas del TP}
+%El trabajo práctico deberá ser realizado a partir de los siguientes lineamientos:
+	\begin{enumerate}[a)]
+%	\item Al enunciado del TP antes presentado
+	\item Se deberá realizar individualmente o en grupo de 2 (dos) integrantes.
+	\item Se deberá entregar \emph{únicamente} un informe en pdf respondiendo los ítems de la sección \ref{sec:enunciado}. Se pueden insertar imágenes o fotos.
+	\item El ítem bonus de la sección \ref{sec:enunciado} es opcional, y se puede responder parcialmente. Obviamente hacerlo suma puntos extra.
+	\item El informe podrá además contener todas las aclaraciones o materiales extras que se consideren relevantes. 
+%	\item Las entregas podrán ser mediante cualquier medio digital y se puede utilizar más de uno (pdf, documento de texto, archivo Python, foto, etc.). La responsabilidad de que el material entregado sea entendible corre por cuenta y orden de lxs integrantes del grupo.
+	\item La entrega deberá ser por correo electrónico a \verb|sebasped@gmail.com| antes del Lun 24-Jun-2019 a las 23:59 hs. (hora local).
+	\item Se podrán realizar consultas por correo electrónico a \verb|sebasped@gmail.com| hasta el Sáb 22-Jun-2019 a las 23:59 hs. (hora local).
+	\item Posterior a la entrega del TP, se podrá requerir a lxs integrantes del grupo (juntxs o por separadx), que expliquen o amplíen cualquier cosa en relación a la entrega.
+	
+	\end{enumerate}
+
+
+%\begin{thebibliography}{9}
+%	
+%	%	\bibitem{moraVectores}
+%	%	Gutiérrez, Marcos M.; Mora, Walter F.; \emph{Vectores, rectas y planos};\\
+%	%	\url{https://tecdigital.tec.ac.cr/revistamatematica/Libros/LibrosCDF/WMVRP/WM-Internet-VectoresRectasyPlanos2018.pdf}\\
+%	%	Capítulo 1.
+%\bibitem{moraCalcVariasVars}
+%Mora, Walter F.; \emph{Cálculo en Varias Variables};\\
+%\url{https://tecdigital.tec.ac.cr/revistamatematica/Libros/LibrosCDF/CalculoEnVariasVariables/CDF2018-Internet-WMora-ITCR-CalculoVariasVariables.pdf}\\
+%Secciones 3.2, 5.3, 5.4, 5.10, 5.11, 5.12 y 5.13
+%	
+%	%	\bibitem{anaCBC}
+%	%	Apuntes CBC; \emph{Integrales};\\
+%	%	\url{http://www.mate.cbc.uba.ar/28/Integrales.pdf}
+%	%\url{http://www.mate.cbc.uba.ar/28/Areas.pdf}
+%	
+%	\bibitem{stewartVol2}
+%	Stewart, James; \emph{Cálculo de varias variables, trascendentes tempranas};\\
+%	%\url{https://tecdigital.tec.ac.cr/revistamatematica/Libros/Calculo_Diferencial_Integral/CALCULO_D_I_ELSIE.pdf}\\
+%	Cengage Learning, 7 ed., 2012.\\
+%	Secciones 14.1, 14.3, 14.4 y 14.6
+%	
+%	%\bibitem{videosCBC}
+%	%Videos CBC; \emph{Recorridos Mate};\\
+%	%\url{https://www.youtube.com/watch?v=cJCZY0Y54LQ}%\\
+%	%\url{https://wwhttps://tecdigital.tec.ac.cr/revistamatematica/Libros/LibrosCDF/WMVRP/WM-Internet-VectoresRectasyPlanos2018.pdfw.youtube.com/watch?v=EmdbcnmZzdY}
+%	
+%	%\bibitem{apunteMGABQM}
+%	%Apuntes Univ. Sevilla; \emph{Matemáticas Generales Aplicadas a la Bioquímica};\\
+%	%\url{https://personal.us.es/echevarria/documentos/ApuntesMGABQM.pdf}\\
+%	%Cengage Learning, 7 ed., 2012.\\
+%	%Sección 3.3.3
+%	
+%	%\bibitem{diapos}
+%	%Pedersen, G. Sebastián; \emph{Diapos de L'Hopital};
+%	
+%\end{thebibliography}
+
+
+\end{document}

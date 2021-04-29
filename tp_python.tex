@@ -1,0 +1,194 @@
+%\documentclass[a4paper,11pt]{article}
+\documentclass[a4paper,11pt,landscape,twocolumn]{article}
+%\documentclass[a4paper]{memoir}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish, es-tabla, es-nodecimaldot]{babel}
+\usepackage{amsmath}  %permite usar \text{} en el entorno Matemática
+\usepackage{amssymb} % para el de números reales
+%\usepackage{fancyhdr} %para encabezados y pies de página lindos
+%\usepackage{lastpage} %para poder referenciar el número de la última página
+\usepackage{graphicx} %para insertar gráficos
+\usepackage{float} %para que funcione el H de la posición de las figuras
+%\usepackage{chngpage} %para cambiar márgenes temporalmente. Por ejemplo tabla o figura un poco más grande que el text width
+%\usepackage[format=plain, indention=0cm, font=small, labelfont=bf, labelsep=period, textfont=sl]{caption} %tuneado del caption de las figuras
+\usepackage{mathtools} % para usar dcases, la versión displayMath de cases (funciones partidas)
+\usepackage{enumerate} %para personalizar los enumeradores
+\usepackage{framed} %para poner párrafos adentro de un caja con marco
+%\usepackage{hyperref} %para que el índice tenga enlaces internos
+%\usepackage{lastpage} %para poder referenciar el número de la última página
+%\usepackage{fullpage}
+\usepackage[cm]{fullpage}
+\usepackage{wrapfig} %para poner tablas o figuras con texto alrededor.
+\usepackage{array}
+\usepackage{hyperref}
+\usepackage{epigraph}
+\usepackage{wrapfig} %para poner tablas o figuras con texto alrededor.
+
+\newcolumntype{x}[1]{>{\centering\arraybackslash\hspace{0pt}}p{#1}}
+
+%\setlength{\columnseprule}{0.5pt}
+\setlength{\columnsep}{.8cm}
+
+\setlength{\epigraphwidth}{.3\textwidth}
+%\setlength{\epigraphwidth}{0.7\textwidth}
+
+
+
+
+
+\title{Trabajo Práctico Python/Programación\\ Matemática III Econ., turno noche, 2019 cuat. 1.\\ IDEI-UNGS.}
+%\author{G. Sebastián Pedersen\\ sebasped@gmail.com}
+\date{}
+
+
+\renewcommand{\arraystretch}{1.3}  %para que las celdas de las tablas sean un poco más altas y entre bien el Q moño.
+\begin{document}
+\maketitle
+\epigraph{El aprendizaje no es un deporte para espectadores.}{D. Blocher}	
+\noindent Autor: G. Sebastián Pedersen --- sebasped@gmail.com --- Vie 17-May-2019.
+%\begin{framed}
+%	\noindent Los cálculos deben ir acompañados de explicaciones escritas que aclaren su significado. Un resultado suelto, no acompañado de explicación se considerará como problema no resuelto.
+%\end{framed}
+%\vspace{-0.5cm}
+%\section*{Trabajo Práctico Python/Programación. \\Mate III Econ., turno noche, 2019 cuat. 1.\\ IDEI-UNGS.}
+\subsection*{Código ejemplo.} El siguiente programa en Python es para tomar como ejemplo para resolver el TP. El programa resuelve numéricamente el siguiente sistema de EDOs no lineal (como siempre $x=x(t)$ e $y=y(t)$):
+$$
+\begin{dcases}
+x'       & = x^2-y\\
+y'    & = 1-y\\
+\end{dcases}
+$$ 
+sujeto a las condiciones iniciales $x(0)=-0,\!9$ e $y(0)=1,\!1$.
+
+El programa resuelve el sistema para $0\leq t\leq 10$, y luego da la posibilidad de graficar $t$ vs. $x$, $t$ vs. $y$, o bien $x$ vs. $y$. A continuación el código:
+\footnotesize{
+\begin{verbatim}
+# -*- coding: utf-8 -*-
+# Importar los paquetes necesarios
+from numpy import linspace
+from matplotlib import pyplot as plt
+from scipy.integrate import solve_ivp
+
+# definir la ecuación diferencial o el sistema
+def f(t, M):
+    #M es una lista
+    x=M[0] #la primera posición es la x
+    y=M[1] #la segunda posición es la y
+
+    # defino el sistema x' = x^2 - y
+    #                   y' = 1 - y
+    [dxdt, dydt] = [x**2-y, 1-y]
+
+    return [dxdt, dydt]
+
+
+# rango de tiempo donde deseo resolver
+# es tiempo inicial, tiempo final, cantidad de pasitos entre inicio y fin
+tspan = linspace(0,10,100) #acá serían 100 pasos para ir de t=0 a t=10
+
+# condiciones iniciales. Sería [x(0), y(0)]
+cond_inic = [-0.9, 1.1]
+
+#resolver la ecuación o sistema
+sol = solve_ivp(lambda t, M: f(t, M), [tspan[0],tspan[-1]], cond_inic, t_eval=tspan)
+
+# si lo prueban online y no pueden graficar
+# al menos impriman el resultado (descomenten los prints)
+
+# imprimir los valores de x(t)
+#print('Los valores de x\n:')
+#print(sol.y[0])
+
+# imprimir los valores de y(t)
+#print('Los valores de y\n:')
+#print(sol.y[1])
+
+
+#descomentar y comentar, dependiendo de qué se quiere graficar
+
+#graficar t vs. x(t)
+#plt.plot(sol.t, sol.y[0], 'k--s')
+
+#graficar t vs. y(t)
+#plt.plot(sol.t, sol.y[1], 'k--s')
+
+#graficar x(t) vs. y(t)
+plt.plot(sol.y[0], sol.y[1], 'k--s')
+
+plt.show()
+\end{verbatim}
+}
+
+
+\subsection*{Enunciado del TP.}
+Resolver un sistema de EDOs no lineal, siguiendo estos lineamientos:
+	\begin{enumerate}
+		\item Elegir un sistema de EDOs no lineal de la práctica.
+		\item Justificar la elección realizada en 1. (mínima, corta y simple explicación de porqué está bueno resolver el sistema elegido).
+		\item Resolver el sistema a partir del código ejemplo anterior.
+		\item Variar las condiciones iniciales del sistema, y utilizar los gráficos del programa para analizar la estabilidad dinámica, a partir de los siguientes casos:
+		\begin{enumerate}
+			\item Las condiciones iniciales son iguales a (algún) punto de equilibrio.
+			\item Las condiciones iniciales están ``cerca'' de (algún) punto de equilibrio.
+			\item Las condiciones inciales están ``lejos'' de cualquier punto de equilibrio.
+		\end{enumerate}
+		En todos los casos, tener en cuenta que también quizás sea necesario modificar el rango de tiempo en donde se resuelve el sistema.
+%		\item (Bonus y opcional) 
+	\end{enumerate}
+%\end{enumerate}
+
+
+
+\subsection*{Pautas del TP.}
+El trabajo práctico deberá ser realizado a partir de los siguientes lineamientos:
+\begin{enumerate}
+%	\item Al enunciado del TP antes presentado
+	\item Se deberá hacer en grupo de hasta 2 (dos) integrantes.
+	\item Se deberá entregar el código Python utilizado.
+	\item Se podrán además entregar todas las aclaraciones extras que se deseen o se consideren relevantes (por ejemplo, el sistema de EDOs elegido, algunas explicaciones sobre la resolución de los puntos 3. y 4. del enunciado, etc.)
+	\item Las entregas podrán ser mediante cualquier medio digital y se puede utilizar más de uno (pdf, documento de texto, archivo Python, foto, etc.). La responsabilidad de que el material entregado sea entendible corre por cuenta y orden de lxs integrantes del grupo.
+	\item Posterior a la entrega del TP, se podrá requerir a lxs integrantes del grupo (juntos o por separado), que expliquen o amplíen cualquier cosa en relación a la resolución entregada.
+	\item La entrega deberá ser por correo electrónico a \verb|sebasped@gmail.com| antes del Lunes 20-May-2019 a las 23:59 hs. (hora local).
+\end{enumerate}
+
+
+%\begin{thebibliography}{9}
+%	
+%	%	\bibitem{moraVectores}
+%	%	Gutiérrez, Marcos M.; Mora, Walter F.; \emph{Vectores, rectas y planos};\\
+%	%	\url{https://tecdigital.tec.ac.cr/revistamatematica/Libros/LibrosCDF/WMVRP/WM-Internet-VectoresRectasyPlanos2018.pdf}\\
+%	%	Capítulo 1.
+%\bibitem{moraCalcVariasVars}
+%Mora, Walter F.; \emph{Cálculo en Varias Variables};\\
+%\url{https://tecdigital.tec.ac.cr/revistamatematica/Libros/LibrosCDF/CalculoEnVariasVariables/CDF2018-Internet-WMora-ITCR-CalculoVariasVariables.pdf}\\
+%Secciones 3.2, 5.3, 5.4, 5.10, 5.11, 5.12 y 5.13
+%	
+%	%	\bibitem{anaCBC}
+%	%	Apuntes CBC; \emph{Integrales};\\
+%	%	\url{http://www.mate.cbc.uba.ar/28/Integrales.pdf}
+%	%\url{http://www.mate.cbc.uba.ar/28/Areas.pdf}
+%	
+%	\bibitem{stewartVol2}
+%	Stewart, James; \emph{Cálculo de varias variables, trascendentes tempranas};\\
+%	%\url{https://tecdigital.tec.ac.cr/revistamatematica/Libros/Calculo_Diferencial_Integral/CALCULO_D_I_ELSIE.pdf}\\
+%	Cengage Learning, 7 ed., 2012.\\
+%	Secciones 14.1, 14.3, 14.4 y 14.6
+%	
+%	%\bibitem{videosCBC}
+%	%Videos CBC; \emph{Recorridos Mate};\\
+%	%\url{https://www.youtube.com/watch?v=cJCZY0Y54LQ}%\\
+%	%\url{https://wwhttps://tecdigital.tec.ac.cr/revistamatematica/Libros/LibrosCDF/WMVRP/WM-Internet-VectoresRectasyPlanos2018.pdfw.youtube.com/watch?v=EmdbcnmZzdY}
+%	
+%	%\bibitem{apunteMGABQM}
+%	%Apuntes Univ. Sevilla; \emph{Matemáticas Generales Aplicadas a la Bioquímica};\\
+%	%\url{https://personal.us.es/echevarria/documentos/ApuntesMGABQM.pdf}\\
+%	%Cengage Learning, 7 ed., 2012.\\
+%	%Sección 3.3.3
+%	
+%	%\bibitem{diapos}
+%	%Pedersen, G. Sebastián; \emph{Diapos de L'Hopital};
+%	
+%\end{thebibliography}
+
+
+\end{document}

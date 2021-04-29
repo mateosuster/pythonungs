@@ -1,0 +1,119 @@
+%\documentclass[a4paper,12pt]{article}
+\documentclass[a4paper,11pt,landscape,twocolumn]{article}
+%\documentclass[a4paper]{memoir}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish, es-tabla, es-nodecimaldot]{babel}
+\usepackage{amsmath}  %permite usar \text{} en el entorno Matemática
+\usepackage{amssymb} % para el de números reales
+%\usepackage{fancyhdr} %para encabezados y pies de página lindos
+%\usepackage{lastpage} %para poder referenciar el número de la última página
+\usepackage{graphicx} %para insertar gráficos
+\usepackage{float} %para que funcione el H de la posición de las figuras
+%\usepackage{chngpage} %para cambiar márgenes temporalmente. Por ejemplo tabla o figura un poco más grande que el text width
+%\usepackage[format=plain, indention=0cm, font=small, labelfont=bf, labelsep=period, textfont=sl]{caption} %tuneado del caption de las figuras
+\usepackage{mathtools} % para usar dcases, la versión displayMath de cases (funciones partidas)
+\usepackage{enumerate} %para personalizar los enumeradores
+\usepackage{framed} %para poner párrafos adentro de un caja con marco
+%\usepackage{hyperref} %para que el índice tenga enlaces internos
+%\usepackage{lastpage} %para poder referenciar el número de la última página
+%\usepackage{fullpage}
+\usepackage[cm]{fullpage}
+\usepackage{wrapfig} %para poner tablas o figuras con texto alrededor.
+\usepackage{array}
+\usepackage{hyperref}
+\usepackage{epigraph}
+
+\newcolumntype{x}[1]{>{\centering\arraybackslash\hspace{0pt}}p{#1}}
+
+%\setlength{\columnseprule}{0.5pt}
+\setlength{\columnsep}{1cm}
+
+\setlength{\epigraphwidth}{0.36\textwidth}
+%\setlength{\epigraphwidth}{0.7\textwidth}
+
+
+%\title{Taller de Problemas Com. 4 - Matemática FFyB - 2do. cuat. 2018}
+%\author{G. Sebastián Pedersen\\ sebasped@gmail.com}
+%\date{Agosto de 2018}
+
+
+\renewcommand{\arraystretch}{1.3}  %para que las celdas de las tablas sean un poco más altas y entre bien el Q moño.
+
+
+\begin{document}
+\epigraph{La educación no es llenar una cubeta, sino encender un fuego.}{William Butler Yeats (1865-1939)}	
+	%\maketitle
+\noindent Autor: G. Sebastián Pedersen --- sebasped@gmail.com --- Sáb 04-May-2019.
+%\begin{framed}
+%	\centering
+%	\noindent Los cálculos deben ir acompañados de explicaciones que aclaren su significado. Un resultado suelto, no acompañado de explicación se considerará como problema no resuelto.
+%\end{framed}
+\subsection*{Ejercicios} 
+\begin{enumerate}
+	\item Explicá qué hace la siguiente función \verb|lossimpsons|:
+	\begin{verbatim}
+	def lossimpsons(x):
+	    devolver = "babosos"
+	    
+	    if x == 2 :
+	        devolver = "te vas al demonio Krabappel"    
+	    
+	    return devolver
+	\end{verbatim}
+
+\item Explicá qué hace el siguiente programa:
+\begin{verbatim}
+lista = [2,15,7]
+suma = 0
+
+valor_a_sumar = lista[0]
+suma = suma + valor_a_sumar
+
+valor_a_sumar = lista[1]
+suma = suma + valor_a_sumar
+
+valor_a_sumar = lista[2]
+suma = suma + valor_a_sumar
+
+print(suma)
+\end{verbatim}
+\newpage
+	\item Explicá qué hace el siguiente programa:
+	\begin{verbatim}
+	lista = [2,15,7]
+	suma = 0
+	
+	longitud = len(lista)
+	elnombrequesemecanta = 0
+	
+	while elnombrequesemecanta < longitud :
+	    valor_a_sumar = lista[elnombrequesemecanta]
+	    suma = suma + valor_a_sumar
+	    elnombrequesemecanta = elnombrequesemecanta + 1
+	
+	print(suma)
+	\end{verbatim}
+
+
+\item Explicá qué hace la siguiente función \verb|laloLanda|:
+\begin{verbatim}
+def laloLanda(lista):
+
+    long = len(lista)
+    devolver = "Lisa, la reina de la ciencias"
+    nelson = 0
+
+    while nelson < long :
+        if lista[nelson] == 10 :
+            devolver = "En tu cara Flanders"
+        nelson = nelson + 1
+
+    return devolver
+\end{verbatim}
+
+\item Escribí una función que reciba como entrada una lista de números, y que devuelva como salida el promedio de todos los números de la lista.
+\item Escribí una función que reciba como entrada una lista de números, y que devuelva como salida el promedio de todos los números de la lista \emph{si la longitud de la lista es menor a 5}, y que devuelva ``Ouch!" si la longitud de la lista es 5 o más.
+\end{enumerate}
+
+
+\end{document}

@@ -1,0 +1,370 @@
+\documentclass{beamer}
+%\documentclass[handout]{beamer}
+
+\mode<presentation>
+{
+%  \usetheme{Warsaw}
+  % or ...
+
+%  \setbeamercovered{transparent}
+  % or whatever (possibly just delete it)
+}
+
+
+\setbeamertemplate{navigation symbols}{}
+
+\usepackage[utf8]{inputenc}
+\usepackage[spanish, es-tabla, es-nodecimaldot]{babel}
+
+\usepackage{listings}
+\usepackage{tikzsymbols}
+
+%\usepackage{times}
+%\usepackage[T1]{fontenc}
+% Or whatever. Note that the encoding and the font should match. If T1
+% does not look nice, try deleting the line with the fontenc.
+
+
+\title[Intro Prog] % (optional, use only with long paper titles)
+{Introducción a la programación}
+
+\subtitle
+{Usando Python}
+
+\author[SP]
+{G. Sebastián Pedersen}%\inst{1}}
+% - Give the names in the same order as the appear in the paper.
+% - Use the \inst{?} command only if the authors have different
+%   affiliation.
+
+\institute[UNGS] % (optional, but mostly needed)
+{
+%  \inst{1}%
+  Instituto de Industria\\
+  Universidad Nacional de General Sarmiento
+%  \and
+%  \inst{2}%
+%  Department of Theoretical Philosophy\\
+%  University of Elsewhere}
+% - Use the \inst command only if there are several affiliations.
+% - Keep it simple, no one is interested in your street address.
+}
+
+\date[] % (optional, should be abbreviation of conference name)
+{Matemática para Economistas III, 1er. cuat. 2019\\ 
+\vspace{.5cm}
+\url{https://sebasped.github.io/pythonungs/}
+}
+
+
+
+% If you have a file called "university-logo-filename.xxx", where xxx
+% is a graphic format that can be processed by latex or pdflatex,
+% resp., then you can add a logo as follows:
+
+% \pgfdeclareimage[height=0.5cm]{university-logo}{university-logo-filename}
+% \logo{\pgfuseimage{university-logo}}
+
+
+
+% Delete this, if you do not want the table of contents to pop up at
+% the beginning of each subsection:
+%\AtBeginSubsection[]
+%{
+%  \begin{frame}<beamer>{Outline}
+%    \tableofcontents[currentsection,currentsubsection]
+%  \end{frame}
+%}
+
+
+% If you wish to uncover everything in a step-wise fashion, uncomment
+% the following command: 
+
+%\beamerdefaultoverlayspecification{<+->}
+
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+
+
+\begin{frame}{Máximas de la programación que vimos hasta ahora}
+\begin{itemize}
+	\item \alert{Reutilización de valores:} \pause cualquier \emph{valor que quiera ser reutilizado} (para un cálculo posterior, para una salida, etc.) \emph{debe ser almacenado previamente en una variable}.\pause
+	\item \alert{Duplicación de información:} \pause siempre que sea posible \emph{no duplicar información} en el código.\pause
+		\begin{itemize}
+			\item Guardar el valor que se repite en una variable, y utilizar la variable en lugar del valor.\pause
+			\item Con las líneas de código que se repiten crear una función, y utilizarla en lugar de andar repitiendo el código.
+		\end{itemize}\pause
+	\item \alert{Particionar y encapsular el problema:} siempre que sea posible \emph{particionar} el problema y \emph{encapsularlo} en problemas menos complejos.\pause
+		\begin{itemize}
+			\item Mediante funciones.\pause
+			\item Mediante scripts.
+		\end{itemize}
+\end{itemize}
+\end{frame}
+
+
+
+\begin{frame}[allowframebreaks,fragile]{¡Nuestro primer programa para resolver ODEs!}
+ \includegraphics[width=2cm]{th.jpg}
+%¿Cuál es la diferencia con el anterior programa?
+\scriptsize{\begin{verbatim}
+	#para resolver ecuaciones diferenciales
+	from sympy import *
+	# para generar una lista de valores equiespaciados
+	from numpy import linspace
+	
+	# defino los nombres de la variable y la función
+	t = symbols('t') # la variable independiente
+	y = symbols('y', cls=Function) # la función
+	
+	# defino la ecuación diferencial
+	# Eq es la función de Python para definidir ecuaciones diferenciales. La coma es como el igual.
+	# y(t).diff(t) es la derivada primera
+	# y(t).diff(t,t) es la derivada segunda
+	# defino  y'' + 6y' + 9y = 45  (cambiar a gusto)
+	ecDif = Eq( y(t).diff(t,t) + 6*y(t).diff(t) + 9*y(t), 45 )
+	
+	# defino condiciones iniciales y(0)=1 e y'(0)=2  (cambiar a gusto)
+	condInic = {y(0): 1, y(t).diff(t).subs(t, 0): 2}
+	
+	# resuelvo la ecuación diferencial
+	# dsolve es la función de Python para calcular la ec. dif.
+	# ecDif es la ecuación a calcular
+	# y(t) son la variable y función a resolver
+	# ics son las condiciones iniciales
+	sol = dsolve( ecDif, y(t), ics=condInic )
+	
+	#Muestro la ecuación y el resultado
+	print 'La ecuación diferencial:'
+	print ecDif
+	print condInic
+	print "\n" #agrega un renglón en blanco
+	print 'La solución:'
+	print sol
+	print "\n" #agrega un renglón en blanco
+	\end{verbatim}}
+
+\includegraphics[height=2.4cm]{solEcDif.png}
+%\begin{itemize}
+%	\item La función \verb|convertir| ahora toma dos parámetros de entrada.\pause
+%	\item La ventaja de esto es que ahora la función \verb|convertir| funciona \alert{para cualquier lista y para cualquier factor de conversión}.
+	%	\item Ventajas de esto:\pause
+	%	\begin{itemize}
+	%		\item \footnotesize{Particionamos} el problema es dos problemas de menor complejidad.\pause
+	%		\item Los dos problemas pueden sen resueltos por diferentes personas y al mismo tiempo.
+	%	\end{itemize}
+	%	\item ¿Cómo se podría arreglar?
+%\end{itemize}
+
+\end{frame}
+
+
+
+
+\begin{frame}[fragile]{Pequeña mejora al mostrar la EDO y la solución}
+\scriptsize{\begin{verbatim}	
+	#Muestro la ecuación y el resultado de forma más legible
+	
+	#para resolver ecuaciones diferenciales
+	from sympy import *
+	#para imprimir fórmulas matemáticas
+	init_printing() 
+	from IPython.display import display 
+	
+	#muestro la ode y la solución
+	print 'La ecuación diferencial:'
+	display(ecDif)
+	display(condInic)
+	print "\n" #agrega un renglón en blanco
+	print 'La solución:'
+	display(sol)
+\end{verbatim}}
+\includegraphics[height=3cm]{solEcDifMasCopada.png}
+%\begin{itemize}
+%	\item La función \verb|convertir| ahora toma dos parámetros de entrada.\pause
+%	\item La ventaja de esto es que ahora la función \verb|convertir| funciona \alert{para cualquier lista y para cualquier factor de conversión}.
+%	\item Ventajas de esto:\pause
+%	\begin{itemize}
+%		\item \footnotesize{Particionamos} el problema es dos problemas de menor complejidad.\pause
+%		\item Los dos problemas pueden sen resueltos por diferentes personas y al mismo tiempo.
+%	\end{itemize}
+%	\item ¿Cómo se podría arreglar?
+%\end{itemize}
+
+\end{frame}
+
+
+
+\begin{frame}[fragile]{También graficando la solución}
+\scriptsize{\begin{verbatim}	
+	# para graficar
+	from matplotlib import pyplot as plt
+	
+	f = sol.args[1] # me quedo solamente con la fórmula de la solución
+	lam = lambdify(t, f, modules=['numpy']) #hago la fórmula evaluable
+	t_vals = linspace(0, 20, 100) #valores de t a usar para evaluar: inicio, fin, paso.
+	y_vals = lam(t_vals) #evalúo la fórmula en los valores de t
+	
+	#grafico la solución
+	plt.plot(t_vals, y_vals) #hago el gráfico
+	plt.grid() #que me ponga un grillado en el gráfico
+	plt.xlabel('Valores de t') #leyende del eje horizontal
+	plt.ylabel('Valores de y') #leyenda del eje vertical
+	plt.show() #muestro el gráfico
+	\end{verbatim}}
+\includegraphics[height=3.5cm]{solEcDifGrafico.png}
+\end{frame}
+
+
+%\begin{frame}[fragile]{¡Nuestro primer programa para resolver ODEs!}
+%%¿Cuál es la diferencia con el anterior programa?
+%\footnotesize{\begin{verbatim}
+%#para resolver ecuaciones diferenciales
+%from sympy import *
+%#para imprimir fórmulas matemáticas
+%init_printing() 
+%from IPython.display import display 
+%
+%# para generar una lista de valores equiespaciados
+%from numpy import linspace
+%
+%# para graficara
+%#import matplotlib.pyplot as plt
+%from matplotlib import pyplot as plt
+%
+%
+%# defino los nombres de la variable y la función
+%t = symbols('t') # la variable independiente
+%y = symbols('y', cls=Function) # la función
+%
+%
+%# defino la ecuación diferencial
+%# Eq es la función de Python para definidir ecuaciones diferenciales. La coma es como el igual.
+%# y(t).diff(t) es la derivada primera
+%# y(t).diff(t,t) es la derivada segunda
+%# defino  y'' + 6y' + 9y = 45  (cambiar a gusto)
+%ecDif = Eq( y(t).diff(t,t) + 6*y(t).diff(t) + 9*y(t), 45 )
+%#ecDif = Eq( y(t).diff(t) - 3*y(t), 12 ) #ejemplo orden 1:  y' -3y = 12
+%
+%
+%# defino condiciones iniciales y(0)=1 e y'(0)=2  (cambiar a gusto)
+%condInic = {y(0): 1, y(t).diff(t).subs(t, 0): 2}
+%#condInic = {y(0): 4} #ejemplo orden 1:  y(0)=4
+%
+%# resuelvo la ecuación diferencial
+%# dsolve es la función de Python para calcular la ec. dif.
+%# ecDif es la ecuación a calcular
+%# y(t) son la variable y función a resolver
+%# ics son las condiciones iniciales
+%sol = dsolve( ecDif, y(t), ics=condInic )
+%
+%
+%# imprimo la ecuación diferencial
+%print 'La ecuación diferencial:'
+%display(ecDif)
+%display(condInic)
+%print "\n" #agrega un renglón en blanco
+%
+%# imprimo la solución
+%print 'La solución:'
+%display(sol)
+%
+%
+%# si la anterior forma de mostrar la ec. dif. y la solución no funciona
+%# se pueden imprimir más rudimentariamente así
+%# (descomentar este y comentar el anterior)
+%#print 'La ecuación diferencial:'
+%#print ecDif
+%#print condInic
+%#print "\n" #agrega un renglón en blanco
+%#print 'La solución:'
+%#print sol
+%#print "\n" #agrega un renglón en blanco
+%
+%
+%#grafico la solución
+%f = sol.args[1] # me quedo solamente con la fórmula de la solución
+%lam = lambdify(t, f, modules=['numpy']) #hago la fórmula evaluable
+%t_vals = linspace(0, 20, 100) #valores de t a usar para evaluar: inicio, fin, paso.
+%y_vals = lam(t_vals) #evalúo la fórmula en los valores de t
+%
+%
+%plt.plot(t_vals, y_vals) #hago el gráfico
+%plt.grid() #que me ponga un grillado en el gráfico
+%plt.xlabel('Valores de t')
+%plt.ylabel('Valores de y')
+%plt.show() #muestro el gráfico
+%\end{verbatim}}\pause
+%\begin{itemize}
+%	\item La función \verb|convertir| ahora toma dos parámetros de entrada.\pause
+%	\item La ventaja de esto es que ahora la función \verb|convertir| funciona \alert{para cualquier lista y para cualquier factor de conversión}.
+%%	\item Ventajas de esto:\pause
+%%	\begin{itemize}
+%%		\item \footnotesize{Particionamos} el problema es dos problemas de menor complejidad.\pause
+%%		\item Los dos problemas pueden sen resueltos por diferentes personas y al mismo tiempo.
+%%	\end{itemize}
+%	%	\item ¿Cómo se podría arreglar?
+%\end{itemize}
+%
+%\end{frame}
+
+
+
+
+\begin{frame}{To code or not to code...}
+\alert{Tener presente las máximas de la programación} (ver diapo ``Máximas de la programación que vimos hasta ahora'').
+\begin{block}{Ejercicios:}
+	\begin{enumerate}
+		\item \emph{Utilizar} nuestro primer programa que resuelve EDOs para resolver algunas ecuaciones diferenciales de la práctica.
+		\item \emph{Modificar} nuestro primer programa que resuelve EDOs para muestre la ecuación y la solución de forma más legible (ver diapo ``Pequeña mejora al mostrar la EDO y la solución'').
+		\item \emph{Modificar} el programa del punto 2. para que también grafique la solución de la EDO (ver diapo ``También graficando la solución'').
+		\item \alert{¡Bonus Hacker! \dCooley:} \emph{Modificar} el primer programa que resuelve EDOs para que resuelva sistemas con 2 ecuaciones diferenciales (aunque sea algún caso básico). 
+	\end{enumerate}
+\end{block}
+
+\end{frame}
+
+
+
+
+
+
+%%
+%%% All of the following is optional and typically not needed. 
+%%\appendix
+%%\section<presentation>*{\appendixname}
+%%\subsection<presentation>*{For Further Reading}
+%%
+%%\begin{frame}[allowframebreaks]
+%%  \frametitle<presentation>{For Further Reading}
+%%    
+%%  \begin{thebibliography}{10}
+%%    
+%%  \beamertemplatebookbibitems
+%%  % Start with overview books.
+%%
+%%  \bibitem{Author1990}
+%%    A.~Author.
+%%    \newblock {\em Handbook of Everything}.
+%%    \newblock Some Press, 1990.
+%% 
+%%    
+%%  \beamertemplatearticlebibitems
+%%  % Followed by interesting articles. Keep the list short. 
+%%
+%%  \bibitem{Someone2000}
+%%    S.~Someone.
+%%    \newblock On this and that.
+%%    \newblock {\em Journal of This and That}, 2(1):50--100,
+%%    2000.
+%%  \end{thebibliography}
+%%\end{frame}
+
+\end{document}
+
+
