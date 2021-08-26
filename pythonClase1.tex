@@ -95,11 +95,11 @@
   \begin{itemize}
   	\item Todas las preguntas son válidas. \pause 
   	Nadie nace sabiendo. \pause Además, las buenas preguntas son más importantes que las buenas respuestas. \pause
-	\item Es importante ir practicando (poco a poco) las cosas que vamos a ir viendo. \pause Esto permitirá evitar la montaña de fin de cuatrimestre. \pause (¿Qué necesito para esto?) \pause
+	\item Es importante ir practicando (poco a poco) las cosas que vamos a ir viendo. \pause Esto permitirá evitar la \emph{montaña} de fin de cuatrimestre. \pause (¿Qué necesito para esto?) \pause
 	\item Canales de comunicación: \pause Slack (preferentemente) o mail (en casos más puntuales). \pause
 	\item Instancias de evaluación \pause
 		\begin{itemize}
-			\item Participar en Slack (preguntando, respondiendo, debatiendo, etc.) \pause
+			\item Participar en Slack (preguntando, respondiendo, debatiendo, "molestando", etc.) \pause
 			\item Trabajos Prácticos cuasi-semanales (sin patrón de repetición)\pause
 			\item Exámenes Parciales (1 ó 2; fechas a definir)
 		\end{itemize}	
@@ -144,8 +144,8 @@
 \end{center}
 \end{frame}
 
-\begin{frame}{¿Sólo por eso elegimos Python? Hay otro motivo...} 
-\pause
+\begin{frame}{¿Sólo por eso elegimos Python?} \pause
+Hay otro motivo... \pause
 \begin{center}
 \includegraphics[height=7cm, scale=0.5]{yoda.png}
 \end{center}
@@ -195,6 +195,7 @@
 		\item Listas, arreglos.
 		\item Conjuntos, diccionarios.
 		\item Pilas, colas.
+		\item DataFrames
 	\end{itemize}\pause
 	\item ¿Cómo se aprende a programar? \pause Programando... no hay manera de aprender algo sin hacerlo.
 \end{itemize}
@@ -203,7 +204,7 @@
 
 
 
-\begin{frame}{Algoritmo}
+\begin{frame}{Algoritmo} \pause
 \begin{itemize}
 	\item Un \emph{algoritmo} es una secuencia de instrucciones. Por ejemplo:\pause
 		\begin{enumerate}
@@ -238,7 +239,7 @@
 
 
 
-\begin{frame}{Programa}
+\begin{frame}{Programa} \pause
 	\begin{itemize}
 	\item Un \emph{programa} es una implementación de un algoritmo en un lenguaje de programación. \pause
 		\begin{itemize}
@@ -261,7 +262,7 @@ Los programas manipulan \emph{valores} de diferentes \emph{tipos}. Por ejemplo:
 
 
 \begin{itemize}
-\item Valores de verdad: Denotan el resultado de una evaluación lógica: los valores “verdadero” (True) y “falso” (\emph{False})
+\item Valores de verdad: Denotan el resultado de una evaluación lógica: los valores “verdadero” (\texttt{True}) y “falso” (\texttt{False})
 \end{itemize}
 \end{itemize}
 
@@ -278,8 +279,8 @@ Los operaciones son, por ejemplo:
 \end{frame}
 
 
-\begin{frame}{Anaconda, Spyder, Python, IDEs...}
-\begin{block}{¿Y qué demonios son todas esas cosas...?}\pause
+\begin{frame}{Colab, Python, IDEs...}
+\begin{block}{¿Pero qué se supone son todas esas cosas...?}\pause
 \begin{itemize}
 	\item Respuesta corta:\pause
 		\begin{itemize}
@@ -317,64 +318,124 @@ Los operaciones son, por ejemplo:
 
 \begin{frame}{Tipos de Datos y Comparaciones}
 \begin{itemize}
-	\item Igualdad: i == k.\pause
+	\item Igualdad: \texttt{i == k}\pause
 	\begin{itemize}
-		\item Probar 2 == 3, 4 == 4, 'a' == 'a'.
+		\item Probar \texttt{2 == 3}, \texttt{4 == 4}, \texttt{'a' == 'a'}
 	\end{itemize}\pause
-	\item Distinto: i != k.\pause
+	\item Distinto: \texttt{i != k}\pause
 	\begin{itemize}
-		\item  Probar 2 != 3.
+		\item  Probar \texttt{2 != 3}
 	\end{itemize}\pause
-	\item Menor: i$<$k.\pause
-	\item Mayor: i$>$k.\pause
-	\item Menor o igual: i$<=$k.\pause
-	\item Mayor o igual: i$>=$k.
+	\item Menor: \texttt{i$<$k}\pause
+	\item Mayor: \texttt{i$>$k}\pause
+	\item Menor o igual: \texttt{i$<=$k}\pause
+	\item Mayor o igual: \texttt{i$>=$k}
 \end{itemize}
 \end{frame}
 
 \begin{frame}{Tipos de Datos:  Listas}
-Una \emph{lista} es una colección de valores que se acceden mediante un índice:
+Una \emph{lista} es una colección de valores (\textbf{definida entre corchetes}) que se acceden mediante un índice:  \pause
+\\~\
+
+\includegraphics[width=10cm]{lista.png} \pause
+
+\alert{Ojo, el primer elemento tiene índice 0}\pause
+\\~
+\alert{Y el último elemento tiene índice -1}
+\end{frame}
 
 
-%\includegraphics[width=10cm]{lista.png}
-
-\alert{Ojo, el primer elemento tiene índice 0.}\pause
-
+\begin{frame}{Más sobre listas}
 Algunos ejemplos de listas y operaciones:
 \begin{itemize}
-	\item $[$2, 3, 5$]$ \pause ¿Cuál es el elemento con índice 1?\pause
-	\item $[$2, 3.5, 'patito', 8$]$.\pause
-	\item $[$ $]$ lista vacía.\pause
-	\item c = $[$2, 3, 5$]$ define una lista de nombre c.
-	\item $c[i]$ accede o devuelve el elemento con índice i de la lista.\pause
-	\item len(c) devuelve la longitud de la lista.\pause
-	\item c.append(x) agrega el elemento x al final de la lista c.
-	\item Y muchas operaciones más que iremos viendo.
+	\item \texttt{$[$2, 3, 5$]$} \pause 
+		¿Cuál es el elemento con índice 1?\pause
+	\item \texttt{$[$2, 3.5, 'cosita', 8$]$}\pause
+	\item \texttt{$[$ $]$} lista vacía.\pause
+	\item \texttt{c = $[$2, 3, 5$]$} define una lista de nombre \texttt{c}.
+	\item \texttt{$c[i]$} accede o devuelve el elemento con índice i de la lista.\pause
+	\item \texttt{len(c)} devuelve la longitud de la lista.\pause
+	\item \texttt{c.append(x)} agrega el elemento \texttt{x} al final de la lista \texttt{c}.
+	\item Y muchas operaciones más que iremos viendo...
 \end{itemize}
 \end{frame}
 
+\begin{frame}{En resumen, ¿qué es una lista?}
+\pause
+\includegraphics[width=10cm]{python_list.png} 
+\end{frame}
 
-\begin{frame}{Variables, expresiones y asignaciones}
-Una \emph{variable} es una dirección de memoria que almacena un valor.\pause
 
-Una \emph{expresión} es una combinación de variables, valores y operadores.\pause
-
-Una \emph{asignación} es una instrucción que guarda en una variable una expresión.\pause
-
+\begin{frame}{Variables, expresiones y asignaciones} \pause
 \begin{itemize}
-	\item b = 3 asigna a la variable b el valor 3.\pause
-	\item 1+1 es una expresión que da como resultado 2.\pause
-	\item long = len($[$1,3,'a'$]$) asigna a la variable long la longitud de la lista $[$1,3,'a'$]$
+	\item Una \textbf{variable} es una dirección de memoria que almacena un valor\pause
+		\begin{itemize}
+		\item \texttt{b = 3} asigna a la variable \texttt{b} el valor \texttt{3}\pause
+		\end{itemize}
+	\item Una \textbf{expresión} es una combinación de variables, valores y operadores.\pause
+		\begin{itemize}
+		\item \texttt{1+1} es una expresión que da como resultado \texttt{2}.\pause
+		\end{itemize}
+	\item Una \textbf{asignación} es una instrucción que guarda en una variable una expresión.\pause
+		\begin{itemize}
+		\item \texttt{long = len($[$1,3,'a'$]$)} asigna a la variable long la longitud de la lista $[$1,3,'a'$]$ \pause
+		\end{itemize}
 \end{itemize}
+\alert{Asignación: variable = expresión}
+\end{frame}
 
-\alert{Asignación: variable = expresión}.
+%\texttt{\begin{frame}{La asignación, nuestra primera instrucción}
+%\alert{Asignación: variable = expresión}
+%\noindent
+%\parbox{2cm}{Bien}%
+%\hfill
+%\includegraphics[height=4cm, scale=0.5]{bien.png}
+%\end{frame}}
+
+
+\begin{frame}{La \textbf{asignación}, nuestra primera instrucción}
+\alert{VARIABLE = EXPRESIÓN} \pause
+\\~
+\\~
+La asignación almacena el valor de la \emph{expresión} en la dirección en memoria denotada por \emph{variable} \pause
+    \begin{columns}
+        \begin{column}{.5\textwidth}
+			\begin{itemize}
+			\item \texttt{x = 1000}
+           \item \texttt{x = x + 2}
+			\item \texttt{x = y}
+			\item \texttt{x = x + y * 22 / 33}
+			\end{itemize} \pause
+           
+        \end{column}
+        \begin{column}{.5\textwidth}\raggedleft
+            \includegraphics[scale = 0.3]{bien.png} %width=1cm,height=2cm
+        \end{column}
+    \end{columns}
+\pause
+\begin{columns}
+        \begin{column}{.5\textwidth}
+			\begin{itemize}
+			\item \texttt{1000 = x}
+           \item \texttt{x + 2 = x}
+			\item \texttt{len(x) = 1}
+			\end{itemize} \pause
+           
+        \end{column}
+        \begin{column}{.5\textwidth}\raggedleft
+            \includegraphics[scale = 0.3]{mal.png} %width=1cm,height=2cm
+        \end{column}
+    \end{columns}
+    
+    
 \end{frame}
 
 
 
-
-\begin{frame}{A codeatr!}
+\begin{frame}{A codea(t)r!}
 \begin{block}
+
+\textcolor{blue}{\href{https://colab.research.google.com/drive/1pssmr5FRjDoYxt3-iadaxa-ek3ZmFwPx?usp=sharing}{Link}} a nuestra página de Google Colab	
 	
 \end{block}
 \end{frame}
@@ -528,226 +589,5 @@ Una \emph{asignación} es una instrucción que guarda en una variable una expres
 
 \end{document}
 
-
-
-	\end{itemize}
-\end{itemize}
-\end{block}
-\end{frame}
-
-
-\begin{frame}{Usando Google Colab como IDE para Python}
-
-\begin{block}{Abriendo la IDE...}
-\end{block}
-\includegraphics[height=5.5cm, scale=0.5]{colab_raw.png}
-\end{frame}
-
-
-
-
-
-\begin{frame}{Tipos de Datos y Comparaciones}
-\begin{itemize}
-	\item Igualdad: i == k.\pause
-	\begin{itemize}
-		\item Probar 2 == 3, 4 == 4, 'a' == 'a'.
-	\end{itemize}\pause
-	\item Distinto: i != k.\pause
-	\begin{itemize}
-		\item  Probar 2 != 3.
-	\end{itemize}\pause
-	\item Menor: i$<$k.\pause
-	\item Mayor: i$>$k.\pause
-	\item Menor o igual: i$<=$k.\pause
-	\item Mayor o igual: i$>=$k.
-\end{itemize}
-\end{frame}
-
-\begin{frame}{Tipos de Datos:  Listas}
-Una \emph{lista} es una colección de valores que se acceden mediante un índice:
-%\includegraphics[width=10cm, scale=0.5]{lista.png}
-
-\alert{Ojo, el primer elemento tiene índice 0.}\pause
-
-Algunos ejemplos de listas y operaciones:
-\begin{itemize}
-	\item $[$2, 3, 5$]$ \pause ¿Cuál es el elemento con índice 1?\pause
-	\item $[$2, 3.5, 'patito', 8$]$.\pause
-	\item $[$ $]$ lista vacía.\pause
-	\item c = $[$2, 3, 5$]$ define una lista de nombre c.
-	\item $c[i]$ accede o devuelve el elemento con índice i de la lista.\pause
-	\item len(c) devuelve la longitud de la lista.\pause
-	\item c.append(x) agrega el elemento x al final de la lista c.
-	\item Y muchas operaciones más que iremos viendo.
-\end{itemize}
-\end{frame}
-
-
-\begin{frame}{Variables, expresiones y asignaciones}
-Una \emph{variable} es una dirección de memoria que almacena un valor.\pause
-
-Una \emph{expresión} es una combinación de variables, valores y operadores.\pause
-
-Una \emph{asignación} es una instrucción que guarda en una variable una expresión.\pause
-
-\begin{itemize}
-	\item b = 3 asigna a la variable b el valor 3.\pause
-	\item 1+1 es una expresión que da como resultado 2.\pause
-	\item long = len($[$1,3,'a'$]$) asigna a la variable long la longitud de la lista $[$1,3,'a'$]$
-\end{itemize}
-
-\alert{Asignación: variable = expresión}.
-\end{frame}
-
-
-
-
-%\section{Motivation}
-%
-%\subsection{The Basic Problem That We Studied}
-%
-%\begin{frame}{Make Titles Informative. Use Uppercase Letters.}{Subtitles are optional.}
-%  % - A title should summarize the slide in an understandable fashion
-%  %   for anyone how does not follow everything on the slide itself.
-%
-%  \begin{itemize}
-%  \item
-%    Use \texttt{itemize} a lot.
-%  \item
-%    Use very short sentences or short phrases.
-%  \end{itemize}
-%\end{frame}
-%
-%\begin{frame}{Make Titles Informative.}
-%
-%  You can create overlays\dots
-%  \begin{itemize}
-%  \item using the \texttt{pause} command:
-%    \begin{itemize}
-%    \item
-%      First item.
-%      \pause
-%    \item    
-%      Second item.
-%    \end{itemize}
-%  \item
-%    using overlay specifications:
-%    \begin{itemize}
-%    \item<3->
-%      First item.
-%    \item<4->
-%      Second item.
-%    \end{itemize}
-%  \item
-%    using the general \texttt{uncover} command:
-%    \begin{itemize}
-%      \uncover<5->{\item
-%        First item.}
-%      \uncover<6->{\item
-%        Second item.}
-%    \end{itemize}
-%  \end{itemize}
-%\end{frame}
-%
-%
-%\subsection{Previous Work}
-%
-%\begin{frame}{Make Titles Informative.}
-%\end{frame}
-%
-%\begin{frame}{Make Titles Informative.}
-%\end{frame}
-%
-%
-%
-%\section{Our Results/Contribution}
-%
-%\subsection{Main Results}
-%
-%\begin{frame}{Make Titles Informative.}
-%\end{frame}
-%
-%\begin{frame}{Make Titles Informative.}
-%\end{frame}
-%
-%\begin{frame}{Make Titles Informative.}
-%\end{frame}
-%
-%
-%\subsection{Basic Ideas for Proofs/Implementation}
-%
-%\begin{frame}{Make Titles Informative.}
-%\end{frame}
-%
-%\begin{frame}{Make Titles Informative.}
-%\end{frame}
-%
-%\begin{frame}{Make Titles Informative.}
-%\end{frame}
-%
-%
-%
-%\section*{Summary}
-%
-%\begin{frame}{Summary}
-%
-%  % Keep the summary *very short*.
-%  \begin{itemize}
-%  \item
-%    The \alert{first main message} of your talk in one or two lines.
-%  \item
-%    The \alert{second main message} of your talk in one or two lines.
-%  \item
-%    Perhaps a \alert{third message}, but not more than that.
-%  \end{itemize}
-%  
-%  % The following outlook is optional.
-%  \vskip0pt plus.5fill
-%  \begin{itemize}
-%  \item
-%    Outlook
-%    \begin{itemize}
-%    \item
-%      Something you haven't solved.
-%    \item
-%      Something else you haven't solved.
-%    \end{itemize}
-%  \end{itemize}
-%\end{frame}
-%
-%
-%
-%% All of the following is optional and typically not needed. 
-%\appendix
-%\section<presentation>*{\appendixname}
-%\subsection<presentation>*{For Further Reading}
-%
-%\begin{frame}[allowframebreaks]
-%  \frametitle<presentation>{For Further Reading}
-%    
-%  \begin{thebibliography}{10}
-%    
-%  \beamertemplatebookbibitems
-%  % Start with overview books.
-%
-%  \bibitem{Author1990}
-%    A.~Author.
-%    \newblock {\em Handbook of Everything}.
-%    \newblock Some Press, 1990.
-% 
-%    
-%  \beamertemplatearticlebibitems
-%  % Followed by interesting articles. Keep the list short. 
-%
-%  \bibitem{Someone2000}
-%    S.~Someone.
-%    \newblock On this and that.
-%    \newblock {\em Journal of This and That}, 2(1):50--100,
-%    2000.
-%  \end{thebibliography}
-%\end{frame}
-
-\end{document}
 
 

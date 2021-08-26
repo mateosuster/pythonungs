@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.8.25)  26 AUG 2021 01:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.8.25)  26 AUG 2021 13:22
 entering extended mode
 **./pythonClase1.tex
 (pythonClase1.tex
@@ -1050,7 +1050,7 @@ thkerncmss.
 ] [24
 
 ]
-<tiobeIndex.png, id=142, 637.63219pt x 649.67719pt>
+<tiobeIndex.png, id=143, 637.63219pt x 649.67719pt>
 File: tiobeIndex.png Graphic file (type png)
 <use tiobeIndex.png>
 Package pdftex.def Info: tiobeIndex.png  used on input line 145.
@@ -1062,7 +1062,7 @@ Overfull \vbox (1.21587pt too high) detected at line 145
 [25
 
  <./tiobeIndex.png>]
-<yoda.png, id=151, 401.5pt x 401.5pt>
+<yoda.png, id=152, 401.5pt x 401.5pt>
 File: yoda.png Graphic file (type png)
 <use yoda.png>
 Package pdftex.def Info: yoda.png  used on input line 152.
@@ -1076,7 +1076,12 @@ Package pdftex.def Info: yoda.png  used on input line 152.
 (pdftex.def)             Requested size: 200.7495pt x 200.7495pt.
  [27
 
-] [28
+]
+File: yoda.png Graphic file (type png)
+<use yoda.png>
+Package pdftex.def Info: yoda.png  used on input line 152.
+(pdftex.def)             Requested size: 200.7495pt x 200.7495pt.
+ [28
 
 ] [29
 
@@ -1109,34 +1114,38 @@ Package pdftex.def Info: yoda.png  used on input line 152.
 
 ] [43
 
+] [44
+
+] [45
+
 ]
-<pythonCode.png, id=293, 714.41907pt x 362.85562pt>
+<pythonCode.png, id=303, 714.41907pt x 362.85562pt>
 File: pythonCode.png Graphic file (type png)
 <use pythonCode.png>
-Package pdftex.def Info: pythonCode.png  used on input line 249.
+Package pdftex.def Info: pythonCode.png  used on input line 250.
 (pdftex.def)             Requested size: 357.20866pt x 181.42737pt.
- [44
+ [46
 
  <./pythonCode.png>]
 File: pythonCode.png Graphic file (type png)
 <use pythonCode.png>
-Package pdftex.def Info: pythonCode.png  used on input line 249.
+Package pdftex.def Info: pythonCode.png  used on input line 250.
 (pdftex.def)             Requested size: 357.20866pt x 181.42737pt.
-
-[45
+ [47
 
 ]
 File: pythonCode.png Graphic file (type png)
 <use pythonCode.png>
-Package pdftex.def Info: pythonCode.png  used on input line 249.
+Package pdftex.def Info: pythonCode.png  used on input line 250.
 (pdftex.def)             Requested size: 357.20866pt x 181.42737pt.
- [46
+ [48
 
-] [47
-
-] [48
-
-] [49
+]
+File: pythonCode.png Graphic file (type png)
+<use pythonCode.png>
+Package pdftex.def Info: pythonCode.png  used on input line 250.
+(pdftex.def)             Requested size: 357.20866pt x 181.42737pt.
+ [49
 
 ] [50
 
@@ -1173,36 +1182,37 @@ Package pdftex.def Info: pythonCode.png  used on input line 249.
 
 ] [66
 
+] [67
+
+] [68
+
+] [69
+
 ]
-<meme_explosion.png, id=437, 549.05125pt x 481.8pt>
+<meme_explosion.png, id=454, 549.05125pt x 481.8pt>
 File: meme_explosion.png Graphic file (type png)
 <use meme_explosion.png>
-Package pdftex.def Info: meme_explosion.png  used on input line 307.
+Package pdftex.def Info: meme_explosion.png  used on input line 308.
 (pdftex.def)             Requested size: 274.52495pt x 240.8994pt.
- [67
+ [70
 
  <./meme_explosion.png>]
 File: meme_explosion.png Graphic file (type png)
 <use meme_explosion.png>
-Package pdftex.def Info: meme_explosion.png  used on input line 307.
+Package pdftex.def Info: meme_explosion.png  used on input line 308.
 (pdftex.def)             Requested size: 274.52495pt x 240.8994pt.
- [68
+
+[71
 
 ]
-<colab_raw.png, id=450, 1392.70313pt x 713.66624pt>
+<colab_raw.png, id=466, 1392.70313pt x 713.66624pt>
 File: colab_raw.png Graphic file (type png)
 <use colab_raw.png>
-Package pdftex.def Info: colab_raw.png  used on input line 315.
+Package pdftex.def Info: colab_raw.png  used on input line 316.
 (pdftex.def)             Requested size: 305.3756pt x 156.49014pt.
- [69
+ [72
 
- <./colab_raw.png>] [70
-
-] [71
-
-] [72
-
-] [73
+ <./colab_raw.png>] [73
 
 ] [74
 
@@ -1218,14 +1228,34 @@ Package pdftex.def Info: colab_raw.png  used on input line 315.
 
 ] [80
 
-] [81
+]
+<lista.png, id=515, 392.21532pt x 149.05687pt>
+File: lista.png Graphic file (type png)
+<use lista.png>
+Package pdftex.def Info: lista.png  used on input line 345.
+(pdftex.def)             Requested size: 284.52756pt x 108.13737pt.
+ [81
+
+ <./lista.png>]
+File: lista.png Graphic file (type png)
+<use lista.png>
+Package pdftex.def Info: lista.png  used on input line 345.
+(pdftex.def)             Requested size: 284.52756pt x 108.13737pt.
+ [82
 
 ]
-[82
+File: lista.png Graphic file (type png)
+<use lista.png>
+Package pdftex.def Info: lista.png  used on input line 345.
+(pdftex.def)             Requested size: 284.52756pt x 108.13737pt.
+ [83
 
-] [83
-
-] [84
+]
+File: lista.png Graphic file (type png)
+<use lista.png>
+Package pdftex.def Info: lista.png  used on input line 345.
+(pdftex.def)             Requested size: 284.52756pt x 108.13737pt.
+ [84
 
 ] [85
 
@@ -1241,7 +1271,106 @@ Package pdftex.def Info: colab_raw.png  used on input line 315.
 
 ] [91
 
-] [92
+]
+<python_list.png, id=575, 678.535pt x 396.48125pt>
+File: python_list.png Graphic file (type png)
+<use python_list.png>
+Package pdftex.def Info: python_list.png  used on input line 366.
+(pdftex.def)             Requested size: 284.52756pt x 166.25479pt.
+ [92
+
+ <./python_list.png>]
+File: python_list.png Graphic file (type png)
+<use python_list.png>
+Package pdftex.def Info: python_list.png  used on input line 366.
+(pdftex.def)             Requested size: 284.52756pt x 166.25479pt.
+ [93
+
+] [94
+
+] [95
+
+] [96
+
+] [97
+
+] [98
+
+] [99
+
+] [100
+
+] [101
+
+]
+<bien.png, id=627, 253.94875pt x 199.74625pt>
+File: bien.png Graphic file (type png)
+<use bien.png>
+Package pdftex.def Info: bien.png  used on input line 431.
+(pdftex.def)             Requested size: 76.1852pt x 59.92433pt.
+<mal.png, id=628, 225.84375pt x 225.84375pt>
+File: mal.png Graphic file (type png)
+<use mal.png>
+Package pdftex.def Info: mal.png  used on input line 431.
+(pdftex.def)             Requested size: 67.75363pt x 67.75363pt.
+ [102
+
+ <./bien.png> <./mal.png>]
+File: bien.png Graphic file (type png)
+<use bien.png>
+Package pdftex.def Info: bien.png  used on input line 431.
+(pdftex.def)             Requested size: 76.1852pt x 59.92433pt.
+File: mal.png Graphic file (type png)
+<use mal.png>
+Package pdftex.def Info: mal.png  used on input line 431.
+(pdftex.def)             Requested size: 67.75363pt x 67.75363pt.
+ [103
+
+]
+File: bien.png Graphic file (type png)
+<use bien.png>
+Package pdftex.def Info: bien.png  used on input line 431.
+(pdftex.def)             Requested size: 76.1852pt x 59.92433pt.
+File: mal.png Graphic file (type png)
+<use mal.png>
+Package pdftex.def Info: mal.png  used on input line 431.
+(pdftex.def)             Requested size: 67.75363pt x 67.75363pt.
+ [104
+
+]
+File: bien.png Graphic file (type png)
+<use bien.png>
+Package pdftex.def Info: bien.png  used on input line 431.
+(pdftex.def)             Requested size: 76.1852pt x 59.92433pt.
+File: mal.png Graphic file (type png)
+<use mal.png>
+Package pdftex.def Info: mal.png  used on input line 431.
+(pdftex.def)             Requested size: 67.75363pt x 67.75363pt.
+ [105
+
+]
+File: bien.png Graphic file (type png)
+<use bien.png>
+Package pdftex.def Info: bien.png  used on input line 431.
+(pdftex.def)             Requested size: 76.1852pt x 59.92433pt.
+File: mal.png Graphic file (type png)
+<use mal.png>
+Package pdftex.def Info: mal.png  used on input line 431.
+(pdftex.def)             Requested size: 67.75363pt x 67.75363pt.
+ [106
+
+]
+File: bien.png Graphic file (type png)
+<use bien.png>
+Package pdftex.def Info: bien.png  used on input line 431.
+(pdftex.def)             Requested size: 76.1852pt x 59.92433pt.
+File: mal.png Graphic file (type png)
+<use mal.png>
+Package pdftex.def Info: mal.png  used on input line 431.
+(pdftex.def)             Requested size: 67.75363pt x 67.75363pt.
+ [107
+
+] [108
 
 ]
 \tf@nav=\write6
@@ -1262,11 +1391,11 @@ Package rerunfilecheck Info: File `pythonClase1.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 22217 strings out of 478868
- 412677 string characters out of 2848809
- 719978 words of memory out of 3000000
- 39473 multiletter control sequences out of 15000+600000
- 417407 words of font info for 77 fonts, out of 8000000 for 9000
+ 22298 strings out of 478868
+ 413653 string characters out of 2848809
+ 720036 words of memory out of 3000000
+ 39517 multiletter control sequences out of 15000+600000
+ 417681 words of font info for 79 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,11n,124p,419b,630s stack positions out of 5000i,500n,10000p,200000b,80000s
 <C:/Users/mateo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
@@ -1278,13 +1407,14 @@ TeX/fonts/type1/public/amsfonts/cm/cmss9.pfb><C:/Users/mateo/AppData/Local/Prog
 rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Users/mateo/AppData
 /Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi10.pfb><C:/Users/mat
 eo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/
-Users/mateo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt9.
-pfb><C:/Users/mateo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/s
-ymbols/msam10.pfb>
-Output written on C:\Archivos\repos\pythonungs\build\pythonClase1.pdf (92 pages
-, 1109887 bytes).
+Users/mateo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10
+.pfb><C:/Users/mateo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
+cm/cmtt9.pfb><C:/Users/mateo/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
+msfonts/symbols/msam10.pfb>
+Output written on C:\Archivos\repos\pythonungs\build\pythonClase1.pdf (108 page
+s, 1190772 bytes).
 PDF statistics:
- 663 PDF objects out of 1000 (max. 8388607)
- 185 named destinations out of 1000 (max. 500000)
- 68 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 767 PDF objects out of 1000 (max. 8388607)
+ 217 named destinations out of 1000 (max. 500000)
+ 88 words of extra memory for PDF output out of 10000 (max. 10000000)
 
