@@ -15,6 +15,8 @@
 
 \usepackage[utf8]{inputenc}
 \usepackage[spanish, es-tabla, es-nodecimaldot]{babel}
+\usepackage{xcolor}
+
 
 %\usepackage{times}
 %\usepackage[T1]{fontenc}
@@ -28,8 +30,8 @@
 \subtitle
 {Usando Python}
 
-\author[SP]
-{G. Sebastián Pedersen}%\inst{1}}
+\author[MS]
+{Mateo Suster \\ mateosuster@gmail.com}%\inst{1}}
 % - Give the names in the same order as the appear in the paper.
 % - Use the \inst{?} command only if the authors have different
 %   affiliation.
@@ -37,6 +39,7 @@
 \institute[UNGS] % (optional, but mostly needed)
 {
 %  \inst{1}%
+  Matemática para Economistas III \\ 
   Instituto de Industria\\
   Universidad Nacional de General Sarmiento
 %  \and
@@ -48,7 +51,7 @@
 }
 
 \date[] % (optional, should be abbreviation of conference name)
-{Matemática para Economistas III, 1er. cuat. 2019}
+{ \today}
 
 
 
@@ -83,17 +86,38 @@
   \titlepage
 \end{frame}
 
+
+\begin{frame}{Antes de arrancar...}
+%  \tableofcontents
+  % You might wish to add the option [pausesections]
+  \begin{block}{Algunas pautas de (esta parte de) la materia}
+  \end{block}\pause
+  \begin{itemize}
+  	\item Todas las preguntas son válidas. \pause 
+  	Nadie nace sabiendo. \pause Además, las buenas preguntas son más importantes que las buenas respuestas. \pause
+	\item Es importante ir practicando (poco a poco) las cosas que vamos a ir viendo. \pause Esto permitirá evitar la montaña de fin de cuatrimestre. \pause (¿Qué necesito para esto?) \pause
+	\item Canales de comunicación: \pause Slack (preferentemente) o mail (en casos más puntuales). \pause
+	\item Instancias de evaluación \pause
+		\begin{itemize}
+			\item Participar en Slack (preguntando, respondiendo, debatiendo, etc.) \pause
+			\item Trabajos Prácticos cuasi-semanales (sin patrón de repetición)\pause
+			\item Exámenes Parciales (1 ó 2; fechas a definir)
+		\end{itemize}	
+  \end{itemize}
+\end{frame}
+
+
+
 \begin{frame}{Introducción}
 %  \tableofcontents
   % You might wish to add the option [pausesections]
   \begin{block}{Info general:}
-  	G. Sebastián Pedersen -- sebasped@gmail.com\\
-  	
-  	Página del curso: \url{https://sebasped.github.io/pythonungs/}
+
   \end{block}\pause
   \begin{itemize}
-  	\item Objetivo: programar un sistema de EDOs y graficarlo.
+  	\item Objetivo (en principio): programar un sistema de EDOs y graficarlo.
 	\pause
+	\item Objetivo (en el fondo): generar habilidades que los introduzcan de manera autodidáctica en el mundo de la programación 
 	\item ¿Qué es programar? \pause
 		\begin{itemize}
 			\item Programar $\neq$ saber un lenguaje de programación. \pause
@@ -107,7 +131,15 @@
 		\item Respuesta larga: no importa demasiado. Lo importante  son los conocimientos básicos de programación, que son comunes a la mayoría de los lenguajes.%\pause
 	\end{itemize}
   \end{itemize}
+\end{frame}
 
+\begin{frame}{Python actualmente es muy popular}
+\begin{block}{Índice Tiobe:}
+	\url{https://www.tiobe.com/tiobe-index/}
+\end{block}
+\begin{center}
+\includegraphics[height=7cm, scale=0.5]{tiobeIndex.png}
+\end{center}
 \end{frame}
 
 
@@ -118,7 +150,7 @@
 	\begin{itemize}
 		\item \footnotesize\url{http://www.python.org.ar/}
 		\item \footnotesize\url{https://argentinaenpython.com/}
-		\item \footnotesize\url{https://twitter.com/pibesdesistemas}
+		\item \footnotesize\url{https://twitter.com/ChicasProgAR}
 		\item \footnotesize\url{https://www.chicasentecnologia.org/}
 		\item \footnotesize\url{https://twitter.com/lasdesistemas}
 		\item \footnotesize\url{https://www.meetup.com/Buenos-Aires-Python-Meetup/}
@@ -130,24 +162,13 @@
 		\item \footnotesize\url{http://www.python.org.ar/wiki/AprendiendoPython}
 		\item \footnotesize\url{https://argentinaenpython.com/quiero-aprender-python/aprenda-a-pensar-como-un-programador-con-python.pdf}
 		\item \footnotesize\url{https://launchpadlibrarian.net/18980633/Python\%20para\%20todos.pdf}
-%		\includegraphics[height=4cm]{pythonCode.png}
 		\item Cursos online (en inglés): coursera, datacamp, udemy, Stanford online, edx, codeacademy, Harvard online, etc.
 		%		\item Pilas, colas.
 	\end{itemize}\pause
 	\item Buscar en internet: hay mucho mucho hecho ya.
 \end{itemize}
-
 \end{frame}
 
-
-
-
-\begin{frame}{Python actualmente es muy popular}
-\begin{block}{Índice Tiobe:}
-	\url{https://www.tiobe.com/tiobe-index/}
-\end{block}
-\includegraphics[height=7cm]{tiobeIndex.png}
-\end{frame}
 
 
 \begin{frame}{Elementos básicos programación}
@@ -168,41 +189,77 @@
 	\end{itemize}\pause
 	\item ¿Cómo se aprende a programar? \pause Programando... no hay manera de aprender algo sin hacerlo.
 \end{itemize}
+\end{frame}
+
+
+\begin{frame}{Ustedes}
+
+\begin{center}
+\includegraphics[height=7cm, scale=0.5]{meme_explosion.png}
+\end{center}
+\end{frame}
+
+
+\begin{frame}{Algoritmo}
+\begin{itemize}
+	\item Un \emph{algoritmo} es una secuencia de instrucciones. Por ejemplo:\pause
+		\begin{enumerate}
+		\item Moje el cabello. \pause
+		\item Coloque champú.\pause
+		\item Masajee suavemente y deje actuar por 2 min.\pause
+		\item Enjuague. \pause
+		\item Repita el procedimiento desde 1.
+		\end{enumerate}
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Algoritmo}
+\begin{itemize}
+	\item Una instrucción es una operación que:
+	\begin{itemize}
+		\item \textcolor{green}{transforma los datos}, o bien
+		\item  \textcolor{red}{modifica el flujo de ejecución}
+	\end{itemize} \pause
+\end{itemize}	
+	
+		\begin{enumerate}
+		\item \textcolor{green}{Moje el cabello.}% \pause
+		\item \textcolor{green}{Coloque champú.}% \pause
+		\item \textcolor{green}{Masajee suavemente} y \textcolor{red}{deje actuar por 2 min.}%\pause
+		\item \textcolor{green}{Enjuague}.
+		\item \textcolor{red}{Repita el procedimiento desde 1.}
+		\end{enumerate}
 
 \end{frame}
 
 
-\begin{frame}{Algoritmo y programa}
-\begin{itemize}
-	\item Un \emph{algoritmo} es una secuencia de instrucciones. Por ejemplo:\pause
-%	\item Herramientas esenciales:
-	\begin{enumerate}
-		\item Moje el cabello.% \pause
-		\item Coloque champú.% \pause
-		\item Masajee suavemente y deje actuar por 2 min.%\pause
-		\item Enjuague.
-		\item Repita el procedimiento desde 1.
-	\end{enumerate}\pause
-	\item Un \emph{programa} es una implementación de un algoritmo en un lenguaje de programación. \pause
+
+
+\begin{frame}{Programa}
 	\begin{itemize}
+	\item Un \emph{programa} es una implementación de un algoritmo en un lenguaje de programación. \pause
+		\begin{itemize}
 		\item El programa representa al algoritmo en el lenguaje. \pause
 		\item Las instrucciones son propias del lenguaje.
-		\includegraphics[height=4cm]{pythonCode.png}
-%		\item Pilas, colas.
+		\includegraphics[height=4cm, scale=0.5]{pythonCode.png}						\end{itemize}
 	\end{itemize}
-\end{itemize}
-
 \end{frame}
 
 
 \begin{frame}{Tipos de Datos y Operaciones}
 Los programas manipulan \emph{valores} de diferentes \emph{tipos}. Por ejemplo:
 \begin{itemize}
-	\item 1 es un valor de tipo entero (int).\pause
-	\item 2.5 es un valor de tipo número ``real'' (float).\pause
-	\item ``hola'' es un valor de tipo caracter (string).\pause
-	\item False es un valor de tipo booleano (bool).\pause
-%	\item Práctica para la clase.
+	\item 1 es un valor de tipo \textbf{entero} (int).\pause
+	\item 2.5 es un valor de tipo \textbf{número ``real''} (float).\pause
+	\item ``hola'' es un valor de tipo \textbf{caracter} (string).\pause
+	\item ``5'' es un valor de tipo \textbf{caracter} (string).\pause
+	\item \'[7.0, 420, “tira de asado”] es dato tipo \textbf{lista} (list).\pause	
+	\item False es un valor de tipo \textbf{booleano} (bool).\pause
+
+
+\begin{itemize}
+\item Valores de verdad: Denotan el resultado de una evaluación lógica: los valores “verdadero” (True) y “falso” (\emph{False})
+\end{itemize}
 \end{itemize}
 
 Los operaciones son, por ejemplo:
@@ -210,11 +267,42 @@ Los operaciones son, por ejemplo:
 	\item Suma/Resta: 3+4 $\to$ 7.\pause
 	\item Se puede sumar strings: probar ``yo y'' + `` mi trasero''.\pause
 	\item Producto: 2*8 $\to$ 16.\pause
-	\item División: 5/2 $\to$ \pause 2. \alert{Ojo, por defecto es división entera}.\pause
+	\item División: 5/2 $\to$ \pause 2. 
 	\item División ``común'': 5/2.0 o 5.0/2 o 5.0/2.0 (i.e. que alguno sea un float).\pause
 	\item Resto: 5\%2 $\to$ 1.
 	%	\item Práctica para la clase.
 \end{itemize}
+\end{frame}
+
+
+\begin{frame}{Anaconda, Spyder, Python, IDEs...}
+\begin{block}{¿Y qué demonios son todas esas cosas...?}\pause
+\begin{itemize}
+	\item Respuesta corta:\pause
+		\begin{itemize}
+			\item IDE = integrated development environment $\equiv$ entorno de desarrollo integrado.\pause
+			\item Google Colab (como Anaconda, un programa usado en anteriores ediciones de este curso) nuclea un montón de paquetes o ``librerías'' (bibliotecas) para usar y no tener que andar reinventando la rueda todo el tiempo.\pause
+			\item Google Colab es un entorno que facilita programar en Python. Es una IDE.\pause
+
+
+		\end{itemize}
+	\item Respuesta larga: nada de esto es necesario ni importante para aprender a programar o para codear en Python. Pasa más por gustos personales.\pause
+	\begin{itemize}
+		\item Por ejemplo, en vez del Anaconda, se podría bajar \textcolor{blue}{\href{https://www.python.org/}{Python}} e ir instalando paquetes.\pause		
+%		\item Por ejemplo, en vez del Anaconda, se podría bajar Python (\footnotesize\url{https://www.python.org/}) e ir instalando paquetes.\pause
+		\item En vez de Google Colab, para codear se puede usar simplemente un editor de textos, o \textcolor{blue}{\href{https://wiki.python.org/moin/IntegratedDevelopmentEnvironments}{cualquiera de las IDEs existentes}}.
+	\end{itemize}
+\end{itemize}
+\end{block}
+\end{frame}
+
+
+
+\begin{frame}{Usando Google Colab como IDE para Python}
+%(IDE = integrated development environment $\equiv$ entorno de desarrollo integrado).
+\begin{block}{Abriendo la IDE...}
+\end{block}
+\includegraphics[height=5.5cm]{colab_raw.png}
 \end{frame}
 
 
@@ -239,7 +327,7 @@ Los operaciones son, por ejemplo:
 Una \emph{lista} es una colección de valores que se acceden mediante un índice:
 
 
-\includegraphics[width=10cm]{lista.png}
+%\includegraphics[width=10cm]{lista.png}
 
 \alert{Ojo, el primer elemento tiene índice 0.}\pause
 
@@ -273,73 +361,236 @@ Una \emph{asignación} es una instrucción que guarda en una variable una expres
 \alert{Asignación: variable = expresión}.
 \end{frame}
 
-\begin{frame}{Anaconda, Spyder, Python, IDEs...}
-\begin{block}{¿Y qué demonios son todas esas cosas...?}\pause
-\begin{itemize}
-	\item Respuesta corta:\pause
-		\begin{itemize}
-			\item Anaconda: nuclea un montón de paquetes y ``librerías'' (bibliotecas) para usar y no tener que andar reinventando la rueda cada vez.\pause
-			\item Spyder: es un entorno que facilita programar en Python. Es una IDE.\pause
-			\item IDE = integrated development environment $\equiv$ entorno de desarrollo integrado.\pause
-%			\item long = len($[$1,3,'a'$]$) asigna a la variable long la longitud de la lista $[$1,3,'a'$]$
-		\end{itemize}
-	\item Respuesta larga: nada de esto es necesario ni importante para aprender a programar o para codear en Python. Pasa más por gustos personales.\pause
-	\begin{itemize}
-		\item Por ejemplo, en vez del Anaconda, se podría bajar Python (\footnotesize\url{https://www.python.org/}) e ir instalando paquetes.\pause
-		\item En vez de Spyder, para codear se puede usar simplemente un editor de textos, o cualquiera de las IDEs existentes (\footnotesize\url{https://wiki.python.org/moin/IntegratedDevelopmentEnvironments})
+
+
+
+\begin{frame}{A codeatr!}
+\begin{block}
+	
+\end{block}
+\end{frame}
+
+
+
+%\section{Motivation}
+%
+%\subsection{The Basic Problem That We Studied}
+%
+%\begin{frame}{Make Titles Informative. Use Uppercase Letters.}{Subtitles are optional.}
+%  % - A title should summarize the slide in an understandable fashion
+%  %   for anyone how does not follow everything on the slide itself.
+%
+%  \begin{itemize}
+%  \item
+%    Use \texttt{itemize} a lot.
+%  \item
+%    Use very short sentences or short phrases.
+%  \end{itemize}
+%\end{frame}
+%
+%\begin{frame}{Make Titles Informative.}
+%
+%  You can create overlays\dots
+%  \begin{itemize}
+%  \item using the \texttt{pause} command:
+%    \begin{itemize}
+%    \item
+%      First item.
+%      \pause
+%    \item    
+%      Second item.
+%    \end{itemize}
+%  \item
+%    using overlay specifications:
+%    \begin{itemize}
+%    \item<3->
+%      First item.
+%    \item<4->
+%      Second item.
+%    \end{itemize}
+%  \item
+%    using the general \texttt{uncover} command:
+%    \begin{itemize}
+%      \uncover<5->{\item
+%        First item.}
+%      \uncover<6->{\item
+%        Second item.}
+%    \end{itemize}
+%  \end{itemize}
+%\end{frame}
+%
+%
+%\subsection{Previous Work}
+%
+%\begin{frame}{Make Titles Informative.}
+%\end{frame}
+%
+%\begin{frame}{Make Titles Informative.}
+%\end{frame}
+%
+%
+%
+%\section{Our Results/Contribution}
+%
+%\subsection{Main Results}
+%
+%\begin{frame}{Make Titles Informative.}
+%\end{frame}
+%
+%\begin{frame}{Make Titles Informative.}
+%\end{frame}
+%
+%\begin{frame}{Make Titles Informative.}
+%\end{frame}
+%
+%
+%\subsection{Basic Ideas for Proofs/Implementation}
+%
+%\begin{frame}{Make Titles Informative.}
+%\end{frame}
+%
+%\begin{frame}{Make Titles Informative.}
+%\end{frame}
+%
+%\begin{frame}{Make Titles Informative.}
+%\end{frame}
+%
+%
+%
+%\section*{Summary}
+%
+%\begin{frame}{Summary}
+%
+%  % Keep the summary *very short*.
+%  \begin{itemize}
+%  \item
+%    The \alert{first main message} of your talk in one or two lines.
+%  \item
+%    The \alert{second main message} of your talk in one or two lines.
+%  \item
+%    Perhaps a \alert{third message}, but not more than that.
+%  \end{itemize}
+%  
+%  % The following outlook is optional.
+%  \vskip0pt plus.5fill
+%  \begin{itemize}
+%  \item
+%    Outlook
+%    \begin{itemize}
+%    \item
+%      Something you haven't solved.
+%    \item
+%      Something else you haven't solved.
+%    \end{itemize}
+%  \end{itemize}
+%\end{frame}
+%
+%
+%
+%% All of the following is optional and typically not needed. 
+%\appendix
+%\section<presentation>*{\appendixname}
+%\subsection<presentation>*{For Further Reading}
+%
+%\begin{frame}[allowframebreaks]
+%  \frametitle<presentation>{For Further Reading}
+%    
+%  \begin{thebibliography}{10}
+%    
+%  \beamertemplatebookbibitems
+%  % Start with overview books.
+%
+%  \bibitem{Author1990}
+%    A.~Author.
+%    \newblock {\em Handbook of Everything}.
+%    \newblock Some Press, 1990.
+% 
+%    
+%  \beamertemplatearticlebibitems
+%  % Followed by interesting articles. Keep the list short. 
+%
+%  \bibitem{Someone2000}
+%    S.~Someone.
+%    \newblock On this and that.
+%    \newblock {\em Journal of This and That}, 2(1):50--100,
+%    2000.
+%  \end{thebibliography}
+%\end{frame}
+
+\end{document}
+
+
+
 	\end{itemize}
 \end{itemize}
 \end{block}
 \end{frame}
 
 
-\begin{frame}{Usando el Spyder como IDE para Python}
-%(IDE = integrated development environment $\equiv$ entorno de desarrollo integrado).
+\begin{frame}{Usando Google Colab como IDE para Python}
+
 \begin{block}{Abriendo la IDE...}
-Anaconda-navigator $\to$ Spyder.\pause
 \end{block}
-
-
-\includegraphics[height=5.5cm]{spyder.png}
-
-\end{frame}
-
-
-
-\begin{frame}{Usando la consola intérprete de Python (desde el Spyder)}
-Probar lo siguiente:
-\includegraphics[height=7.5cm]{consola1.png}
-
-\end{frame}
-
-
-
-\begin{frame}{Usando la consola intérprete de Python (desde el Spyder)}
-Probar lo siguiente:
-\includegraphics[height=7.5cm]{consola2.png}
-
-\end{frame}
-
-
-\begin{frame}{Usando Python desde un script}
-Probar lo siguiente. Ejecutar con el ``play''.
-\includegraphics[height=7.5cm]{f2c.png}
-
+\includegraphics[height=5.5cm, scale=0.5]{colab_raw.png}
 \end{frame}
 
 
 
 
-\begin{frame}{¡Manos a la obra!}
-\begin{block}{Ejercicios:}
-	\begin{enumerate}
-		\item Escribir un script que convierta un valor en millas a kilómetros. Guardar ese script en un archivo de nombre m2k.py
-		\item Modificar m2k.py para redondear el resultado a dos decimales después de la coma. Usar la función round (ejemplo: round(XX,d) redondea el número XX a d decimales después de la coma). Guardar el script como m2k\_v2.py
-		\item Modificar m2k\_v2.py para que convierta una lista de 3 valores en millas, a otra lista con sus 3 valores correspondientes en kilómetros.  Guardar el script como m2k\_v3.py
-	\end{enumerate}
-	
-\end{block}
+
+\begin{frame}{Tipos de Datos y Comparaciones}
+\begin{itemize}
+	\item Igualdad: i == k.\pause
+	\begin{itemize}
+		\item Probar 2 == 3, 4 == 4, 'a' == 'a'.
+	\end{itemize}\pause
+	\item Distinto: i != k.\pause
+	\begin{itemize}
+		\item  Probar 2 != 3.
+	\end{itemize}\pause
+	\item Menor: i$<$k.\pause
+	\item Mayor: i$>$k.\pause
+	\item Menor o igual: i$<=$k.\pause
+	\item Mayor o igual: i$>=$k.
+\end{itemize}
 \end{frame}
+
+\begin{frame}{Tipos de Datos:  Listas}
+Una \emph{lista} es una colección de valores que se acceden mediante un índice:
+%\includegraphics[width=10cm, scale=0.5]{lista.png}
+
+\alert{Ojo, el primer elemento tiene índice 0.}\pause
+
+Algunos ejemplos de listas y operaciones:
+\begin{itemize}
+	\item $[$2, 3, 5$]$ \pause ¿Cuál es el elemento con índice 1?\pause
+	\item $[$2, 3.5, 'patito', 8$]$.\pause
+	\item $[$ $]$ lista vacía.\pause
+	\item c = $[$2, 3, 5$]$ define una lista de nombre c.
+	\item $c[i]$ accede o devuelve el elemento con índice i de la lista.\pause
+	\item len(c) devuelve la longitud de la lista.\pause
+	\item c.append(x) agrega el elemento x al final de la lista c.
+	\item Y muchas operaciones más que iremos viendo.
+\end{itemize}
+\end{frame}
+
+
+\begin{frame}{Variables, expresiones y asignaciones}
+Una \emph{variable} es una dirección de memoria que almacena un valor.\pause
+
+Una \emph{expresión} es una combinación de variables, valores y operadores.\pause
+
+Una \emph{asignación} es una instrucción que guarda en una variable una expresión.\pause
+
+\begin{itemize}
+	\item b = 3 asigna a la variable b el valor 3.\pause
+	\item 1+1 es una expresión que da como resultado 2.\pause
+	\item long = len($[$1,3,'a'$]$) asigna a la variable long la longitud de la lista $[$1,3,'a'$]$
+\end{itemize}
+
+\alert{Asignación: variable = expresión}.
+\end{frame}
+
 
 
 
