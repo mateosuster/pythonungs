@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.8.25)  26 AUG 2021 00:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.8.25)  26 AUG 2021 01:04
 entering extended mode
 **./pythonClase1.tex
 (pythonClase1.tex
@@ -1053,14 +1053,28 @@ thkerncmss.
 <tiobeIndex.png, id=142, 637.63219pt x 649.67719pt>
 File: tiobeIndex.png Graphic file (type png)
 <use tiobeIndex.png>
-Package pdftex.def Info: tiobeIndex.png  used on input line 143.
+Package pdftex.def Info: tiobeIndex.png  used on input line 145.
 (pdftex.def)             Requested size: 318.8153pt x 324.8378pt.
- [25
 
- <./tiobeIndex.png>] [26
+Overfull \vbox (1.21587pt too high) detected at line 145
+ []
 
-]
-[27
+[25
+
+ <./tiobeIndex.png>]
+<yoda.png, id=151, 401.5pt x 401.5pt>
+File: yoda.png Graphic file (type png)
+<use yoda.png>
+Package pdftex.def Info: yoda.png  used on input line 152.
+(pdftex.def)             Requested size: 200.7495pt x 200.7495pt.
+ [26
+
+ <./yoda.png>]
+File: yoda.png Graphic file (type png)
+<use yoda.png>
+Package pdftex.def Info: yoda.png  used on input line 152.
+(pdftex.def)             Requested size: 200.7495pt x 200.7495pt.
+ [27
 
 ] [28
 
@@ -1072,22 +1086,16 @@ Package pdftex.def Info: tiobeIndex.png  used on input line 143.
 
 ] [32
 
-] [33
-
 ]
-<meme_explosion.png, id=240, 549.05125pt x 481.8pt>
-File: meme_explosion.png Graphic file (type png)
-<use meme_explosion.png>
-Package pdftex.def Info: meme_explosion.png  used on input line 200.
-(pdftex.def)             Requested size: 274.52495pt x 240.8994pt.
- [34
+[33
 
- <./meme_explosion.png>] [35
+] [34
+
+] [35
 
 ] [36
 
-]
-[37
+] [37
 
 ] [38
 
@@ -1099,34 +1107,34 @@ Package pdftex.def Info: meme_explosion.png  used on input line 200.
 
 ] [42
 
+] [43
+
 ]
-<pythonCode.png, id=289, 714.41907pt x 362.85562pt>
+<pythonCode.png, id=293, 714.41907pt x 362.85562pt>
 File: pythonCode.png Graphic file (type png)
 <use pythonCode.png>
-Package pdftex.def Info: pythonCode.png  used on input line 246.
+Package pdftex.def Info: pythonCode.png  used on input line 249.
 (pdftex.def)             Requested size: 357.20866pt x 181.42737pt.
- [43
+ [44
 
  <./pythonCode.png>]
 File: pythonCode.png Graphic file (type png)
 <use pythonCode.png>
-Package pdftex.def Info: pythonCode.png  used on input line 246.
+Package pdftex.def Info: pythonCode.png  used on input line 249.
 (pdftex.def)             Requested size: 357.20866pt x 181.42737pt.
- [44
+
+[45
 
 ]
 File: pythonCode.png Graphic file (type png)
 <use pythonCode.png>
-Package pdftex.def Info: pythonCode.png  used on input line 246.
+Package pdftex.def Info: pythonCode.png  used on input line 249.
 (pdftex.def)             Requested size: 357.20866pt x 181.42737pt.
- [45
-
-] [46
+ [46
 
 ] [47
 
-]
-[48
+] [48
 
 ] [49
 
@@ -1150,34 +1158,45 @@ Package pdftex.def Info: pythonCode.png  used on input line 246.
 
 ] [59
 
-] [60
+]
+[60
 
 ] [61
 
 ] [62
 
-]
-[63
+] [63
 
 ] [64
 
 ] [65
 
+] [66
+
 ]
-<colab_raw.png, id=434, 1392.70313pt x 713.66624pt>
+<meme_explosion.png, id=437, 549.05125pt x 481.8pt>
+File: meme_explosion.png Graphic file (type png)
+<use meme_explosion.png>
+Package pdftex.def Info: meme_explosion.png  used on input line 307.
+(pdftex.def)             Requested size: 274.52495pt x 240.8994pt.
+ [67
+
+ <./meme_explosion.png>]
+File: meme_explosion.png Graphic file (type png)
+<use meme_explosion.png>
+Package pdftex.def Info: meme_explosion.png  used on input line 307.
+(pdftex.def)             Requested size: 274.52495pt x 240.8994pt.
+ [68
+
+]
+<colab_raw.png, id=450, 1392.70313pt x 713.66624pt>
 File: colab_raw.png Graphic file (type png)
 <use colab_raw.png>
-Package pdftex.def Info: colab_raw.png  used on input line 306.
+Package pdftex.def Info: colab_raw.png  used on input line 315.
 (pdftex.def)             Requested size: 305.3756pt x 156.49014pt.
- [66
+ [69
 
- <./colab_raw.png>] [67
-
-] [68
-
-] [69
-
-] [70
+ <./colab_raw.png>] [70
 
 ] [71
 
@@ -1185,8 +1204,7 @@ Package pdftex.def Info: colab_raw.png  used on input line 306.
 
 ] [73
 
-]
-[74
+] [74
 
 ] [75
 
@@ -1202,7 +1220,8 @@ Package pdftex.def Info: colab_raw.png  used on input line 306.
 
 ] [81
 
-] [82
+]
+[82
 
 ] [83
 
@@ -1216,8 +1235,13 @@ Package pdftex.def Info: colab_raw.png  used on input line 306.
 
 ] [88
 
-]
-[89
+] [89
+
+] [90
+
+] [91
+
+] [92
 
 ]
 \tf@nav=\write6
@@ -1229,7 +1253,8 @@ Package pdftex.def Info: colab_raw.png  used on input line 306.
 \tf@snm=\write8
 \openout8 = `pythonClase1.snm'.
 
- (C:\Archivos\repos\pythonungs\build\pythonClase1.aux
+
+(C:\Archivos\repos\pythonungs\build\pythonClase1.aux
 LaTeX Info: Redefining \. on input line 25.
 LaTeX Info: Redefining \% on input line 25.
 )
@@ -1237,11 +1262,11 @@ Package rerunfilecheck Info: File `pythonClase1.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 22204 strings out of 478868
- 412541 string characters out of 2848809
- 719945 words of memory out of 3000000
- 39466 multiletter control sequences out of 15000+600000
- 417575 words of font info for 78 fonts, out of 8000000 for 9000
+ 22217 strings out of 478868
+ 412677 string characters out of 2848809
+ 719978 words of memory out of 3000000
+ 39473 multiletter control sequences out of 15000+600000
+ 417407 words of font info for 77 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,11n,124p,419b,630s stack positions out of 5000i,500n,10000p,200000b,80000s
 <C:/Users/mateo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
@@ -1253,14 +1278,13 @@ TeX/fonts/type1/public/amsfonts/cm/cmss9.pfb><C:/Users/mateo/AppData/Local/Prog
 rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Users/mateo/AppData
 /Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi10.pfb><C:/Users/mat
 eo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/
-Users/mateo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10
-.pfb><C:/Users/mateo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
-cm/cmtt9.pfb><C:/Users/mateo/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
-msfonts/symbols/msam10.pfb>
-Output written on C:\Archivos\repos\pythonungs\build\pythonClase1.pdf (89 pages
-, 1021712 bytes).
+Users/mateo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt9.
+pfb><C:/Users/mateo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/s
+ymbols/msam10.pfb>
+Output written on C:\Archivos\repos\pythonungs\build\pythonClase1.pdf (92 pages
+, 1109887 bytes).
 PDF statistics:
- 649 PDF objects out of 1000 (max. 8388607)
- 179 named destinations out of 1000 (max. 500000)
- 63 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 663 PDF objects out of 1000 (max. 8388607)
+ 185 named destinations out of 1000 (max. 500000)
+ 68 words of extra memory for PDF output out of 10000 (max. 10000000)
 
