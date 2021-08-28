@@ -1,0 +1,23 @@
+   * [Ejercicio domiciliario de Números y Listas](https://colab.research.google.com/drive/1C66RnyWJUHOpiQae_HpvzCMcVZOax-rH?usp=sharing)
+
+  * [Cadenas, tuplas y diccionarios](https://colab.research.google.com/drive/1nES9LPtKgGxoPQMEpix9U0a78hC3OAST?usp=sharing)
+
+  * [Importación de librerías - Gráficos](https://colab.research.google.com/drive/1gAkSxnh6xCAcPwtuPBecsVhfeN40ajvc?usp=sharing)
+
+  * [Funciones y Estructuras de control](https://colab.research.google.com/drive/1lagOtf_I9gl0yL2Zhy677s_iolaL4ebJ?usp=sharing)
+
+<br>
+
+#### Ecuaciones dinámicas
+  * [Programa para EDO's](https://colab.research.google.com/drive/19pO-BXE5CgdNWw6VUvfoGE_V1sRvz1R8?usp=sharing)
+  * [Visualización de sistemas dinámicos](https://colab.research.google.com/drive/1HMhWeyZV_62pdUgfYaSrUClqfBT8WX2e?usp=sharing)
+    * [Programa para sistemas dinámicos (cursada 2019)](https://colab.research.google.com/drive/18W6oMMbDZdkCvALrl2PmHe3647YVIkrL?usp=sharing)
+
+<br>
+
+#### Matemática financiera
+  * [Valor Presente y Futuro](https://colab.research.google.com/drive/179uZ1NGNrn-gvBOnsNOnXWXyJojSkG7k#scrollTo=fBauj_tWG3lC)
+  * [Valor Presente Neto y TIR](https://colab.research.google.com/drive/1LvXrD6JUFi4e6v1hfErbNFTAJwKwC_Xa?usp=sharing)
+  * [Intro Pandas](https://colab.research.google.com/drive/1ZA3x9LpR1zGOj57ANqdND9h8RK1lQnFt?usp=sharing)
+  * [Pandas con datasets de acciones](https://colab.research.google.com/drive/14_GxPFox7Og5jOGhpGaetg2nF618nnOR?usp=sharing)
+  * [Bonos](https://colab.research.google.com/drive/1L4fqJBFfrWWv0Ppu_t5fIwvCZgslUcbq?usp=sharing)

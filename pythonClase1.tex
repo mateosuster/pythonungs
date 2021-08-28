@@ -117,7 +117,7 @@
   \begin{itemize}
   	\item Objetivo (en principio): programar un sistema de EDOs y graficarlo.
 	\pause
-	\item Objetivo (en el fondo): generar habilidades que los introduzcan de manera autodidáctica en el mundo de la programación 
+	\item Objetivo (en el fondo): generar habilidades que los introduzcan de manera autodidáctica en el mundo de la programación \pause
 	\item ¿Qué es programar? \pause
 		\begin{itemize}
 			\item Programar $\neq$ saber un lenguaje de programación. \pause
@@ -133,8 +133,8 @@
   \end{itemize}
 \end{frame}
 
-\begin{frame}{¿Pero entonces porqué Python?}
-\begin{block}{Python actualmente es muy popular} 
+\begin{frame}{¿Pero entonces porqué Python?} \pause
+\begin{block}{Python actualmente es muy popular}  \pause
 	\begin{itemize}
 		\item Veamos el \textcolor{blue}{\href{https://www.tiobe.com/tiobe-index/}{Índice Tiobe}}
 	\end{itemize}
@@ -180,7 +180,7 @@ Hay otro motivo... \pause
 
 
 
-\begin{frame}{Elementos básicos programación}
+\begin{frame}{Elementos básicos programación} \pause
 \begin{itemize}
 	\item Diferencia entre algoritmo y programa.\pause
 	\item Herramientas esenciales:
@@ -250,8 +250,8 @@ Hay otro motivo... \pause
 \end{frame}
 
 
-\begin{frame}{Tipos de Datos y Operaciones}
-Los programas manipulan \emph{valores} de diferentes \emph{tipos}. Por ejemplo:
+\begin{frame}{Tipos de Datos y Operaciones} \pause
+Los programas manipulan \emph{valores} de diferentes \emph{tipos}. Por ejemplo: \pause
 \begin{itemize}
 	\item 1 es un valor de tipo \textbf{entero} (int).\pause
 	\item 2.5 es un valor de tipo \textbf{número ``real''} (float).\pause
@@ -268,13 +268,11 @@ Los programas manipulan \emph{valores} de diferentes \emph{tipos}. Por ejemplo:
 
 Los operaciones son, por ejemplo:
 \begin{itemize}
-	\item Suma/Resta: 3+4 $\to$ 7.\pause
+	\item Suma/Resta: 3+4 $\to$ \pause 7\pause
 	\item Se puede sumar strings: probar ``yo y'' + `` mi trasero''.\pause
-	\item Producto: 2*8 $\to$ 16.\pause
-	\item División: 5/2 $\to$ \pause 2. 
-	\item División ``común'': 5/2.0 o 5.0/2 o 5.0/2.0 (i.e. que alguno sea un float).\pause
-	\item Resto: 5\%2 $\to$ 1.
-	%	\item Práctica para la clase.
+	\item Producto: 2*8 $\to$ \pause 16\pause
+	\item División: 5/2 $\to$ \pause 2.5 
+	\item Resto: 5\%2 $\to$ \pause 1
 \end{itemize}
 \end{frame}
 
@@ -284,17 +282,17 @@ Los operaciones son, por ejemplo:
 \begin{itemize}
 	\item Respuesta corta:\pause
 		\begin{itemize}
-			\item IDE = integrated development environment $\equiv$ entorno de desarrollo integrado.\pause
-			\item Google Colab (como Anaconda, un programa usado en anteriores ediciones de este curso) nuclea un montón de paquetes o ``librerías'' (bibliotecas) para usar y no tener que andar reinventando la rueda todo el tiempo.\pause
-			\item Google Colab es un entorno que facilita programar en Python. Es una IDE.\pause
+			\item IDE = integrated development environment $\equiv$ entorno de desarrollo integrado.\pause En otras palabras, es el "soporte" sobre el cual escribiremos con el lenguaje de programación (Python, en nuestro caso) \pause
+			\item Google Colab es un entorno que facilita programar en Python. Es una IDE.\pause			
+			\item A su vez, Google Colab (como Anaconda, un programa usado en anteriores ediciones de este curso) nuclea un montón de paquetes o ``librerías'' (bibliotecas) para usar y no tener que andar reinventando la rueda todo el tiempo.\pause
+			
 
 
 		\end{itemize}
 	\item Respuesta larga: nada de esto es necesario ni importante para aprender a programar o para codear en Python. Pasa más por gustos personales.\pause
 	\begin{itemize}
-		\item Por ejemplo, en vez del Anaconda, se podría bajar \textcolor{blue}{\href{https://www.python.org/}{Python}} e ir instalando paquetes.\pause		
-%		\item Por ejemplo, en vez del Anaconda, se podría bajar Python (\footnotesize\url{https://www.python.org/}) e ir instalando paquetes.\pause
-		\item En vez de Google Colab, para codear se puede usar simplemente un editor de textos, o \textcolor{blue}{\href{https://wiki.python.org/moin/IntegratedDevelopmentEnvironments}{cualquiera de las IDEs existentes}}.
+		\item Por ejemplo, en vez de Colab o Anaconda, se podría bajar \textcolor{blue}{\href{https://www.python.org/}{Python}} e ir instalando paquetes.\pause		
+		\item En vez de Colab, para codear se puede usar simplemente un editor de textos, o \textcolor{blue}{\href{https://wiki.python.org/moin/IntegratedDevelopmentEnvironments}{cualquiera de las IDEs existentes}}.
 	\end{itemize}
 \end{itemize}
 \end{block}
@@ -312,7 +310,14 @@ Los operaciones son, por ejemplo:
 %(IDE = integrated development environment $\equiv$ entorno de desarrollo integrado).
 \begin{block}{Abriendo la IDE...}
 \end{block}
-\includegraphics[height=5.5cm]{colab_raw.png}
+\includegraphics[scale = 0.23]{colab_raw.jpeg}
+\end{frame}
+
+
+\begin{frame}{Usando Google Colab como IDE para Python}
+\begin{block}{Qué es cada cosa?}
+\end{block}
+\includegraphics[scale = 0.23]{colab_edit.jpeg}
 \end{frame}
 
 
@@ -333,39 +338,6 @@ Los operaciones son, por ejemplo:
 \end{itemize}
 \end{frame}
 
-\begin{frame}{Tipos de Datos:  Listas}
-Una \emph{lista} es una colección de valores (\textbf{definida entre corchetes}) que se acceden mediante un índice:  \pause
-\\~\
-
-\includegraphics[width=10cm]{lista.png} \pause
-
-\alert{Ojo, el primer elemento tiene índice 0}\pause
-\\~
-\alert{Y el último elemento tiene índice -1}
-\end{frame}
-
-
-\begin{frame}{Más sobre listas}
-Algunos ejemplos de listas y operaciones:
-\begin{itemize}
-	\item \texttt{$[$2, 3, 5$]$} \pause 
-		¿Cuál es el elemento con índice 1?\pause
-	\item \texttt{$[$2, 3.5, 'cosita', 8$]$}\pause
-	\item \texttt{$[$ $]$} lista vacía.\pause
-	\item \texttt{c = $[$2, 3, 5$]$} define una lista de nombre \texttt{c}.
-	\item \texttt{$c[i]$} accede o devuelve el elemento con índice i de la lista.\pause
-	\item \texttt{len(c)} devuelve la longitud de la lista.\pause
-	\item \texttt{c.append(x)} agrega el elemento \texttt{x} al final de la lista \texttt{c}.
-	\item Y muchas operaciones más que iremos viendo...
-\end{itemize}
-\end{frame}
-
-\begin{frame}{En resumen, ¿qué es una lista?}
-\pause
-\includegraphics[width=10cm]{python_list.png} 
-\end{frame}
-
-
 \begin{frame}{Variables, expresiones y asignaciones} \pause
 \begin{itemize}
 	\item Una \textbf{variable} es una dirección de memoria que almacena un valor\pause
@@ -383,14 +355,6 @@ Algunos ejemplos de listas y operaciones:
 \end{itemize}
 \alert{Asignación: variable = expresión}
 \end{frame}
-
-%\texttt{\begin{frame}{La asignación, nuestra primera instrucción}
-%\alert{Asignación: variable = expresión}
-%\noindent
-%\parbox{2cm}{Bien}%
-%\hfill
-%\includegraphics[height=4cm, scale=0.5]{bien.png}
-%\end{frame}}
 
 
 \begin{frame}{La \textbf{asignación}, nuestra primera instrucción}
@@ -426,8 +390,39 @@ La asignación almacena el valor de la \emph{expresión} en la dirección en mem
             \includegraphics[scale = 0.3]{mal.png} %width=1cm,height=2cm
         \end{column}
     \end{columns}
-    
-    
+\end{frame}
+
+
+
+
+\begin{frame}{Tipos de Datos:  Listas}
+Una \emph{lista} es una colección de valores (\textbf{definida entre corchetes}) que se acceden mediante un índice:  \pause
+\\~\
+\includegraphics[width=10cm]{lista.png} \pause
+\alert{Ojo, el primer elemento tiene índice 0}\pause
+\\~
+\alert{Y el último elemento tiene índice -1}
+\end{frame}
+
+
+\begin{frame}{Más sobre listas}
+Algunos ejemplos de listas y operaciones:
+\begin{itemize}
+	\item \texttt{$[$2, 3, 5$]$} \pause 
+		¿Cuál es el elemento con índice 1?\pause
+	\item \texttt{$[$2, 3.5, 'cosita', 8$]$}\pause
+	\item \texttt{$[$ $]$} lista vacía.\pause
+	\item \texttt{c = $[$2, 3, 5$]$} define una lista de nombre \texttt{c}.
+	\item \texttt{$c[i]$} accede o devuelve el elemento con índice i de la lista.\pause
+	\item \texttt{len(c)} devuelve la longitud de la lista.\pause
+	\item \texttt{c.append(x)} agrega el elemento \texttt{x} al final de la lista \texttt{c}.
+	\item Y muchas operaciones más que iremos viendo...
+\end{itemize}
+\end{frame}
+
+\begin{frame}{En resumen, ¿qué es una lista?}
+\pause
+\includegraphics[width=10cm]{python_list.png} 
 \end{frame}
 
 
