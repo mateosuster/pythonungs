@@ -1,0 +1,423 @@
+\documentclass{beamer}
+%\documentclass[handout]{beamer}
+
+\mode<presentation>
+{
+%  \usetheme{Warsaw}
+  % or ...
+
+%  \setbeamercovered{transparent}
+  % or whatever (possibly just delete it)
+}
+
+
+\setbeamertemplate{navigation symbols}{}
+
+\usepackage[utf8]{inputenc}
+\usepackage[spanish, es-tabla, es-nodecimaldot]{babel}
+\usepackage{xcolor}
+
+\usepackage{listings}
+
+%New colors defined below
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+%Code listing style named "mystyle"
+\lstdefinestyle{mystyle}{
+  backgroundcolor=\color{backcolour},   commentstyle=\color{codegreen},
+  keywordstyle=\color{magenta},
+  numberstyle=\tiny\color{codegray},
+  stringstyle=\color{codepurple},
+  basicstyle=\ttfamily\footnotesize,
+  breakatwhitespace=false,         
+  breaklines=true,                 
+  captionpos=b,                    
+  keepspaces=true,                 
+  numbers=left,                    
+  numbersep=5pt,                  
+  showspaces=false,                
+  showstringspaces=false,
+  showtabs=false,                  
+  tabsize=2
+}
+
+%"mystyle" code listing set
+\lstset{style=mystyle}
+
+
+%\usepackage{times}
+%\usepackage[T1]{fontenc}
+% Or whatever. Note that the encoding and the font should match. If T1
+% does not look nice, try deleting the line with the fontenc.
+
+
+\title[Intro Prog] % (optional, use only with long paper titles)
+{Introducción a Python}
+
+\subtitle
+{Clase 2}
+
+\author[MS]
+{Mateo Suster \\ mateosuster@gmail.com}%\inst{1}}
+% - Give the names in the same order as the appear in the paper.
+% - Use the \inst{?} command only if the authors have different
+%   affiliation.
+
+\institute[UNGS] % (optional, but mostly needed)
+{
+%  \inst{1}%
+  Matemática para Economistas III \\ 
+  Instituto de Industria\\
+  Universidad Nacional de General Sarmiento
+}
+
+\date[] % (optional, should be abbreviation of conference name)
+{ \today}
+
+
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+
+% PAG 1
+\begin{frame}[fragile]{¿Qué hace el siguiente programa en Python?} 
+\begin{lstlisting}[language=Python]
+#ingreso las millas 
+mills = 34.122
+
+#hago la conversion a kilometros
+km = 34.122 * 1.6
+
+#imprimo por pantalla el resultado
+print(mills, "millas son", km, "kilometros")
+	
+#la salida queda 
+> 34.122 millas son 54.595200000000006 kilometros
+\end{lstlisting}  \pause
+
+¿Qué problemas tiene? \pause
+
+\begin{itemize}
+    \item \textbf{Duplicación de información}. \pause 34.122 lo estoy guardando en \texttt{mills}, pero después vuelvo a poner 34.112 en la conversión a kilómetros \pause
+    \item ¿Cómo se podría arreglar?
+\end{itemize}
+\end{frame}
+
+% PAG 2
+\begin{frame}[fragile]{¿Solución?} 
+\begin{lstlisting}[language=Python]
+#ingreso las millas 
+mills = 34.122
+
+#hago la conversion a kilometros
+km = mills * 1.6
+
+#imprimo por pantalla el resultado
+print(mills, "millas son", km, "kilometros")
+
+#la salida queda 
+> 34.122 millas son 54.595200000000006 kilometros
+\end{lstlisting} \pause
+
+\begin{itemize}
+    \item \textbf{Duplicación de información corregida}\pause : 34.122 lo estoy guardando en \texttt{mills}, y después uso la  variable \texttt{mills} y no vuelvo a poner 34.112 en la conversión \pause
+    \item Sin embargo, la salida no es del todo linda...
+\end{itemize}
+\end{frame}
+
+
+% PAG 3
+\begin{frame}[fragile]{¿Qué hace el siguiente programa en Python? (II)}
+\begin{lstlisting}[language=Python]
+#ingreso las millas 
+mills = 34.122
+
+#hago la conversion a kilometros
+km = mills * 1.6
+
+round(54.595200000000006, 2)
+
+#imprimo por pantalla el resultado
+print(mills, "millas son", km, "kilometros")
+
+#la salida queda 
+> 34.122 millas son 54.595200000000006 kilometros
+\end{lstlisting} \pause
+
+\begin{itemize}
+    \item ¿Qué pasó con la salida? \pause ¿El programa es el mismo? \pause
+    \item ¿Qué problema tiene? \pause El resultado de \texttt{round(54.595200000000006, 2)} \textbf{no se guarda en ningún lado}.\pause  ¿Por qué? \pause ¿Cómo podría hacerlo?\pause 
+    \item ¿Qué otro problema hay? \pause Nuevamente hay duplicación de información: en vez de \texttt{54.595200000000006} podemos usar \texttt{km} que es la variable que guarda ese valor
+\end{itemize}
+\end{frame}
+
+
+%PAG 4
+\begin{frame}[fragile]{Guardo el resultado de redondear y reutilizo su valor en el programa}
+\begin{lstlisting}[language=Python]
+#ingreso las millas 
+mills = 34.122
+
+#hago la conversion a kilometros
+km = mills * 1.6
+
+km_redondo = round(km, 2)
+
+#imprimo por pantalla el resultado
+print(mills, "millas son", km, "kilometros")
+
+#la salida queda 
+> 34.122 millas son 54.595200000000006 kilometros
+\end{lstlisting} \pause
+
+\begin{itemize}
+    \item ¿Qué hace ahora el programa? \pause En esencia, ¿es distinto que el programa anterior? \pause
+    \item ¿Solucionó el problema identificado? \pause ¿Se utilizó en algun lado la variable \texttt{km\_redondo}? ¿Cómo podría utilizarlo? 
+\end{itemize}
+\end{frame}
+
+
+%PAG 5
+\begin{frame}[fragile]{Ahora sí?}
+
+\begin{lstlisting}[language=Python]
+#ingreso las millas 
+mills = 34.122
+
+#hago la conversion a kilometros
+km = mills * 1.6
+
+km_redondo = round(km, 2)
+
+#imprimo por pantalla el resultado
+print(mills, "millas son", km_redondo, "kilometros")
+
+#la salida queda 
+> 34.122 millas son 54.59 kilometros
+\end{lstlisting} \pause
+
+\begin{itemize}
+    \item Este programa, en vez de mostrar (imprimir por pantalla) el valor de \texttt{km}, muestra el valor redondeado asignado a la variable \texttt{km\_redondeado}
+\end{itemize}
+\end{frame}
+
+
+%PAG 6
+\begin{frame}[fragile]{Utilizando Listas}
+\begin{lstlisting}[language=Python]
+#ingreso las millas 
+mills = [34.122, 17.588, 3.187] 
+
+# Hago la conversion a kilometros
+km = [mills[0]*1.6, mills[1]*1.6, mills[2]*1.6]
+
+# Imprimo por pantalla el resultado
+print(mills[0],"millas son",km[0],"kilometros")  
+print(mills[1],"millas son",km[1],"kilometros")  
+print(mills[2],"millas son",km[2],"kilometros")
+\end{lstlisting} \pause
+
+La salida ahora queda:
+\begin{lstlisting}
+> 34.122 millas son 54.5952 kilometros
+> 17.588 millas son 28.1408 kilometros
+> 3.187 millas son 5.0992 kilometros
+\end{lstlisting} \pause
+
+\begin{itemize}
+    \item ¿Cuál es la diferencia fundamental con los programas anteriores? \pause Que ahora trabajamos con listas de \texttt{floats} y no con un único valor \pause
+    \item ¿Tiene información duplicada? \pause ¿Cómo se podría evitar?
+\end{itemize}
+\end{frame}
+
+%PAG 7 
+\begin{frame}[fragile]{Estructuras de control}
+\begin{itemize}
+    \item Las estructuras de control nos permiten  modificar el flujo de ejecución del programa. \pause
+    \item En otras palabras, quizas más intrincadas, permiten estructurar el proceso de ejecución a partir de ciertas condiciones lógicas que definimos. \pause
+    \item Ejemplo: Condicional \texttt{if} \pause
+\end{itemize}
+
+\begin{lstlisting}[language=Python]
+if CONDICION:
+    PROG1 
+\end{lstlisting} \pause
+
+\begin{itemize}
+    \item CONDICION es una expresión que arroja resultado veradero o falso
+    \item PROG1 es un programa que hace algo
+    \item PROG1 se ejecuta \textbf{si y solo si} CONDICION arroja valor verdadero \pause
+    \item Atención con el bloque indentado!
+\end{itemize}
+\end{frame}
+
+%PAG 8
+\begin{frame}[fragile]{Ejemplo de if}
+\begin{lstlisting}[language=Python]
+if 1 > 5:
+    print('1 es mayor que 5')
+if 1 < 5:
+    print('1 es menor que 5') 
+\end{lstlisting} \pause
+
+¿Cuál es su salida? \pause
+\begin{lstlisting}[language=Python]
+> '1 es menor que 5'
+\end{lstlisting}
+\end{frame}
+
+% MEME IF
+\begin{frame}{Con las estructuras de control se puede hacer cualquier cosa...} \pause
+\begin{center}
+\includegraphics[height=7cm, scale=0.5]{rick_ai.jpeg}
+\end{center}
+\end{frame}
+
+
+%PAG 9
+\begin{frame}[fragile]{Otro ejemplo de if}
+\begin{lstlisting}[language=Python]
+a = 10
+b = [100, 1]
+
+if b[0] // (a * 10) == b[1]:
+    b[0] = b[0] - 1
+    b[1] = b[1] * 5
+
+print(a, b[0], b[1])
+\end{lstlisting} \pause
+
+¿Cuál es su salida? 3 minutos para pensarlo... \pause 
+\begin{lstlisting}[language=Python]
+> 10, 99, 5
+\end{lstlisting}
+\end{frame}
+
+%PAG 10
+\begin{frame}[fragile]{Condicional: if, elif, else}
+
+\begin{lstlisting}[language=Python]
+if CONDICION1:
+    PROG1
+elif CONDICION2:
+    PROG2
+else:
+    PROG3
+\end{lstlisting} \pause
+
+\begin{itemize}
+    \item CONDICION1 y CONDICION2 son expresiones lógicas
+    \item PROG1, PROG2 y PROG3  son programas 
+    \item PROG1 se ejecuta \textbf{si y solo si} CONDICION1 arroja valor \texttt{TRUE}\pause
+    \item De lo contrario, se evalua CONDICION2 y, \textbf{si es verdadera}, se ejecuta PROG2 \pause
+    \item Si CONDICION1 y CONDICION2 arrojan valores \texttt{FALSE}, se ejecuta el PROGRAMA3 de la sentencia \texttt{else}
+\end{itemize}
+\end{frame}
+
+%PAG 11
+\begin{frame}[fragile]{Ciclos o Bucles}
+\begin{lstlisting}[language=Python]
+while CONDICION:
+    PROG1
+\end{lstlisting} \pause
+\begin{itemize}
+    \item CONDICION es una expresión que arroja resultado \texttt{TRUE} o \texttt{FALSE}
+    \item PROG1 es un programa que hace algo
+    \item La ejecución de PROG1 se repite \textbf{mientras} CONDICION arroja valor \texttt{TRUE}
+\end{itemize}
+\end{frame}
+
+
+%PAG 12
+\begin{frame}[fragile]{Ejemplo de while}
+\begin{lstlisting}[language=Python]
+i = 0 #arranco la inicializacion en valor = 0
+while i < 3:
+    print(i) #imprimo por pantalla
+    i = i+1 #muevo el indice una posicion
+\end{lstlisting} \pause
+
+¿Cuál es su salida? \pause 
+\begin{lstlisting}[language=Python]
+> 0 
+> 1
+> 2
+\end{lstlisting}
+\end{frame}
+
+%PAG 13
+\begin{frame}[fragile]{Ejemplo de if y while}
+\begin{lstlisting}[language=Python]
+i = 0
+while i < 3:
+    if i % 2 == 0:
+        print(i, 'es par')
+    else:
+        print(i, 'es impar')
+    i = i + 1
+
+\end{lstlisting} \pause
+
+¿Cuál es su salida? Algune se anima a soplarla? (piensen cuántas veces se ejecuta el programa del bloque indentado) \pause 
+\begin{lstlisting}[language=Python]
+> 0 es par
+> 1 es impar
+> 2 es par
+\end{lstlisting}
+\end{frame}
+
+%PAG 14
+\begin{frame}[fragile]{Ejemplo de condicional y ciclo un poquito más útil...}
+\begin{lstlisting}[language=Python]
+#ingreso las millas 
+mills = [1.1, 33.4, 34.122, 17.588, 3.187, 50.] 
+    
+#guardo la longitud de la lista
+longitud = len(mills)
+    
+#hago la conversion a kilometros
+km = [0]*longitud #lista de ceros de longitud adecuada
+    
+i = 0 # variable para indicar la posicion en la lista
+while i < longitud: #condicion
+    km[i] = mills[i]*1.6 #conversion
+    i = i +1 #avance de posicion
+\end{lstlisting} \pause
+
+\begin{itemize}
+        \item ¿Qué hace \texttt{while i $<$ longitud}? \pause Nos indica que el bloque de código siguiente se va a ejecutar mientras el resultado de la condición lógica sea verdadera. \pause
+        \item Es decir, en este caso, siempre que el índice \texttt{i} sea menor a la longitud de la lista (variable \texttt{longitud}) \pause 
+        \item ¿Funciona este programa para la lista de cualquier longitud?
+\end{itemize}
+\end{frame}
+
+
+% PAG final
+\begin{frame}{A coedear se a dicho!}
+Tener presente que:  \pause
+\begin{itemize}
+	\item Cualquier \emph{valor que quiera ser reutilizado} (para un cálculo posterior, para una salida, etc.) \alert{debe ser almacenado previamente en una variable} \pause
+		\item Siempre que sea posible \alert{no duplicar información} en el código. \pause
+		\item  Y por último.... 
+\end{itemize} 
+\end{frame}
+
+% MEME errores
+\begin{frame}{No tenerle miedo a los errores!}
+\begin{center}
+\includegraphics[height=7cm, scale=0.5]{meme_error.jpg}
+\end{center}
+\end{frame}
+
+
+
+
+
+\end{document}

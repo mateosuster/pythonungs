@@ -1,6 +1,7 @@
    * [Ejercicio domiciliario de Números y Listas](https://colab.research.google.com/drive/1C66RnyWJUHOpiQae_HpvzCMcVZOax-rH?usp=sharing)
 
   * [Cadenas, tuplas y diccionarios](https://colab.research.google.com/drive/1nES9LPtKgGxoPQMEpix9U0a78hC3OAST?usp=sharing)
+	[Ejercicios Cadenas, tuplas y diccionarios]](https://colab.research.google.com/drive/17DG6kJWtbkwVDVOcF9Nml4o81MYPSr8k?usp=sharing) 
 
   * [Importación de librerías - Gráficos](https://colab.research.google.com/drive/1gAkSxnh6xCAcPwtuPBecsVhfeN40ajvc?usp=sharing)
 

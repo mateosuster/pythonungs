@@ -1,0 +1,25 @@
+Para insertar un nuevo valor en la posición cuyo índice es k (y desplazar un lugar el resto
+de la lista) se utiliza la operación insert().
+
+Para preguntar si un valor determinado es un elemento de una lista usaremos la operación in:
+>>> xs
+[78455, 79211, 54988, 66540, 47890]
+>>> 78 in xs
+
+
+Para averiguar la posición de un valor dentro de una lista usaremos la operación
+index().
+
+Ejercicio 6.2. Investigar qué significa la notación a[:].
+Ejercicio 6.3. Investigar qué significan las notaciones a[:j] y a[j:] si j es un número negativo
+
+
+xs escribiremos simplemente xs.split():
+>>> c = " Una cadena con espacios "
+>>> c.split()
+[’Una’, ’cadena’, ’con’, ’espacios’]
+<separador>.join( <lista de componentes a unir>)
+y que devuelve la cadena que resulta de unir todas las componentes separadas entre sí por
+medio del separador:
+>>> xs = [’aaa’, ’bbb’, ’cccc’]
+>>> " ".join(xs)
