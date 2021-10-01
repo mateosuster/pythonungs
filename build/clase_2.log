@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.8.25)  17 SEP 2021 21:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.8.25)  24 SEP 2021 15:15
 entering extended mode
 **./clase_2.tex
 (clase_2.tex
@@ -809,7 +809,7 @@ tex.def
 File: l3backend-pdftex.def 2021-08-04 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count337
 \l__pdf_internal_box=\box77
-) (D:\archivos\repos\pythonungs\build\clase_2.aux
+) (C:\Archivos\repos\pythonungs\build\clase_2.aux
 LaTeX Info: Redefining \. on input line 25.
 LaTeX Info: Redefining \% on input line 25.
 )
@@ -911,8 +911,8 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 82.
 LaTeX Info: Redefining \pageref on input line 82.
 LaTeX Info: Redefining \nameref on input line 82.
- (D:\archivos\repos\pythonungs\build\clase_2.out)
-(D:\archivos\repos\pythonungs\build\clase_2.out)
+ (C:\Archivos\repos\pythonungs\build\clase_2.out)
+(C:\Archivos\repos\pythonungs\build\clase_2.out)
 \@outlinefile=\write5
 \openout5 = `clase_2.out'.
 
@@ -996,13 +996,13 @@ Dictionary: translator-theorem-dictionary, Language: English
 LaTeX Info: Redefining \. on input line 82.
 LaTeX Info: Redefining \% on input line 82.
 \c@lstlisting=\count345
- (D:\archivos\repos\pythonungs\build\clase_2.nav) [1
+ (C:\Archivos\repos\pythonungs\build\clase_2.nav) [1
 
 {C:/Users/mateo/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
 \openout4 = `clase_2.vrb'.
 
 
-(D:\archivos\repos\pythonungs\build\clase_2.vrb
+(C:\Archivos\repos\pythonungs\build\clase_2.vrb
 (C:\Users\mateo\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
@@ -1027,85 +1027,85 @@ File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/ma
 thkerncmss.
 )) [2
 
-] (D:\archivos\repos\pythonungs\build\clase_2.vrb) [3
+] (C:\Archivos\repos\pythonungs\build\clase_2.vrb) [3
 
 ]
-(D:\archivos\repos\pythonungs\build\clase_2.vrb) [4
+(C:\Archivos\repos\pythonungs\build\clase_2.vrb) [4
 
 ]
-(D:\archivos\repos\pythonungs\build\clase_2.vrb) [5
+(C:\Archivos\repos\pythonungs\build\clase_2.vrb) [5
 
 ]
-(D:\archivos\repos\pythonungs\build\clase_2.vrb) [6
-
-]
-\openout4 = `clase_2.vrb'.
-
-
-(D:\archivos\repos\pythonungs\build\clase_2.vrb) [7
-
-]
-(D:\archivos\repos\pythonungs\build\clase_2.vrb) [8
-
-]
-(D:\archivos\repos\pythonungs\build\clase_2.vrb) [9
-
-]
-(D:\archivos\repos\pythonungs\build\clase_2.vrb) [10
+(C:\Archivos\repos\pythonungs\build\clase_2.vrb) [6
 
 ]
 \openout4 = `clase_2.vrb'.
 
 
-(D:\archivos\repos\pythonungs\build\clase_2.vrb)
+(C:\Archivos\repos\pythonungs\build\clase_2.vrb) [7
+
+]
+(C:\Archivos\repos\pythonungs\build\clase_2.vrb) [8
+
+]
+(C:\Archivos\repos\pythonungs\build\clase_2.vrb) [9
+
+]
+(C:\Archivos\repos\pythonungs\build\clase_2.vrb) [10
+
+]
+\openout4 = `clase_2.vrb'.
+
+
+(C:\Archivos\repos\pythonungs\build\clase_2.vrb)
 Overfull \vbox (3.05609pt too high) detected at line 159
  []
 
 [11
 
-] (D:\archivos\repos\pythonungs\build\clase_2.vrb)
+] (C:\Archivos\repos\pythonungs\build\clase_2.vrb)
 Overfull \vbox (3.05609pt too high) detected at line 159
  []
 
 [12
 
-] (D:\archivos\repos\pythonungs\build\clase_2.vrb)
+] (C:\Archivos\repos\pythonungs\build\clase_2.vrb)
 Overfull \vbox (3.05609pt too high) detected at line 159
  []
 
 [13
 
-] (D:\archivos\repos\pythonungs\build\clase_2.vrb)
+] (C:\Archivos\repos\pythonungs\build\clase_2.vrb)
 Overfull \vbox (3.05609pt too high) detected at line 159
  []
 
 [14
 
-] (D:\archivos\repos\pythonungs\build\clase_2.vrb)
+] (C:\Archivos\repos\pythonungs\build\clase_2.vrb)
 Overfull \vbox (3.05609pt too high) detected at line 159
  []
 
 [15
 
-] (D:\archivos\repos\pythonungs\build\clase_2.vrb)
+] (C:\Archivos\repos\pythonungs\build\clase_2.vrb)
 Overfull \vbox (3.05609pt too high) detected at line 159
  []
 
 [16
 
-] (D:\archivos\repos\pythonungs\build\clase_2.vrb)
+] (C:\Archivos\repos\pythonungs\build\clase_2.vrb)
 Overfull \vbox (3.05609pt too high) detected at line 159
  []
 
 [17
 
-] (D:\archivos\repos\pythonungs\build\clase_2.vrb)
+] (C:\Archivos\repos\pythonungs\build\clase_2.vrb)
 Overfull \vbox (3.05609pt too high) detected at line 159
  []
 
 [18
 
-] (D:\archivos\repos\pythonungs\build\clase_2.vrb)
+] (C:\Archivos\repos\pythonungs\build\clase_2.vrb)
 Overfull \vbox (3.05609pt too high) detected at line 159
  []
 
@@ -1114,82 +1114,82 @@ Overfull \vbox (3.05609pt too high) detected at line 159
 ]
 \openout4 = `clase_2.vrb'.
 
- (D:\archivos\repos\pythonungs\build\clase_2.vrb) [20
+ (C:\Archivos\repos\pythonungs\build\clase_2.vrb) [20
 
 ]
-(D:\archivos\repos\pythonungs\build\clase_2.vrb) [21
+(C:\Archivos\repos\pythonungs\build\clase_2.vrb) [21
 
 ]
-(D:\archivos\repos\pythonungs\build\clase_2.vrb) [22
+(C:\Archivos\repos\pythonungs\build\clase_2.vrb) [22
 
 ]
-(D:\archivos\repos\pythonungs\build\clase_2.vrb) [23
+(C:\Archivos\repos\pythonungs\build\clase_2.vrb) [23
 
 ]
-(D:\archivos\repos\pythonungs\build\clase_2.vrb) [24
-
-]
-\openout4 = `clase_2.vrb'.
-
-
-(D:\archivos\repos\pythonungs\build\clase_2.vrb) [25
-
-]
-(D:\archivos\repos\pythonungs\build\clase_2.vrb) [26
+(C:\Archivos\repos\pythonungs\build\clase_2.vrb) [24
 
 ]
 \openout4 = `clase_2.vrb'.
 
 
-(D:\archivos\repos\pythonungs\build\clase_2.vrb) [27
+(C:\Archivos\repos\pythonungs\build\clase_2.vrb) [25
 
 ]
-(D:\archivos\repos\pythonungs\build\clase_2.vrb) [28
-
-]
-(D:\archivos\repos\pythonungs\build\clase_2.vrb) [29
-
-]
-(D:\archivos\repos\pythonungs\build\clase_2.vrb) [30
-
-]
-(D:\archivos\repos\pythonungs\build\clase_2.vrb) [31
-
-]
-(D:\archivos\repos\pythonungs\build\clase_2.vrb) [32
+(C:\Archivos\repos\pythonungs\build\clase_2.vrb) [26
 
 ]
 \openout4 = `clase_2.vrb'.
 
 
-(D:\archivos\repos\pythonungs\build\clase_2.vrb) [33
+(C:\Archivos\repos\pythonungs\build\clase_2.vrb) [27
 
 ]
-(D:\archivos\repos\pythonungs\build\clase_2.vrb) [34
+(C:\Archivos\repos\pythonungs\build\clase_2.vrb) [28
 
 ]
-(D:\archivos\repos\pythonungs\build\clase_2.vrb) [35
+(C:\Archivos\repos\pythonungs\build\clase_2.vrb) [29
 
 ]
-(D:\archivos\repos\pythonungs\build\clase_2.vrb) [36
+(C:\Archivos\repos\pythonungs\build\clase_2.vrb) [30
 
 ]
-(D:\archivos\repos\pythonungs\build\clase_2.vrb) [37
+(C:\Archivos\repos\pythonungs\build\clase_2.vrb) [31
 
 ]
-(D:\archivos\repos\pythonungs\build\clase_2.vrb) [38
+(C:\Archivos\repos\pythonungs\build\clase_2.vrb) [32
 
 ]
 \openout4 = `clase_2.vrb'.
 
 
-(D:\archivos\repos\pythonungs\build\clase_2.vrb) [39
+(C:\Archivos\repos\pythonungs\build\clase_2.vrb) [33
 
 ]
-(D:\archivos\repos\pythonungs\build\clase_2.vrb) [40
+(C:\Archivos\repos\pythonungs\build\clase_2.vrb) [34
 
 ]
-(D:\archivos\repos\pythonungs\build\clase_2.vrb) [41
+(C:\Archivos\repos\pythonungs\build\clase_2.vrb) [35
+
+]
+(C:\Archivos\repos\pythonungs\build\clase_2.vrb) [36
+
+]
+(C:\Archivos\repos\pythonungs\build\clase_2.vrb) [37
+
+]
+(C:\Archivos\repos\pythonungs\build\clase_2.vrb) [38
+
+]
+\openout4 = `clase_2.vrb'.
+
+
+(C:\Archivos\repos\pythonungs\build\clase_2.vrb) [39
+
+]
+(C:\Archivos\repos\pythonungs\build\clase_2.vrb) [40
+
+]
+(C:\Archivos\repos\pythonungs\build\clase_2.vrb) [41
 
 ]
 <rick_ai.jpeg, id=231, 1027.84pt x 1023.825pt>
@@ -1210,96 +1210,110 @@ Package pdftex.def Info: rick_ai.jpeg  used on input line 281.
 ]
 \openout4 = `clase_2.vrb'.
 
- (D:\archivos\repos\pythonungs\build\clase_2.vrb) [44
+ (C:\Archivos\repos\pythonungs\build\clase_2.vrb) [44
 
 ]
-(D:\archivos\repos\pythonungs\build\clase_2.vrb) [45
+(C:\Archivos\repos\pythonungs\build\clase_2.vrb) [45
 
 ]
-(D:\archivos\repos\pythonungs\build\clase_2.vrb) [46
-
-]
-\openout4 = `clase_2.vrb'.
-
-
-(D:\archivos\repos\pythonungs\build\clase_2.vrb) [47
-
-]
-(D:\archivos\repos\pythonungs\build\clase_2.vrb) [48
-
-]
-(D:\archivos\repos\pythonungs\build\clase_2.vrb) [49
-
-]
-(D:\archivos\repos\pythonungs\build\clase_2.vrb) [50
+(C:\Archivos\repos\pythonungs\build\clase_2.vrb) [46
 
 ]
 \openout4 = `clase_2.vrb'.
 
 
-(D:\archivos\repos\pythonungs\build\clase_2.vrb) [51
+(C:\Archivos\repos\pythonungs\build\clase_2.vrb) [47
 
 ]
-(D:\archivos\repos\pythonungs\build\clase_2.vrb) [52
+(C:\Archivos\repos\pythonungs\build\clase_2.vrb) [48
 
 ]
-\openout4 = `clase_2.vrb'.
-
-
-(D:\archivos\repos\pythonungs\build\clase_2.vrb) [53
+(C:\Archivos\repos\pythonungs\build\clase_2.vrb) [49
 
 ]
-(D:\archivos\repos\pythonungs\build\clase_2.vrb) [54
-
-]
-(D:\archivos\repos\pythonungs\build\clase_2.vrb) [55
+(C:\Archivos\repos\pythonungs\build\clase_2.vrb) [50
 
 ]
 \openout4 = `clase_2.vrb'.
 
 
-(D:\archivos\repos\pythonungs\build\clase_2.vrb) [56
+(C:\Archivos\repos\pythonungs\build\clase_2.vrb) [51
 
 ]
-(D:\archivos\repos\pythonungs\build\clase_2.vrb) [57
-
-]
-(D:\archivos\repos\pythonungs\build\clase_2.vrb) [58
+(C:\Archivos\repos\pythonungs\build\clase_2.vrb) [52
 
 ]
 \openout4 = `clase_2.vrb'.
 
 
-(D:\archivos\repos\pythonungs\build\clase_2.vrb) [59
+(C:\Archivos\repos\pythonungs\build\clase_2.vrb) [53
 
 ]
-(D:\archivos\repos\pythonungs\build\clase_2.vrb) [60
+(C:\Archivos\repos\pythonungs\build\clase_2.vrb) [54
 
 ]
-(D:\archivos\repos\pythonungs\build\clase_2.vrb) [61
+(C:\Archivos\repos\pythonungs\build\clase_2.vrb) [55
 
 ]
-(D:\archivos\repos\pythonungs\build\clase_2.vrb) [62
+\openout4 = `clase_2.vrb'.
+
+
+(C:\Archivos\repos\pythonungs\build\clase_2.vrb) [56
 
 ]
-(D:\archivos\repos\pythonungs\build\clase_2.vrb) [63
+(C:\Archivos\repos\pythonungs\build\clase_2.vrb) [57
 
-] [64
+]
+(C:\Archivos\repos\pythonungs\build\clase_2.vrb) [58
 
-] [65
+]
+<infinite_loop.png, id=320, 501.875pt x 493.845pt>
+File: infinite_loop.png Graphic file (type png)
+<use infinite_loop.png>
+Package pdftex.def Info: infinite_loop.png  used on input line 381.
+(pdftex.def)             Requested size: 501.87376pt x 493.84378pt.
+ [59
+
+ <./infinite_loop.png>]
+File: infinite_loop.png Graphic file (type png)
+<use infinite_loop.png>
+Package pdftex.def Info: infinite_loop.png  used on input line 381.
+(pdftex.def)             Requested size: 501.87376pt x 493.84378pt.
+ [60
+
+]
+\openout4 = `clase_2.vrb'.
+
+ (C:\Archivos\repos\pythonungs\build\clase_2.vrb) [61
+
+]
+(C:\Archivos\repos\pythonungs\build\clase_2.vrb) [62
+
+]
+(C:\Archivos\repos\pythonungs\build\clase_2.vrb) [63
+
+]
+(C:\Archivos\repos\pythonungs\build\clase_2.vrb) [64
+
+]
+(C:\Archivos\repos\pythonungs\build\clase_2.vrb) [65
 
 ] [66
 
 ] [67
 
+] [68
+
+] [69
+
 ]
-<meme_error.jpg, id=369, 470.75874pt x 558.085pt>
+<meme_error.jpg, id=381, 470.75874pt x 558.085pt>
 File: meme_error.jpg Graphic file (type jpg)
 <use meme_error.jpg>
-Package pdftex.def Info: meme_error.jpg  used on input line 418.
+Package pdftex.def Info: meme_error.jpg  used on input line 425.
 (pdftex.def)             Requested size: 235.3788pt x 279.04182pt.
 
-[68
+[70
 
  <./meme_error.jpg>]
 \tf@nav=\write6
@@ -1311,7 +1325,7 @@ Package pdftex.def Info: meme_error.jpg  used on input line 418.
 \tf@snm=\write8
 \openout8 = `clase_2.snm'.
 
- (D:\archivos\repos\pythonungs\build\clase_2.aux
+ (C:\Archivos\repos\pythonungs\build\clase_2.aux
 LaTeX Info: Redefining \. on input line 25.
 LaTeX Info: Redefining \% on input line 25.
 )
@@ -1319,10 +1333,10 @@ Package rerunfilecheck Info: File `clase_2.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 23963 strings out of 478868
- 438070 string characters out of 2848809
- 1022490 words of memory out of 3000000
- 41135 multiletter control sequences out of 15000+600000
+ 23977 strings out of 478868
+ 438278 string characters out of 2848809
+ 1022526 words of memory out of 3000000
+ 41143 multiletter control sequences out of 15000+600000
  414458 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,11n,124p,414b,1400s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1337,10 +1351,10 @@ ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/ma
 teo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt9.pfb><C:/
 Users/mateo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/m
 sam10.pfb>
-Output written on D:\archivos\repos\pythonungs\build\clase_2.pdf (68 pages, 367
-345 bytes).
+Output written on C:\Archivos\repos\pythonungs\build\clase_2.pdf (70 pages, 447
+758 bytes).
 PDF statistics:
- 444 PDF objects out of 1000 (max. 8388607)
- 137 named destinations out of 1000 (max. 500000)
- 53 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 457 PDF objects out of 1000 (max. 8388607)
+ 141 named destinations out of 1000 (max. 500000)
+ 58 words of extra memory for PDF output out of 10000 (max. 10000000)
 
