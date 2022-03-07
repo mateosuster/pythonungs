@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.8.25)  7 MAR 2022 14:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.8.25)  29 OCT 2021 20:18
 entering extended mode
-**./pythonClase1.tex
-(pythonClase1.tex
+**./clase_3.tex
+(clase_3.tex
 LaTeX2e <2021-06-01> patch level 1
 L3 programming layer <2021-07-12>
 (C:\Users\mateo\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamer.cls
@@ -775,40 +775,64 @@ Package babel Info: Making " an active character on input line 570.
 Package babel Info: Making < an active character on input line 722.
 Package babel Info: Making > an active character on input line 722.
 ))
+(C:\Users\mateo\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
+\lst@mode=\count329
+\lst@gtempboxa=\box75
+\lst@token=\toks48
+\lst@length=\count330
+\lst@currlwidth=\dimen285
+\lst@column=\count331
+\lst@pos=\count332
+\lst@lostspace=\dimen286
+\lst@width=\dimen287
+\lst@newlines=\count333
+\lst@lineno=\count334
+\lst@maxwidth=\dimen288
+
+(C:\Users\mateo\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count335
+\lst@skipnumbers=\count336
+\lst@framebox=\box76
+)
+(C:\Users\mateo\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 34.
+(hyperref)                removing `\\' on input line 64.
 
 
 (C:\Users\mateo\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
 tex.def
 File: l3backend-pdftex.def 2021-08-04 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count329
-\l__pdf_internal_box=\box75
-) (C:\Archivos\repos\pythonungs\build\pythonClase1.aux
+\l__color_backend_stack_int=\count337
+\l__pdf_internal_box=\box77
+) (C:\Archivos\repos\pythonungs\build\clase_3.aux
 LaTeX Info: Redefining \. on input line 25.
 LaTeX Info: Redefining \% on input line 25.
 )
-\openout1 = `pythonClase1.aux'.
+\openout1 = `clase_3.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -848,37 +872,29 @@ LaTeX Font Info:    ... okay on input line 83.
 (C:\Users\mateo\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count330
-\scratchdimen=\dimen285
-\scratchbox=\box76
-\nofMPsegments=\count331
-\nofMParguments=\count332
-\everyMPshowfont=\toks48
-\MPscratchCnt=\count333
-\MPscratchDim=\dimen286
-\MPnumerator=\count334
-\makeMPintoPDFobject=\count335
-\everyMPtoPDFconversion=\toks49
+\scratchcounter=\count338
+\scratchdimen=\dimen289
+\scratchbox=\box78
+\nofMPsegments=\count339
+\nofMParguments=\count340
+\everyMPshowfont=\toks49
+\MPscratchCnt=\count341
+\MPscratchDim=\dimen290
+\MPnumerator=\count342
+\makeMPintoPDFobject=\count343
+\everyMPtoPDFconversion=\toks50
 )
 (C:\Users\mateo\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
 ase.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-
-(C:\Users\mateo\AppData\Local\Programs\MiKTeX\tex/latex/grfext\grfext.sty
-Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
-)
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
-Package grfext Info: Graphics extension search list:
-(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 504.
 
 (C:\Users\mateo\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.c
 fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 83.
+Package hyperref Info: Link coloring OFF on input line 82.
 
 (C:\Users\mateo\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -890,68 +906,68 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 lestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count336
+\c@section@level=\count344
 )
-LaTeX Info: Redefining \ref on input line 83.
-LaTeX Info: Redefining \pageref on input line 83.
-LaTeX Info: Redefining \nameref on input line 83.
- (C:\Archivos\repos\pythonungs\build\pythonClase1.out)
-(C:\Archivos\repos\pythonungs\build\pythonClase1.out)
+LaTeX Info: Redefining \ref on input line 82.
+LaTeX Info: Redefining \pageref on input line 82.
+LaTeX Info: Redefining \nameref on input line 82.
+ (C:\Archivos\repos\pythonungs\build\clase_3.out)
+(C:\Archivos\repos\pythonungs\build\clase_3.out)
 \@outlinefile=\write5
-\openout5 = `pythonClase1.out'.
+\openout5 = `clase_3.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 83.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 82.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 83.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 82.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 83.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 83.
+(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 82.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 82.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 83.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 82.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 83.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 83.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 82.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 82.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 83.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 82.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 83.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 83.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 82.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 82.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 83.
+(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 82.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 83.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 83.
+(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 82.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 82.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 83.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 82.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 83.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 82.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 83.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 82.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 83.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 82.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/b/n --> OT1/cmr/b/n on input line 83.
+(Font)                  OT1/cmss/b/n --> OT1/cmr/b/n on input line 82.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmss/b/n --> OT1/cmss/b/n on input line 83.
+(Font)                  OT1/cmss/b/n --> OT1/cmss/b/n on input line 82.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 83.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 82.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 83.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 82.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/b/n on input line 83.
-LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 83.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/b/n on input line 82.
+LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 82.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
 (Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 8
-3.
+2.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  OT1/cmss/b/it --> OT1/mathkerncmss/m/sl on input line 8
-3.
+2.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on inp
-ut line 83.
+ut line 82.
 
 (C:\Users\mateo\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-b
 asic-dictionary-English.dict
@@ -977,73 +993,85 @@ Dictionary: translator-numbers-dictionary, Language: English
 heorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \. on input line 83.
-LaTeX Info: Redefining \% on input line 83.
-
-(C:\Archivos\repos\pythonungs\build\pythonClase1.nav) [1
+LaTeX Info: Redefining \. on input line 82.
+LaTeX Info: Redefining \% on input line 82.
+\c@lstlisting=\count345
+ (C:\Archivos\repos\pythonungs\build\clase_3.nav) [1
 
 {C:/Users/mateo/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 106
-.
+\openout4 = `clase_3.vrb'.
+
+
+(C:\Archivos\repos\pythonungs\build\clase_3.vrb
+(C:\Users\mateo\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+)
+LaTeX Font Info:    Trying to load font information for U+msa on input line 20.
+
 
 (C:\Users\mateo\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 106
-.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 20.
+
 
 (C:\Users\mateo\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on inp
-ut line 106.
+ut line 20.
 
 (C:\Users\mateo\AppData\Local\Programs\MiKTeX\tex/latex/sansmathaccent\ot1mathk
 erncmss.fd
 File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/ma
 thkerncmss.
-) [2
+)) [2
 
-] [3
+] (C:\Archivos\repos\pythonungs\build\clase_3.vrb) [3
 
-] [4
+]
+\openout4 = `clase_3.vrb'.
 
-] [5
 
-] [6
+(C:\Archivos\repos\pythonungs\build\clase_3.vrb) [4
 
-] [7
+]
+(C:\Archivos\repos\pythonungs\build\clase_3.vrb) [5
 
-] [8
+]
+(C:\Archivos\repos\pythonungs\build\clase_3.vrb) [6
 
-] [9
+]
+(C:\Archivos\repos\pythonungs\build\clase_3.vrb) [7
 
-] [10
+]
+(C:\Archivos\repos\pythonungs\build\clase_3.vrb) [8
 
-] [11
+]
+\openout4 = `clase_3.vrb'.
 
-] [12
+
+(C:\Archivos\repos\pythonungs\build\clase_3.vrb) [9
+
+]
+(C:\Archivos\repos\pythonungs\build\clase_3.vrb) [10
+
+]
+(C:\Archivos\repos\pythonungs\build\clase_3.vrb) [11
+
+]
+(C:\Archivos\repos\pythonungs\build\clase_3.vrb) [12
 
 ] [13
 
-]
-<recursos/eat_alligator.jpg, id=85, 1284.8pt x 722.7pt>
-File: recursos/eat_alligator.jpg Graphic file (type jpg)
-<use recursos/eat_alligator.jpg>
-Package pdftex.def Info: recursos/eat_alligator.jpg  used on input line 112.
-(pdftex.def)             Requested size: 642.39844pt x 361.3491pt.
- [14
+] [14
 
- <./recursos/eat_alligator.jpg>]
-File: recursos/eat_alligator.jpg Graphic file (type jpg)
-<use recursos/eat_alligator.jpg>
-Package pdftex.def Info: recursos/eat_alligator.jpg  used on input line 112.
-(pdftex.def)             Requested size: 642.39844pt x 361.3491pt.
- [15
+] [15
 
 ] [16
 
-] [17
+]
+[17
 
 ] [18
 
@@ -1051,477 +1079,120 @@ Package pdftex.def Info: recursos/eat_alligator.jpg  used on input line 112.
 
 ] [20
 
-] [21
+]
+\openout4 = `clase_3.vrb'.
 
-] [22
-
-] [23
-
-] [24
-
-] [25
+ (C:\Archivos\repos\pythonungs\build\clase_3.vrb) [21
 
 ]
-[26
+(C:\Archivos\repos\pythonungs\build\clase_3.vrb) [22
 
 ]
-<recursos/tiobe_index22.png, id=155, 640.64343pt x 656.4525pt>
-File: recursos/tiobe_index22.png Graphic file (type png)
-<use recursos/tiobe_index22.png>
-Package pdftex.def Info: recursos/tiobe_index22.png  used on input line 148.
-(pdftex.def)             Requested size: 320.32092pt x 328.22545pt.
-
-Overfull \vbox (1.21452pt too high) detected at line 148
- []
-
-[27
-
- <./recursos/tiobe_index22.png>]
-File: recursos/tiobe_index22.png Graphic file (type png)
-<use recursos/tiobe_index22.png>
-Package pdftex.def Info: recursos/tiobe_index22.png  used on input line 148.
-(pdftex.def)             Requested size: 320.32092pt x 328.22545pt.
-
-Overfull \vbox (1.21452pt too high) detected at line 148
- []
-
-[28
+(C:\Archivos\repos\pythonungs\build\clase_3.vrb) [23
 
 ]
-File: recursos/tiobe_index22.png Graphic file (type png)
-<use recursos/tiobe_index22.png>
-Package pdftex.def Info: recursos/tiobe_index22.png  used on input line 148.
-(pdftex.def)             Requested size: 320.32092pt x 328.22545pt.
-
-Overfull \vbox (1.21452pt too high) detected at line 148
- []
-
-[29
-
-] [30
-
-] [31
+(C:\Archivos\repos\pythonungs\build\clase_3.vrb) [24
 
 ]
-<recursos/yoda.png, id=190, 401.5pt x 401.5pt>
-File: recursos/yoda.png Graphic file (type png)
-<use recursos/yoda.png>
-Package pdftex.def Info: recursos/yoda.png  used on input line 166.
-(pdftex.def)             Requested size: 200.7495pt x 200.7495pt.
- [32
-
- <./recursos/yoda.png>]
-File: recursos/yoda.png Graphic file (type png)
-<use recursos/yoda.png>
-Package pdftex.def Info: recursos/yoda.png  used on input line 166.
-(pdftex.def)             Requested size: 200.7495pt x 200.7495pt.
- [33
+(C:\Archivos\repos\pythonungs\build\clase_3.vrb) [25
 
 ]
-File: recursos/yoda.png Graphic file (type png)
-<use recursos/yoda.png>
-Package pdftex.def Info: recursos/yoda.png  used on input line 166.
-(pdftex.def)             Requested size: 200.7495pt x 200.7495pt.
- [34
-
-] [35
-
-] [36
-
-] [37
-
-] [38
+(C:\Archivos\repos\pythonungs\build\clase_3.vrb) [26
 
 ]
-[39
+(C:\Archivos\repos\pythonungs\build\clase_3.vrb) [27
+
+]
+<meme_funciones.png, id=159, 501.875pt x 417.56pt>
+File: meme_funciones.png Graphic file (type png)
+<use meme_funciones.png>
+Package pdftex.def Info: meme_funciones.png  used on input line 222.
+(pdftex.def)             Requested size: 250.93687pt x 208.77948pt.
+ [28
+
+ <./meme_funciones.png (PNG copy)>]
+File: meme_funciones.png Graphic file (type png)
+<use meme_funciones.png>
+Package pdftex.def Info: meme_funciones.png  used on input line 222.
+(pdftex.def)             Requested size: 250.93687pt x 208.77948pt.
+ [29
+
+]
+\openout4 = `clase_3.vrb'.
+
+ (C:\Archivos\repos\pythonungs\build\clase_3.vrb) [30
+
+]
+(C:\Archivos\repos\pythonungs\build\clase_3.vrb) [31
+
+]
+(C:\Archivos\repos\pythonungs\build\clase_3.vrb) [32
+
+]
+(C:\Archivos\repos\pythonungs\build\clase_3.vrb) [33
+
+]
+(C:\Archivos\repos\pythonungs\build\clase_3.vrb) [34
+
+]
+\openout4 = `clase_3.vrb'.
+
+
+(C:\Archivos\repos\pythonungs\build\clase_3.vrb) [35
+
+]
+(C:\Archivos\repos\pythonungs\build\clase_3.vrb) [36
+
+]
+(C:\Archivos\repos\pythonungs\build\clase_3.vrb) [37
+
+]
+(C:\Archivos\repos\pythonungs\build\clase_3.vrb) [38
+
+] [39
 
 ] [40
 
 ] [41
 
-] [42
-
-] [43
-
-] [44
-
-] [45
-
-] [46
-
-] [47
-
-] [48
-
-] [49
-
-] [50
-
-] [51
-
-] [52
-
-]
-<recursos/pythonCode.png, id=346, 714.41907pt x 362.85562pt>
-File: recursos/pythonCode.png Graphic file (type png)
-<use recursos/pythonCode.png>
-Package pdftex.def Info: recursos/pythonCode.png  used on input line 264.
-(pdftex.def)             Requested size: 357.20866pt x 181.42737pt.
- [53
-
- <./recursos/pythonCode.png>]
-File: recursos/pythonCode.png Graphic file (type png)
-<use recursos/pythonCode.png>
-Package pdftex.def Info: recursos/pythonCode.png  used on input line 264.
-(pdftex.def)             Requested size: 357.20866pt x 181.42737pt.
- [54
-
-]
-File: recursos/pythonCode.png Graphic file (type png)
-<use recursos/pythonCode.png>
-Package pdftex.def Info: recursos/pythonCode.png  used on input line 264.
-(pdftex.def)             Requested size: 357.20866pt x 181.42737pt.
- [55
-
-]
-File: recursos/pythonCode.png Graphic file (type png)
-<use recursos/pythonCode.png>
-Package pdftex.def Info: recursos/pythonCode.png  used on input line 264.
-(pdftex.def)             Requested size: 357.20866pt x 181.42737pt.
- [56
-
-] [57
-
-] [58
-
-] [59
-
-] [60
-
-] [61
-
-] [62
-
-] [63
-
-]
-[64
-
-] [65
-
-] [66
-
-] [67
-
-] [68
-
-] [69
-
-] [70
-
-] [71
-
-] [72
-
-] [73
-
-]
-Overfull \vbox (6.38799pt too high) detected at line 313
- []
-
-[74
-
-]
-Overfull \vbox (6.38799pt too high) detected at line 313
- []
-
-[75
-
-]
-Overfull \vbox (6.38799pt too high) detected at line 313
- []
-
-[76
-
-]
-Overfull \vbox (6.38799pt too high) detected at line 313
- []
-
-[77
-
-]
-Overfull \vbox (6.38799pt too high) detected at line 313
- []
-
-[78
-
-]
-Overfull \vbox (6.38799pt too high) detected at line 313
- []
-
-[79
-
-]
-Overfull \vbox (6.38799pt too high) detected at line 313
- []
-
-[80
-
-]
-Overfull \vbox (6.38799pt too high) detected at line 313
- []
-
-[81
-
-]
-Overfull \vbox (6.38799pt too high) detected at line 313
- []
-
-[82
-
-]
-<recursos/meme_explosion.png, id=522, 549.05125pt x 481.8pt>
-File: recursos/meme_explosion.png Graphic file (type png)
-<use recursos/meme_explosion.png>
-Package pdftex.def Info: recursos/meme_explosion.png  used on input line 320.
-(pdftex.def)             Requested size: 274.52495pt x 240.8994pt.
- [83
-
- <./recursos/meme_explosion.png>]
-File: recursos/meme_explosion.png Graphic file (type png)
-<use recursos/meme_explosion.png>
-Package pdftex.def Info: recursos/meme_explosion.png  used on input line 320.
-(pdftex.def)             Requested size: 274.52495pt x 240.8994pt.
- [84
-
-]
-<recursos/colab_raw.jpeg, id=535, 1392.70313pt x 713.66624pt>
-File: recursos/colab_raw.jpeg Graphic file (type jpg)
-<use recursos/colab_raw.jpeg>
-Package pdftex.def Info: recursos/colab_raw.jpeg  used on input line 328.
-(pdftex.def)             Requested size: 320.31499pt x 164.13977pt.
-
-Overfull \hbox (13.02512pt too wide) in paragraph at lines 328--328
-[][]  
- []
-
-[85
-
- <./recursos/colab_raw.jpeg>]
-<recursos/colab_edit.jpeg, id=542, 1284.8pt x 663.47874pt>
-File: recursos/colab_edit.jpeg Graphic file (type jpg)
-<use recursos/colab_edit.jpeg>
-Package pdftex.def Info: recursos/colab_edit.jpeg  used on input line 335.
-(pdftex.def)             Requested size: 295.49779pt x 152.5969pt.
- [86
-
- <./recursos/colab_edit.jpeg>] [87
-
-]
-[88
-
-] [89
-
-] [90
-
-] [91
-
-] [92
-
-] [93
-
-] [94
-
-] [95
-
-] [96
-
-] [97
-
-] [98
-
-] [99
-
-] [100
-
-] [101
-
-]
-[102
-
-]
-<recursos/bien.png, id=631, 253.94875pt x 199.74625pt>
-File: recursos/bien.png Graphic file (type png)
-<use recursos/bien.png>
-Package pdftex.def Info: recursos/bien.png  used on input line 407.
-(pdftex.def)             Requested size: 76.1852pt x 59.92433pt.
-<recursos/mal.png, id=632, 225.84375pt x 225.84375pt>
-File: recursos/mal.png Graphic file (type png)
-<use recursos/mal.png>
-Package pdftex.def Info: recursos/mal.png  used on input line 407.
-(pdftex.def)             Requested size: 67.75363pt x 67.75363pt.
- [103
-
- <./recursos/bien.png> <./recursos/mal.png>]
-File: recursos/bien.png Graphic file (type png)
-<use recursos/bien.png>
-Package pdftex.def Info: recursos/bien.png  used on input line 407.
-(pdftex.def)             Requested size: 76.1852pt x 59.92433pt.
-File: recursos/mal.png Graphic file (type png)
-<use recursos/mal.png>
-Package pdftex.def Info: recursos/mal.png  used on input line 407.
-(pdftex.def)             Requested size: 67.75363pt x 67.75363pt.
- [104
-
-]
-File: recursos/bien.png Graphic file (type png)
-<use recursos/bien.png>
-Package pdftex.def Info: recursos/bien.png  used on input line 407.
-(pdftex.def)             Requested size: 76.1852pt x 59.92433pt.
-File: recursos/mal.png Graphic file (type png)
-<use recursos/mal.png>
-Package pdftex.def Info: recursos/mal.png  used on input line 407.
-(pdftex.def)             Requested size: 67.75363pt x 67.75363pt.
- [105
-
-]
-File: recursos/bien.png Graphic file (type png)
-<use recursos/bien.png>
-Package pdftex.def Info: recursos/bien.png  used on input line 407.
-(pdftex.def)             Requested size: 76.1852pt x 59.92433pt.
-File: recursos/mal.png Graphic file (type png)
-<use recursos/mal.png>
-Package pdftex.def Info: recursos/mal.png  used on input line 407.
-(pdftex.def)             Requested size: 67.75363pt x 67.75363pt.
- [106
-
-]
-File: recursos/bien.png Graphic file (type png)
-<use recursos/bien.png>
-Package pdftex.def Info: recursos/bien.png  used on input line 407.
-(pdftex.def)             Requested size: 76.1852pt x 59.92433pt.
-File: recursos/mal.png Graphic file (type png)
-<use recursos/mal.png>
-Package pdftex.def Info: recursos/mal.png  used on input line 407.
-(pdftex.def)             Requested size: 67.75363pt x 67.75363pt.
-
-[107
-
-]
-File: recursos/bien.png Graphic file (type png)
-<use recursos/bien.png>
-Package pdftex.def Info: recursos/bien.png  used on input line 407.
-(pdftex.def)             Requested size: 76.1852pt x 59.92433pt.
-File: recursos/mal.png Graphic file (type png)
-<use recursos/mal.png>
-Package pdftex.def Info: recursos/mal.png  used on input line 407.
-(pdftex.def)             Requested size: 67.75363pt x 67.75363pt.
- [108
-
-]
-<recursos/lista.png, id=666, 392.21532pt x 149.05687pt>
-File: recursos/lista.png Graphic file (type png)
-<use recursos/lista.png>
-Package pdftex.def Info: recursos/lista.png  used on input line 419.
-(pdftex.def)             Requested size: 284.52756pt x 108.13737pt.
- [109
-
- <./recursos/lista.png>]
-File: recursos/lista.png Graphic file (type png)
-<use recursos/lista.png>
-Package pdftex.def Info: recursos/lista.png  used on input line 419.
-(pdftex.def)             Requested size: 284.52756pt x 108.13737pt.
- [110
-
-]
-File: recursos/lista.png Graphic file (type png)
-<use recursos/lista.png>
-Package pdftex.def Info: recursos/lista.png  used on input line 419.
-(pdftex.def)             Requested size: 284.52756pt x 108.13737pt.
- [111
-
-]
-File: recursos/lista.png Graphic file (type png)
-<use recursos/lista.png>
-Package pdftex.def Info: recursos/lista.png  used on input line 419.
-(pdftex.def)             Requested size: 284.52756pt x 108.13737pt.
- [112
-
-] [113
-
-] [114
-
-] [115
-
-]
-[116
-
-] [117
-
-] [118
-
-] [119
-
-]
-<recursos/python_list.png, id=726, 678.535pt x 396.48125pt>
-File: recursos/python_list.png Graphic file (type png)
-<use recursos/python_list.png>
-Package pdftex.def Info: recursos/python_list.png  used on input line 440.
-(pdftex.def)             Requested size: 284.52756pt x 166.25479pt.
- [120
-
- <./recursos/python_list.png>]
-File: recursos/python_list.png Graphic file (type png)
-<use recursos/python_list.png>
-Package pdftex.def Info: recursos/python_list.png  used on input line 440.
-(pdftex.def)             Requested size: 284.52756pt x 166.25479pt.
- [121
-
-] [122
-
 ]
 \tf@nav=\write6
-\openout6 = `pythonClase1.nav'.
+\openout6 = `clase_3.nav'.
 
 \tf@toc=\write7
-\openout7 = `pythonClase1.toc'.
+\openout7 = `clase_3.toc'.
 
 \tf@snm=\write8
-\openout8 = `pythonClase1.snm'.
+\openout8 = `clase_3.snm'.
 
 
-(C:\Archivos\repos\pythonungs\build\pythonClase1.aux
+(C:\Archivos\repos\pythonungs\build\clase_3.aux
 LaTeX Info: Redefining \. on input line 25.
 LaTeX Info: Redefining \% on input line 25.
 )
-Package rerunfilecheck Info: File `pythonClase1.out' has not changed.
+Package rerunfilecheck Info: File `clase_3.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 22352 strings out of 478868
- 414964 string characters out of 2848809
- 722811 words of memory out of 3000000
- 39538 multiletter control sequences out of 15000+600000
- 417681 words of font info for 79 fonts, out of 8000000 for 9000
+ 23799 strings out of 478868
+ 434092 string characters out of 2848809
+ 1043195 words of memory out of 3000000
+ 41100 multiletter control sequences out of 15000+600000
+ 411115 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,11n,124p,487b,630s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 128i,11n,124p,414b,1400s stack positions out of 5000i,500n,10000p,200000b,80000s
 <C:/Users/mateo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
-cmmi10.pfb><C:/Users/mateo/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
-fonts/cm/cmss10.pfb><C:/Users/mateo/AppData/Local/Programs/MiKTeX/fonts/type1/p
-ublic/amsfonts/cm/cmss12.pfb><C:/Users/mateo/AppData/Local/Programs/MiKTeX/font
-s/type1/public/amsfonts/cm/cmss8.pfb><C:/Users/mateo/AppData/Local/Programs/MiK
-TeX/fonts/type1/public/amsfonts/cm/cmss9.pfb><C:/Users/mateo/AppData/Local/Prog
-rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Users/mateo/AppData
-/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi10.pfb><C:/Users/mat
-eo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/
-Users/mateo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10
-.pfb><C:/Users/mateo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
-cm/cmtt9.pfb><C:/Users/mateo/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
-msfonts/symbols/msam10.pfb>
-Output written on C:\Archivos\repos\pythonungs\build\pythonClase1.pdf (122 page
-s, 1461706 bytes).
+cmss10.pfb><C:/Users/mateo/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
+fonts/cm/cmss12.pfb><C:/Users/mateo/AppData/Local/Programs/MiKTeX/fonts/type1/p
+ublic/amsfonts/cm/cmss8.pfb><C:/Users/mateo/AppData/Local/Programs/MiKTeX/fonts
+/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Users/mateo/AppData/Local/Programs/M
+iKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/mateo/AppData/Local/P
+rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt9.pfb><C:/Users/mateo/AppData
+/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on C:\Archivos\repos\pythonungs\build\clase_3.pdf (41 pages, 417
+397 bytes).
 PDF statistics:
- 848 PDF objects out of 1000 (max. 8388607)
- 245 named destinations out of 1000 (max. 500000)
- 98 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 283 PDF objects out of 1000 (max. 8388607)
+ 83 named destinations out of 1000 (max. 500000)
+ 48 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,0 +1,175 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{authblk}
+
+\usepackage[spanish]{babel}
+\selectlanguage{spanish}
+
+\usepackage{epigraph}
+
+
+%New colors defined below
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+%Code listing style named "mystyle"
+\lstdefinestyle{mystyle}{
+  backgroundcolor=\color{backcolour},   commentstyle=\color{codegreen},
+  keywordstyle=\color{magenta},
+  numberstyle=\tiny\color{codegray},
+  stringstyle=\color{codepurple},
+  basicstyle=\ttfamily\footnotesize,
+  breakatwhitespace=false,         
+  breaklines=true,                 
+  captionpos=b,                    
+  keepspaces=true,                 
+  numbers=left,                    
+  numbersep=5pt,                  
+  showspaces=false,                
+  showstringspaces=false,
+  showtabs=false,                  
+  tabsize=2
+}
+
+%"mystyle" code listing set
+\lstset{style=mystyle}
+
+\title{Matemática para Economistas III \\ Python \\ Ejercicio Domiciliario N° 3}
+\author{Mateo Suster (msuster@campus.ungs.edu.ar)}
+
+
+\begin{document}
+
+\maketitle
+\setlength{\epigraphwidth}{0.55\textwidth}
+\epigraph{Nos persiguen con largos algoritmos perversos}{\textit{Babasónicos}}
+
+\begin{itemize}
+	\item Fecha de presentación: Miércoles 27 de Octubre 23:59hs
+    \item \textbf{Formato de entrega:} Escribir las respuestas en World o PDF. Es de entrega individual y \textbf{el nombre del archivo debe contener el apellido y nombre} del estudiante. Mandar el trabajo exclusivamente por mail msuster@campus.ungs.edu.ar (Asunto "TP 3 Python - \emph{Apellido Nombre}"). 
+    \item \textbf{Sólo si considera apropiado}, mencione el numero de línea o sentencia de código que desea explicar. \textbf{No} se debe entrar en el detalle de todas y cada una de las líneas, sino que incluso se valora mucho más las descripciones claras del problema general. (Cuidado: no son válidas como explicaciones las afirmaciones vacías del estilo "lo que hace el programa es ejecutar la línea n")
+    \item \textbf{Aclaración:} los ejercicios están pensados para resolverlos conceptualmente, sin necesidad de ejecutarlos en algún entorno. En el caso de encontrar variables no definidas, piense qué valores posibles podrían tomar para que el programa se desarrolle \emph{armoniosamente}.
+    \item Si tiene dificultades consulte por Slack
+\end{itemize}
+
+%\section{Problema 1}
+%%Python code highlighting
+%\begin{itemize}
+%    \item Explicar qué  hace la siguiente función \texttt{lossimpsons}:
+%    
+%\end{itemize}
+%
+%\begin{lstlisting}[language=Python]
+%def lossimpsons(x):
+%    devolver = "babosos"
+%    
+%    if x % 2 == 0 :
+%        devolver = "te vas al demonio Krabappel"
+%        
+%    return devolver
+%\end{lstlisting}
+
+\clearpage
+\section{Problema suma lista I}
+
+%Python code highlighting
+\begin{itemize}
+    \item Explicar qué  hace el siguiente algoritmo:
+\end{itemize}
+
+\begin{lstlisting}[language=Python]
+lista = [2,15,7]
+suma = 0
+
+valor_a_sumar = lista[0]
+suma = suma + valor_a_sumar
+
+valor_a_sumar = lista[1]
+suma = suma + valor_a_sumar
+
+valor_a_sumar = lista[2]
+suma = suma + valor_a_sumar
+
+print(suma)
+
+\end{lstlisting}
+
+
+\section{Problema suma lista II}
+
+\begin{itemize}
+    \item Explicar qué  hace el siguiente algoritmo:
+\end{itemize}
+
+\begin{lstlisting}[language=Python]
+lista = [2,15,7]
+suma = 0
+
+longitud = len(lista)
+elnombrequesemecanta = 0
+
+while elnombrequesemecanta < longitud :
+    valor_a_sumar = lista[elnombrequesemecanta]
+    suma = suma + valor_a_sumar
+    elnombrequesemecanta += 1 
+
+print(suma)
+\end{lstlisting}
+
+
+\section{Problema la reina de las ciencias :)}
+
+\begin{itemize}
+    \item Explicar qué hace el siguiente algoritmo
+    
+%\texttt{laloLanda}:
+\end{itemize}
+%def laloLanda(lista):
+%    return devolver # esto estaba en el bloque de codigo
+    
+\begin{lstlisting}[language=Python]
+lon = len(lista)
+devolver = "Lisa, la reina de las ciencias"
+nelson = 0
+    
+while nelson < lon :
+	if lista[nelson] == 10 :
+		devolver = "En tu cara Flanders"
+	nelson += 1
+        
+print(devolver)
+
+\end{lstlisting}
+
+
+\section{Problema enigma}
+\begin{itemize}
+    \item Analizar el siguiente algoritmo:
+\end{itemize}
+%def func(x):
+% return m 
+\begin{lstlisting}[language=Python]
+l = len(x)
+m = x[0]
+i=1
+while i < l :
+	if x[i] > m :
+		m = x[i]
+	i=i+1
+
+print(m)
+
+\end{lstlisting}
+\begin{enumerate}
+    \item ¿De qué tipo de dato pueden ser la entrada (variable \texttt{x}) y la salida (variable \texttt{m})?
+    \item ¿Qué hace el programa y cómo?
+    \item Imagine que forma parte de un equipo de IT que desea vender sus grandes habilidades pythónicas a distintas empresas multinacionales. ¿Qué nombre sería el más adecuado para este programa?
+\end{enumerate}
+
+
+\end{document}

@@ -1,0 +1,301 @@
+\documentclass{beamer}
+%\documentclass[handout]{beamer}
+
+\mode<presentation>
+{
+%  \usetheme{Warsaw}
+  % or ...
+
+%  \setbeamercovered{transparent}
+  % or whatever (possibly just delete it)
+}
+
+
+\setbeamertemplate{navigation symbols}{}
+
+\usepackage[utf8]{inputenc}
+\usepackage[spanish, es-tabla, es-nodecimaldot]{babel}
+\usepackage{xcolor}
+
+\usepackage{listings}
+
+%New colors defined below
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+%Code listing style named "mystyle"
+\lstdefinestyle{mystyle}{
+  backgroundcolor=\color{backcolour},   commentstyle=\color{codegreen},
+  keywordstyle=\color{magenta},
+  numberstyle=\tiny\color{codegray},
+  stringstyle=\color{codepurple},
+  basicstyle=\ttfamily\footnotesize,
+  breakatwhitespace=false,         
+  breaklines=true,                 
+  captionpos=b,                    
+  keepspaces=true,                 
+  numbers=left,                    
+  numbersep=5pt,                  
+  showspaces=false,                
+  showstringspaces=false,
+  showtabs=false,                  
+  tabsize=2
+}
+
+%"mystyle" code listing set
+\lstset{style=mystyle}
+
+
+%\usepackage{times}
+%\usepackage[T1]{fontenc}
+% Or whatever. Note that the encoding and the font should match. If T1
+% does not look nice, try deleting the line with the fontenc.
+
+
+\title[Intro Prog] % (optional, use only with long paper titles)
+{Introducción a Python}
+
+\subtitle
+{Clase 3}
+
+\author[MS]
+{Mateo Suster \\ mateosuster@gmail.com}%\inst{1}}
+% - Give the names in the same order as the appear in the paper.
+% - Use the \inst{?} command only if the authors have different
+%   affiliation.
+
+\institute[UNGS] % (optional, but mostly needed)
+{
+%  \inst{1}%
+  Matemática para Economistas III \\ 
+  Instituto de Industria\\
+  Universidad Nacional de General Sarmiento
+}
+
+\date[] % (optional, should be abbreviation of conference name)
+{ \today}
+
+
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+
+% PAG 1
+\begin{frame}[fragile]{¿Qué hace el siguiente programa en Python?} 
+
+\begin{lstlisting}[language=Python]
+#ingreso las millas 
+mills = 34.122
+
+#hago la conversion a kilometros
+km = mills * 1.6
+
+km_redondo = round(km, 2)
+
+#imprimo por pantalla el resultado
+print(mills, "millas son", km_redondo, "kilometros")
+
+#la salida queda 
+> 34.122 millas son 54.59 kilometros
+\end{lstlisting} \pause
+
+\begin{itemize}
+    \item Un programa sencillo de conversión, que a esta altura nos debe resultar familiar
+\end{itemize}
+\end{frame}
+
+
+%PAG 2
+\begin{frame}[fragile]{El mismo programa, pero con listas}
+\begin{lstlisting}[language=Python]
+#ingreso las millas 
+mills = [34.122, 17.588, 3.187] 
+
+# Hago la conversion a kilometros
+km = [mills[0]*1.6, mills[1]*1.6, mills[2]*1.6]
+
+# Imprimo por pantalla el resultado
+print(mills[0],"millas son",km[0],"kilometros")  
+print(mills[1],"millas son",km[1],"kilometros")  
+print(mills[2],"millas son",km[2],"kilometros")
+\end{lstlisting} \pause
+
+La salida:
+\begin{lstlisting}
+> 34.122 millas son 54.5952 kilometros
+> 17.588 millas son 28.1408 kilometros
+> 3.187 millas son 5.0992 kilometros
+\end{lstlisting} \pause
+
+\begin{itemize}
+    \item ¿Qué problemas tiene esta codificación? \pause Información duplicada y \textbf{sobretodo ineficiencia} para programar un proceso automatizable por medio de una \textbf{estructura de control}. \pause
+    \item Tener más codigo no es síntoma de ser un buen programador
+\end{itemize}
+\end{frame}
+
+
+%PAG 3
+\begin{frame}[fragile]{El mismo programa, pero con ciclo while}
+\begin{lstlisting}[language=Python]
+#ingreso las millas 
+mills = [1.1, 33.4, 34.122, 17.588, 3.187, 50.] 
+    
+#guardo la longitud de la lista
+longitud = len(mills)
+    
+#hago la conversion a kilometros
+km = [0]*longitud #lista de ceros de longitud adecuada
+    
+i = 0 # variable para indicar la posicion en la lista
+while i < longitud: #condicion
+    km[i] = mills[i]*1.6 #conversion
+    i = i +1 #avance de posicion
+print(km)
+#la salida queda igual a: 
+> [1.8, 53.4, 54.6, 28.1, 5.1, 80.0] 
+\end{lstlisting} \pause
+
+\begin{itemize}
+        \item Un programa automatizado de conversión, con el que se tienen que familiarizar. \pause
+        \item ¿Pero se puede automatizar aún más? \pause Sí.
+\end{itemize}
+\end{frame}
+
+
+% PAG 4
+\begin{frame}{Funciones} \pause
+\begin{itemize}
+    \item Una función es una unidad de código que aísla una parte de un cómputo. \textbf{Es un programa dentro de un programa.} \pause
+    \item Poseen argumentos o parámetros (inputs), los procesa y devuelve una salida (output). \pause (Piensen en las funciones matemáticas) \pause
+    \item Características de las funciones: \pause
+\end{itemize}
+\begin{enumerate}
+    \item Permite \textbf{dividir} un problema en problemas más simples. \pause
+    \item Permite \textbf{ordenar conceptualmente} el código para que sea más fácil de entender. \pause
+    \item Permite \textbf{reutilizar soluciones} a problemas pequeños en la solución de problemas mayores. 
+\end{enumerate}
+\end{frame}
+
+
+%PAG 5
+\begin{frame}[fragile]{Estructura de las funciones} \pause
+
+
+\begin{itemize}
+	\item Funciones que retornan un valor
+\end{itemize}
+\begin{lstlisting}[language=Python]
+def NOMBRE(ARGUMENTOS):
+    ENUNCIADOS 
+    return VALOR
+\end{lstlisting} \pause
+
+\begin{itemize}
+        \item Funciones que no devuelven valor alguno (también llamadas Procedimiento)   
+\end{itemize}
+\begin{lstlisting}[language=Python]
+def NOMBRE(ARGUMENTOS):
+    ENUNCIADOS
+    print(VALOR)
+\end{lstlisting} \pause
+
+\begin{itemize}
+	\item Nuevamente, atención con el bloque indentado! \pause
+	\item Tanto en los enunciados (donde se realizan las operaciones sobre los argumentos), como en la salida, puede ir cualquier cosa. \pause
+	\item \alert{Importante:} \texttt{def} y \texttt{return} son dos palabras reservadas. \pause Se puede retornar más de un valor
+\end{itemize}
+
+\end{frame}
+
+
+% MEME FUNCION
+\begin{frame}{En los enunciados puede ir cualquier cosa cualquier cosa...} \pause
+\begin{center}
+\includegraphics[height=7cm, scale=0.5]{meme_funciones.png}
+\end{center}
+\end{frame}
+
+
+
+
+
+
+%PAG 6
+\begin{frame}[fragile]{El mismo programa, pero en una función} \pause
+
+\begin{lstlisting}[language=Python]
+def convertir(lista):
+    longitud = len(lista) 
+   # Hago la conversion
+    listaConvertida = [0]*longitud # lista de ceros
+    i = 0
+    while i < longitud:
+        listaConvertida[i] = lista[i]*1.6
+        i = i + 1
+    return listaConvertida
+
+# El resto del codigo queda mas prolijo
+mills = [1.1, 33.4, 13.2, 60.0, 17.35]
+kms = convertir(mills)
+print(kms)
+> [1.8, 53.4, 54.6, 28.1, 5.1, 80.0] #  la salida
+\end{lstlisting} \pause
+
+\begin{itemize}
+    \item La función \texttt{convertir} \textbf{encapsula} el problema de la conversión a kilómetros. \pause
+    \item Ventajas? \pause \textbf{Particionamos} el problema en otros dos de menor complejidad y el programa \textbf{puede ser resuelto por diferentes personas y al mismo tiempo}
+\end{itemize}
+\end{frame}
+
+
+
+%PAG 7
+\begin{frame}[fragile]{¿Cuál es la diferencia con el programa anterior?} \pause
+
+\begin{lstlisting}[language=Python]
+def convertir(lista,factor):
+    longitud = len(lista) #guardo la longitud de la lista
+   # Hago la conversion
+    listaConvertida = [0]*longitud # lista de ceros
+    i = 0
+    while i < longitud:
+        listaConvertida[i] = lista[i]*factor
+        i = i + 1
+    return listaConvertida
+
+# El resto del codigo queda mas prolijo
+mills = [1.1, 33.4, 13.2, 60.0, 17.35]
+fc = 1.6
+kms = convertir(mills,fc)
+\end{lstlisting} \pause
+
+\begin{itemize}
+    \item La función convertir ahora toma dos parámetros de entrada. \pause
+    \item La ventaja de esto es que ahora la función \texttt{convertir} funciona para cualquier lista y para cualquier factor de conversión.
+\end{itemize}
+\end{frame}
+
+
+
+
+
+
+% PAG final
+\begin{frame}{A coedear se a dicho!} \pause
+Nuestro nuevo aprendizaje:  \pause
+\begin{itemize}
+	\item Siempre que sea posible \alert{particionar} el problema y \alert{encapsularlo} en problemas menos complejos mediante \alert{funciones}
+\end{itemize} 
+\end{frame}
+
+
+
+
+
+\end{document}

@@ -93,8 +93,7 @@
   \begin{block}{Algunas pautas de (esta parte de) la materia}
   \end{block}\pause
   \begin{itemize}
-  	\item Todas las preguntas son válidas. \pause 
-  	Nadie nace sabiendo. \pause Además, las buenas preguntas son más importantes que las buenas respuestas. \pause
+  	\item Todas las preguntas son válidas. \pause Además, las buenas preguntas son más importantes que las buenas respuestas. \pause
 	\item Es importante ir practicando (poco a poco) las cosas que vamos a ir viendo. \pause Esto permitirá evitar la \emph{montaña} de fin de cuatrimestre. \pause (¿Qué necesito para esto?) \pause
 	\item Canales de comunicación: \pause Slack (preferentemente) o mail (en casos más puntuales). \pause
 	\item Instancias de evaluación \pause
@@ -106,7 +105,11 @@
   \end{itemize}
 \end{frame}
 
-
+\begin{frame}{Evitar la "montaña" de fin de cuatrimestre} \pause
+\begin{center}
+\includegraphics[height=5cm, scale=0.5]{recursos/eat_alligator.jpg}
+\end{center}
+\end{frame}
 
 \begin{frame}{Introducción}
 %  \tableofcontents
@@ -140,14 +143,25 @@
 	\end{itemize}
 \end{block}
 \begin{center}
-\includegraphics[height=7cm, scale=0.5]{tiobeIndex.png}
+\includegraphics[height=7cm, scale=0.5]{recursos/tiobe_index22.png}
 \end{center}
 \end{frame}
+
+\begin{frame}{Más ventajas de Python} \pause
+\begin{itemize}
+	\item Lenguaje \textcolor{blue}{\href{https://www.computerweekly.com/es/definicion/Programacion-orientada-a-objetos-OOP}{orientado a objetos}} relativamente "fácil" de aprender (\textcolor{blue}{\href{https://www.diarlu.com/lenguajes-de-programacion/}{lenguaje de alto nivel}})
+	\item Enfoque simple y sintaxis elegante: su lenguaje enfatiza la sencillez de código y legibilidad 
+	\item Poderosa capacidad de cómputo
+	\item Open Source Software (código abierto)	
+	\item Aplicaciones en diversas áreas. Hoy en día, se utiliza en la mayoría de las \textcolor{blue}{\href{https://learn.onemonth.com/es/10-paginas-web-famosas-hechas-con-python/}{plataformas que conocemos}} y tiene un extendido uso en la Ciencia de datos (en todos sus "componentes", como la Estadística, el Aprendizaje Automático, la Inteligencia Artificial (IA), Data Mining, etc. etc, todos los cuales entran en lo que se conoce popularmente como Big Data).
+\end{itemize}
+\end{frame}
+
 
 \begin{frame}{¿Sólo por eso elegimos Python?} \pause
 Hay otro motivo... \pause
 \begin{center}
-\includegraphics[height=7cm, scale=0.5]{yoda.png}
+\includegraphics[height=7cm, scale=0.5]{recursos/yoda.png}
 \end{center}
 \end{frame}
 
@@ -245,7 +259,7 @@ Hay otro motivo... \pause
 		\begin{itemize}
 		\item El programa representa al algoritmo en el lenguaje. \pause
 		\item Las instrucciones son propias del lenguaje.
-		\includegraphics[height=4cm, scale=0.5]{pythonCode.png}						\end{itemize}
+		\includegraphics[height=4cm, scale=0.5]{recursos/pythonCode.png}						\end{itemize}
 	\end{itemize}
 \end{frame}
 
@@ -264,7 +278,7 @@ Los programas manipulan \emph{valores} de diferentes \emph{tipos}. Por ejemplo: 
 \begin{itemize}
 \item Valores de verdad: Denotan el resultado de una evaluación lógica: los valores “verdadero” (\texttt{True}) y “falso” (\texttt{False})
 \end{itemize}
-\end{itemize}
+\end{itemize} \pause
 
 Los operaciones son, por ejemplo:
 \begin{itemize}
@@ -301,7 +315,7 @@ Los operaciones son, por ejemplo:
 \begin{frame}{Lo que se viene}
 \pause
 \begin{center}
-\includegraphics[height=7cm, scale=0.5]{meme_explosion.png}
+\includegraphics[height=7cm, scale=0.5]{recursos/meme_explosion.png}
 \end{center}
 \end{frame}
 
@@ -310,14 +324,14 @@ Los operaciones son, por ejemplo:
 %(IDE = integrated development environment $\equiv$ entorno de desarrollo integrado).
 \begin{block}{Abriendo la IDE...}
 \end{block}
-\includegraphics[scale = 0.23]{colab_raw.jpeg}
+\includegraphics[scale = 0.23]{recursos/colab_raw.jpeg}
 \end{frame}
 
 
 \begin{frame}{Usando Google Colab como IDE para Python}
 \begin{block}{Qué es cada cosa?}
 \end{block}
-\includegraphics[scale = 0.23]{colab_edit.jpeg}
+\includegraphics[scale = 0.23]{recursos/colab_edit.jpeg}
 \end{frame}
 
 
@@ -373,7 +387,7 @@ La asignación almacena el valor de la \emph{expresión} en la dirección en mem
            
         \end{column}
         \begin{column}{.5\textwidth}\raggedleft
-            \includegraphics[scale = 0.3]{bien.png} %width=1cm,height=2cm
+            \includegraphics[scale = 0.3]{recursos/bien.png} %width=1cm,height=2cm
         \end{column}
     \end{columns}
 \pause
@@ -387,7 +401,7 @@ La asignación almacena el valor de la \emph{expresión} en la dirección en mem
            
         \end{column}
         \begin{column}{.5\textwidth}\raggedleft
-            \includegraphics[scale = 0.3]{mal.png} %width=1cm,height=2cm
+            \includegraphics[scale = 0.3]{recursos/mal.png} %width=1cm,height=2cm
         \end{column}
     \end{columns}
 \end{frame}
@@ -398,7 +412,7 @@ La asignación almacena el valor de la \emph{expresión} en la dirección en mem
 \begin{frame}{Tipos de Datos:  Listas}
 Una \emph{lista} es una colección de valores (\textbf{definida entre corchetes}) que se acceden mediante un índice:  \pause
 \\~\
-\includegraphics[width=10cm]{lista.png} \pause
+\includegraphics[width=10cm]{recursos/lista.png} \pause
 \alert{Ojo, el primer elemento tiene índice 0}\pause
 \\~
 \alert{Y el último elemento tiene índice -1}
@@ -422,7 +436,7 @@ Algunos ejemplos de listas y operaciones:
 
 \begin{frame}{En resumen, ¿qué es una lista?}
 \pause
-\includegraphics[width=10cm]{python_list.png} 
+\includegraphics[width=10cm]{recursos/python_list.png} 
 \end{frame}
 
 

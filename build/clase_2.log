@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.8.25)  24 SEP 2021 15:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.8.25)  1 OCT 2021 19:51
 entering extended mode
 **./clase_2.tex
 (clase_2.tex
@@ -1180,24 +1180,27 @@ Overfull \vbox (3.05609pt too high) detected at line 159
 (C:\Archivos\repos\pythonungs\build\clase_2.vrb) [38
 
 ]
-\openout4 = `clase_2.vrb'.
-
-
 (C:\Archivos\repos\pythonungs\build\clase_2.vrb) [39
 
 ]
+\openout4 = `clase_2.vrb'.
+
+
 (C:\Archivos\repos\pythonungs\build\clase_2.vrb) [40
 
 ]
 (C:\Archivos\repos\pythonungs\build\clase_2.vrb) [41
 
 ]
-<rick_ai.jpeg, id=231, 1027.84pt x 1023.825pt>
+(C:\Archivos\repos\pythonungs\build\clase_2.vrb) [42
+
+]
+<rick_ai.jpeg, id=236, 1027.84pt x 1023.825pt>
 File: rick_ai.jpeg Graphic file (type jpg)
 <use rick_ai.jpeg>
 Package pdftex.def Info: rick_ai.jpeg  used on input line 281.
 (pdftex.def)             Requested size: 513.91875pt x 511.91124pt.
- [42
+ [43
 
  <./rick_ai.jpeg>]
 File: rick_ai.jpeg Graphic file (type jpg)
@@ -1205,26 +1208,23 @@ File: rick_ai.jpeg Graphic file (type jpg)
 Package pdftex.def Info: rick_ai.jpeg  used on input line 281.
 (pdftex.def)             Requested size: 513.91875pt x 511.91124pt.
 
-[43
+[44
 
 ]
 \openout4 = `clase_2.vrb'.
 
- (C:\Archivos\repos\pythonungs\build\clase_2.vrb) [44
-
-]
-(C:\Archivos\repos\pythonungs\build\clase_2.vrb) [45
+ (C:\Archivos\repos\pythonungs\build\clase_2.vrb) [45
 
 ]
 (C:\Archivos\repos\pythonungs\build\clase_2.vrb) [46
 
 ]
-\openout4 = `clase_2.vrb'.
-
-
 (C:\Archivos\repos\pythonungs\build\clase_2.vrb) [47
 
 ]
+\openout4 = `clase_2.vrb'.
+
+
 (C:\Archivos\repos\pythonungs\build\clase_2.vrb) [48
 
 ]
@@ -1234,9 +1234,6 @@ Package pdftex.def Info: rick_ai.jpeg  used on input line 281.
 (C:\Archivos\repos\pythonungs\build\clase_2.vrb) [50
 
 ]
-\openout4 = `clase_2.vrb'.
-
-
 (C:\Archivos\repos\pythonungs\build\clase_2.vrb) [51
 
 ]
@@ -1267,53 +1264,67 @@ Package pdftex.def Info: rick_ai.jpeg  used on input line 281.
 (C:\Archivos\repos\pythonungs\build\clase_2.vrb) [58
 
 ]
-<infinite_loop.png, id=320, 501.875pt x 493.845pt>
+\openout4 = `clase_2.vrb'.
+
+
+(C:\Archivos\repos\pythonungs\build\clase_2.vrb) [59
+
+]
+(C:\Archivos\repos\pythonungs\build\clase_2.vrb) [60
+
+]
+(C:\Archivos\repos\pythonungs\build\clase_2.vrb) [61
+
+]
+<infinite_loop.png, id=336, 501.875pt x 493.845pt>
 File: infinite_loop.png Graphic file (type png)
 <use infinite_loop.png>
 Package pdftex.def Info: infinite_loop.png  used on input line 381.
 (pdftex.def)             Requested size: 501.87376pt x 493.84378pt.
- [59
+ [62
 
  <./infinite_loop.png>]
 File: infinite_loop.png Graphic file (type png)
 <use infinite_loop.png>
 Package pdftex.def Info: infinite_loop.png  used on input line 381.
 (pdftex.def)             Requested size: 501.87376pt x 493.84378pt.
- [60
+ [63
 
 ]
 \openout4 = `clase_2.vrb'.
 
- (C:\Archivos\repos\pythonungs\build\clase_2.vrb) [61
-
-]
-(C:\Archivos\repos\pythonungs\build\clase_2.vrb) [62
-
-]
-(C:\Archivos\repos\pythonungs\build\clase_2.vrb) [63
-
-]
-(C:\Archivos\repos\pythonungs\build\clase_2.vrb) [64
+ (C:\Archivos\repos\pythonungs\build\clase_2.vrb) [64
 
 ]
 (C:\Archivos\repos\pythonungs\build\clase_2.vrb) [65
 
-] [66
+]
+(C:\Archivos\repos\pythonungs\build\clase_2.vrb) [66
 
-] [67
+]
+(C:\Archivos\repos\pythonungs\build\clase_2.vrb) [67
 
-] [68
+]
+(C:\Archivos\repos\pythonungs\build\clase_2.vrb) [68
 
 ] [69
 
+] [70
+
+] [71
+
+] [72
+
 ]
-<meme_error.jpg, id=381, 470.75874pt x 558.085pt>
+[73
+
+]
+<meme_error.jpg, id=402, 470.75874pt x 558.085pt>
 File: meme_error.jpg Graphic file (type jpg)
 <use meme_error.jpg>
 Package pdftex.def Info: meme_error.jpg  used on input line 425.
 (pdftex.def)             Requested size: 235.3788pt x 279.04182pt.
-
-[70
+ [74
 
  <./meme_error.jpg>]
 \tf@nav=\write6
@@ -1333,9 +1344,9 @@ Package rerunfilecheck Info: File `clase_2.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 23977 strings out of 478868
- 438278 string characters out of 2848809
- 1022526 words of memory out of 3000000
+ 23991 strings out of 478868
+ 438630 string characters out of 2848809
+ 1022522 words of memory out of 3000000
  41143 multiletter control sequences out of 15000+600000
  414458 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1351,10 +1362,10 @@ ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/ma
 teo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt9.pfb><C:/
 Users/mateo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/m
 sam10.pfb>
-Output written on C:\Archivos\repos\pythonungs\build\clase_2.pdf (70 pages, 447
-758 bytes).
+Output written on C:\Archivos\repos\pythonungs\build\clase_2.pdf (74 pages, 454
+812 bytes).
 PDF statistics:
- 457 PDF objects out of 1000 (max. 8388607)
- 141 named destinations out of 1000 (max. 500000)
+ 481 PDF objects out of 1000 (max. 8388607)
+ 149 named destinations out of 1000 (max. 500000)
  58 words of extra memory for PDF output out of 10000 (max. 10000000)
 
