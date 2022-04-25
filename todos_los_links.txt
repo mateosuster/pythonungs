@@ -3,6 +3,7 @@
 ## Contenidos
 #### Introducción a Python
   * [Sintaxis básica y asignación de variables](https://colab.research.google.com/drive/1tQeB0IJ1T0GoxvT95oy7I5WNSqkVOduT?usp=sharing)
+    * [Ejercicios de asignaciones](https://colab.research.google.com/drive/1iUjhF72fVzcvhBW9obL_E1mIbzsiX6mK?usp=sharing)
   * [Números y listas](https://colab.research.google.com/drive/15RFG4oE_3lv_ArXkZvudDEDxgLJqrqrs?usp=sharing)
     * [Ejercicios operadores, números y listas](https://colab.research.google.com/drive/1JUZ0uU-YNSlt64j97qJoC-8IeWImWkj9?usp=sharing)
   * [Cadenas, tuplas y diccionarios](https://colab.research.google.com/drive/1nES9LPtKgGxoPQMEpix9U0a78hC3OAST?usp=sharing)
@@ -30,6 +31,7 @@
 
 ### Trabajos prácticos
 * [TP domiciliario N°1](https://colab.research.google.com/drive/1Zgu67ae9o1gmBU3FOOapMovTdRhlsUwY?usp=sharing)
+* [TP domiciliario N°1B](https://colab.research.google.com/drive/1wLxUtrRV-16NoQciT3ExtiL4w1xZOXCx#scrollTo=Q2-XUspAj8Tn)
 * [TP domiciliario N°2](https://colab.research.google.com/drive/1Mav-KvUKeVeSv2z5DSTCkqWwKmKG9l0Y?usp=sharing)
 * [TP domiciliario N°4](https://colab.research.google.com/drive/1o8i5SzsQCJzSYmJYh_RCNHibkwwYcoPP?usp=sharing)
 

@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.8.25)  22 APR 2022 17:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.8.25)  22 APR 2022 18:35
 entering extended mode
-**./ejercicio_domiliciario_nro3.tex
-(ejercicio_domiliciario_nro3.tex
+**./mpe3_py_tp_3.tex
+(mpe3_py_tp_3.tex
 LaTeX2e <2021-06-01> patch level 1
 L3 programming layer <2021-07-12>
 (C:\Users\mateo\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
@@ -131,13 +131,9 @@ tex.def
 File: l3backend-pdftex.def 2021-08-04 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count270
 \l__pdf_internal_box=\box52
-) (C:\Archivos\repos\pythonungs\build\ejercicio_domiliciario_nro3.aux
-LaTeX Info: Redefining \. on input line 8.
-LaTeX Info: Redefining \% on input line 8.
-LaTeX Info: Redefining \. on input line 9.
-LaTeX Info: Redefining \% on input line 9.
 )
-\openout1 = `ejercicio_domiliciario_nro3.aux'.
+No file mpe3_py_tp_3.aux.
+\openout1 = `mpe3_py_tp_3.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 46.
 LaTeX Font Info:    ... okay on input line 46.
@@ -186,20 +182,20 @@ File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
 [2
 
-] [3] (C:\Archivos\repos\pythonungs\build\ejercicio_domiliciario_nro3.aux
+] [3] (C:\Archivos\repos\pythonungs\build\mpe3_py_tp_3.aux
 LaTeX Info: Redefining \. on input line 8.
 LaTeX Info: Redefining \% on input line 8.
 LaTeX Info: Redefining \. on input line 9.
 LaTeX Info: Redefining \% on input line 9.
 ) ) 
 Here is how much of TeX's memory you used:
- 4703 strings out of 478868
- 68032 string characters out of 2848809
- 680258 words of memory out of 3000000
+ 4701 strings out of 478868
+ 67750 string characters out of 2848809
+ 680237 words of memory out of 3000000
  22618 multiletter control sequences out of 15000+600000
  408429 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,6n,52p,489b,1317s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,6n,52p,474b,1317s stack positions out of 5000i,500n,10000p,200000b,80000s
  <C:\Users\mateo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcr
 m1728.pk><C:/Users/mateo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
 nts/cm/cmbx10.pfb><C:/Users/mateo/AppData/Local/Programs/MiKTeX/fonts/type1/pub
@@ -214,8 +210,8 @@ sers/mateo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti9.p
 fb><C:/Users/mateo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
 /cmtt10.pfb><C:/Users/mateo/AppData/Local/Programs/MiKTeX/fonts/type1/public/am
 sfonts/cm/cmtt8.pfb>
-Output written on C:\Archivos\repos\pythonungs\build\ejercicio_domiliciario_nro
-3.pdf (3 pages, 147235 bytes).
+Output written on C:\Archivos\repos\pythonungs\build\mpe3_py_tp_3.pdf (3 pages,
+ 147235 bytes).
 PDF statistics:
  72 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

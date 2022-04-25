@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.8.25)  7 MAR 2022 14:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.8.25)  19 MAR 2022 19:16
 entering extended mode
 **./pythonClase1.tex
 (pythonClase1.tex
@@ -1102,35 +1102,35 @@ Overfull \vbox (1.21452pt too high) detected at line 148
 
 ] [31
 
+] [32
+
+] [33
+
+] [34
+
+] [35
+
 ]
-<recursos/yoda.png, id=190, 401.5pt x 401.5pt>
+<recursos/yoda.png, id=222, 401.5pt x 401.5pt>
 File: recursos/yoda.png Graphic file (type png)
 <use recursos/yoda.png>
 Package pdftex.def Info: recursos/yoda.png  used on input line 166.
 (pdftex.def)             Requested size: 200.7495pt x 200.7495pt.
- [32
+ [36
 
  <./recursos/yoda.png>]
 File: recursos/yoda.png Graphic file (type png)
 <use recursos/yoda.png>
 Package pdftex.def Info: recursos/yoda.png  used on input line 166.
 (pdftex.def)             Requested size: 200.7495pt x 200.7495pt.
- [33
+ [37
 
 ]
 File: recursos/yoda.png Graphic file (type png)
 <use recursos/yoda.png>
 Package pdftex.def Info: recursos/yoda.png  used on input line 166.
 (pdftex.def)             Requested size: 200.7495pt x 200.7495pt.
- [34
-
-] [35
-
-] [36
-
-] [37
-
-] [38
+ [38
 
 ]
 [39
@@ -1161,51 +1161,52 @@ Package pdftex.def Info: recursos/yoda.png  used on input line 166.
 
 ] [52
 
+] [53
+
 ]
-<recursos/pythonCode.png, id=346, 714.41907pt x 362.85562pt>
+[54
+
+] [55
+
+] [56
+
+]
+<recursos/pythonCode.png, id=379, 714.41907pt x 362.85562pt>
 File: recursos/pythonCode.png Graphic file (type png)
 <use recursos/pythonCode.png>
 Package pdftex.def Info: recursos/pythonCode.png  used on input line 264.
 (pdftex.def)             Requested size: 357.20866pt x 181.42737pt.
- [53
+ [57
 
  <./recursos/pythonCode.png>]
 File: recursos/pythonCode.png Graphic file (type png)
 <use recursos/pythonCode.png>
 Package pdftex.def Info: recursos/pythonCode.png  used on input line 264.
 (pdftex.def)             Requested size: 357.20866pt x 181.42737pt.
- [54
+ [58
 
 ]
 File: recursos/pythonCode.png Graphic file (type png)
 <use recursos/pythonCode.png>
 Package pdftex.def Info: recursos/pythonCode.png  used on input line 264.
 (pdftex.def)             Requested size: 357.20866pt x 181.42737pt.
- [55
+ [59
 
 ]
 File: recursos/pythonCode.png Graphic file (type png)
 <use recursos/pythonCode.png>
 Package pdftex.def Info: recursos/pythonCode.png  used on input line 264.
 (pdftex.def)             Requested size: 357.20866pt x 181.42737pt.
- [56
-
-] [57
-
-] [58
-
-] [59
-
-] [60
+ [60
 
 ] [61
 
 ] [62
 
-] [63
-
 ]
-[64
+[63
+
+] [64
 
 ] [65
 
@@ -1225,34 +1226,15 @@ Package pdftex.def Info: recursos/pythonCode.png  used on input line 264.
 
 ] [73
 
-]
-Overfull \vbox (6.38799pt too high) detected at line 313
- []
+] [74
 
-[74
+] [75
 
-]
-Overfull \vbox (6.38799pt too high) detected at line 313
- []
+] [76
 
-[75
+] [77
 
 ]
-Overfull \vbox (6.38799pt too high) detected at line 313
- []
-
-[76
-
-]
-Overfull \vbox (6.38799pt too high) detected at line 313
- []
-
-[77
-
-]
-Overfull \vbox (6.38799pt too high) detected at line 313
- []
-
 [78
 
 ]
@@ -1280,57 +1262,77 @@ Overfull \vbox (6.38799pt too high) detected at line 313
 [82
 
 ]
-<recursos/meme_explosion.png, id=522, 549.05125pt x 481.8pt>
+Overfull \vbox (6.38799pt too high) detected at line 313
+ []
+
+[83
+
+]
+Overfull \vbox (6.38799pt too high) detected at line 313
+ []
+
+[84
+
+]
+Overfull \vbox (6.38799pt too high) detected at line 313
+ []
+
+[85
+
+]
+Overfull \vbox (6.38799pt too high) detected at line 313
+ []
+
+[86
+
+]
+Overfull \vbox (6.38799pt too high) detected at line 313
+ []
+
+[87
+
+]
+<recursos/meme_explosion.png, id=560, 549.05125pt x 481.8pt>
 File: recursos/meme_explosion.png Graphic file (type png)
 <use recursos/meme_explosion.png>
 Package pdftex.def Info: recursos/meme_explosion.png  used on input line 320.
 (pdftex.def)             Requested size: 274.52495pt x 240.8994pt.
- [83
+ [88
 
  <./recursos/meme_explosion.png>]
 File: recursos/meme_explosion.png Graphic file (type png)
 <use recursos/meme_explosion.png>
 Package pdftex.def Info: recursos/meme_explosion.png  used on input line 320.
 (pdftex.def)             Requested size: 274.52495pt x 240.8994pt.
- [84
-
-]
-<recursos/colab_raw.jpeg, id=535, 1392.70313pt x 713.66624pt>
-File: recursos/colab_raw.jpeg Graphic file (type jpg)
-<use recursos/colab_raw.jpeg>
-Package pdftex.def Info: recursos/colab_raw.jpeg  used on input line 328.
-(pdftex.def)             Requested size: 320.31499pt x 164.13977pt.
-
-Overfull \hbox (13.02512pt too wide) in paragraph at lines 328--328
-[][]  
- []
-
-[85
-
- <./recursos/colab_raw.jpeg>]
-<recursos/colab_edit.jpeg, id=542, 1284.8pt x 663.47874pt>
-File: recursos/colab_edit.jpeg Graphic file (type jpg)
-<use recursos/colab_edit.jpeg>
-Package pdftex.def Info: recursos/colab_edit.jpeg  used on input line 335.
-(pdftex.def)             Requested size: 295.49779pt x 152.5969pt.
- [86
-
- <./recursos/colab_edit.jpeg>] [87
-
-]
-[88
-
-] [89
+ [89
 
 ] [90
 
-] [91
+]
+<recursos/colab_raw.jpeg, id=579, 1392.70313pt x 713.66624pt>
+File: recursos/colab_raw.jpeg Graphic file (type jpg)
+<use recursos/colab_raw.jpeg>
+Package pdftex.def Info: recursos/colab_raw.jpeg  used on input line 336.
+(pdftex.def)             Requested size: 320.31499pt x 164.13977pt.
 
-] [92
+Overfull \hbox (13.02512pt too wide) in paragraph at lines 336--336
+[][]  
+ []
 
-] [93
+[91
 
-] [94
+ <./recursos/colab_raw.jpeg>]
+<recursos/colab_edit.jpeg, id=586, 1284.8pt x 663.47874pt>
+File: recursos/colab_edit.jpeg Graphic file (type jpg)
+<use recursos/colab_edit.jpeg>
+Package pdftex.def Info: recursos/colab_edit.jpeg  used on input line 343.
+(pdftex.def)             Requested size: 295.49779pt x 152.5969pt.
+ [92
+
+ <./recursos/colab_edit.jpeg>] [93
+
+]
+[94
 
 ] [95
 
@@ -1344,140 +1346,151 @@ Package pdftex.def Info: recursos/colab_edit.jpeg  used on input line 335.
 
 ] [100
 
-] [101
-
 ]
-[102
-
-]
-<recursos/bien.png, id=631, 253.94875pt x 199.74625pt>
+<recursos/bien.png, id=633, 253.94875pt x 199.74625pt>
 File: recursos/bien.png Graphic file (type png)
 <use recursos/bien.png>
-Package pdftex.def Info: recursos/bien.png  used on input line 407.
+Package pdftex.def Info: recursos/bien.png  used on input line 398.
 (pdftex.def)             Requested size: 76.1852pt x 59.92433pt.
-<recursos/mal.png, id=632, 225.84375pt x 225.84375pt>
+<recursos/mal.png, id=634, 225.84375pt x 225.84375pt>
 File: recursos/mal.png Graphic file (type png)
 <use recursos/mal.png>
-Package pdftex.def Info: recursos/mal.png  used on input line 407.
+Package pdftex.def Info: recursos/mal.png  used on input line 398.
 (pdftex.def)             Requested size: 67.75363pt x 67.75363pt.
- [103
+ [101
 
  <./recursos/bien.png> <./recursos/mal.png>]
 File: recursos/bien.png Graphic file (type png)
 <use recursos/bien.png>
-Package pdftex.def Info: recursos/bien.png  used on input line 407.
+Package pdftex.def Info: recursos/bien.png  used on input line 398.
 (pdftex.def)             Requested size: 76.1852pt x 59.92433pt.
 File: recursos/mal.png Graphic file (type png)
 <use recursos/mal.png>
-Package pdftex.def Info: recursos/mal.png  used on input line 407.
+Package pdftex.def Info: recursos/mal.png  used on input line 398.
+(pdftex.def)             Requested size: 67.75363pt x 67.75363pt.
+ [102
+
+]
+File: recursos/bien.png Graphic file (type png)
+<use recursos/bien.png>
+Package pdftex.def Info: recursos/bien.png  used on input line 398.
+(pdftex.def)             Requested size: 76.1852pt x 59.92433pt.
+File: recursos/mal.png Graphic file (type png)
+<use recursos/mal.png>
+Package pdftex.def Info: recursos/mal.png  used on input line 398.
+(pdftex.def)             Requested size: 67.75363pt x 67.75363pt.
+ [103
+
+]
+File: recursos/bien.png Graphic file (type png)
+<use recursos/bien.png>
+Package pdftex.def Info: recursos/bien.png  used on input line 398.
+(pdftex.def)             Requested size: 76.1852pt x 59.92433pt.
+File: recursos/mal.png Graphic file (type png)
+<use recursos/mal.png>
+Package pdftex.def Info: recursos/mal.png  used on input line 398.
 (pdftex.def)             Requested size: 67.75363pt x 67.75363pt.
  [104
 
 ]
 File: recursos/bien.png Graphic file (type png)
 <use recursos/bien.png>
-Package pdftex.def Info: recursos/bien.png  used on input line 407.
+Package pdftex.def Info: recursos/bien.png  used on input line 398.
 (pdftex.def)             Requested size: 76.1852pt x 59.92433pt.
 File: recursos/mal.png Graphic file (type png)
 <use recursos/mal.png>
-Package pdftex.def Info: recursos/mal.png  used on input line 407.
+Package pdftex.def Info: recursos/mal.png  used on input line 398.
 (pdftex.def)             Requested size: 67.75363pt x 67.75363pt.
  [105
 
 ]
 File: recursos/bien.png Graphic file (type png)
 <use recursos/bien.png>
-Package pdftex.def Info: recursos/bien.png  used on input line 407.
+Package pdftex.def Info: recursos/bien.png  used on input line 398.
 (pdftex.def)             Requested size: 76.1852pt x 59.92433pt.
 File: recursos/mal.png Graphic file (type png)
 <use recursos/mal.png>
-Package pdftex.def Info: recursos/mal.png  used on input line 407.
+Package pdftex.def Info: recursos/mal.png  used on input line 398.
 (pdftex.def)             Requested size: 67.75363pt x 67.75363pt.
  [106
 
-]
-File: recursos/bien.png Graphic file (type png)
-<use recursos/bien.png>
-Package pdftex.def Info: recursos/bien.png  used on input line 407.
-(pdftex.def)             Requested size: 76.1852pt x 59.92433pt.
-File: recursos/mal.png Graphic file (type png)
-<use recursos/mal.png>
-Package pdftex.def Info: recursos/mal.png  used on input line 407.
-(pdftex.def)             Requested size: 67.75363pt x 67.75363pt.
+] [107
 
-[107
+] [108
 
-]
-File: recursos/bien.png Graphic file (type png)
-<use recursos/bien.png>
-Package pdftex.def Info: recursos/bien.png  used on input line 407.
-(pdftex.def)             Requested size: 76.1852pt x 59.92433pt.
-File: recursos/mal.png Graphic file (type png)
-<use recursos/mal.png>
-Package pdftex.def Info: recursos/mal.png  used on input line 407.
-(pdftex.def)             Requested size: 67.75363pt x 67.75363pt.
- [108
+] [109
+
+] [110
+
+] [111
+
+] [112
 
 ]
-<recursos/lista.png, id=666, 392.21532pt x 149.05687pt>
+[113
+
+] [114
+
+]
+<recursos/lista.png, id=710, 392.21532pt x 149.05687pt>
 File: recursos/lista.png Graphic file (type png)
 <use recursos/lista.png>
-Package pdftex.def Info: recursos/lista.png  used on input line 419.
+Package pdftex.def Info: recursos/lista.png  used on input line 426.
 (pdftex.def)             Requested size: 284.52756pt x 108.13737pt.
- [109
+ [115
 
  <./recursos/lista.png>]
 File: recursos/lista.png Graphic file (type png)
 <use recursos/lista.png>
-Package pdftex.def Info: recursos/lista.png  used on input line 419.
+Package pdftex.def Info: recursos/lista.png  used on input line 426.
 (pdftex.def)             Requested size: 284.52756pt x 108.13737pt.
- [110
+ [116
 
 ]
 File: recursos/lista.png Graphic file (type png)
 <use recursos/lista.png>
-Package pdftex.def Info: recursos/lista.png  used on input line 419.
+Package pdftex.def Info: recursos/lista.png  used on input line 426.
 (pdftex.def)             Requested size: 284.52756pt x 108.13737pt.
- [111
+ [117
 
 ]
 File: recursos/lista.png Graphic file (type png)
 <use recursos/lista.png>
-Package pdftex.def Info: recursos/lista.png  used on input line 419.
+Package pdftex.def Info: recursos/lista.png  used on input line 426.
 (pdftex.def)             Requested size: 284.52756pt x 108.13737pt.
- [112
-
-] [113
-
-] [114
-
-] [115
-
-]
-[116
-
-] [117
-
-] [118
+ [118
 
 ] [119
 
+] [120
+
+] [121
+
 ]
-<recursos/python_list.png, id=726, 678.535pt x 396.48125pt>
+[122
+
+] [123
+
+] [124
+
+] [125
+
+] [126
+
+]
+<recursos/python_list.png, id=775, 678.535pt x 396.48125pt>
 File: recursos/python_list.png Graphic file (type png)
 <use recursos/python_list.png>
-Package pdftex.def Info: recursos/python_list.png  used on input line 440.
+Package pdftex.def Info: recursos/python_list.png  used on input line 447.
 (pdftex.def)             Requested size: 284.52756pt x 166.25479pt.
- [120
+ [127
 
  <./recursos/python_list.png>]
 File: recursos/python_list.png Graphic file (type png)
 <use recursos/python_list.png>
-Package pdftex.def Info: recursos/python_list.png  used on input line 440.
+Package pdftex.def Info: recursos/python_list.png  used on input line 447.
 (pdftex.def)             Requested size: 284.52756pt x 166.25479pt.
- [121
-
-] [122
+ [128
 
 ]
 \tf@nav=\write6
@@ -1498,9 +1511,9 @@ Package rerunfilecheck Info: File `pythonClase1.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 22352 strings out of 478868
- 414964 string characters out of 2848809
- 722811 words of memory out of 3000000
+ 22364 strings out of 478868
+ 415090 string characters out of 2848809
+ 723091 words of memory out of 3000000
  39538 multiletter control sequences out of 15000+600000
  417681 words of font info for 79 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1518,10 +1531,10 @@ Users/mateo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10
 .pfb><C:/Users/mateo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
 cm/cmtt9.pfb><C:/Users/mateo/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
 msfonts/symbols/msam10.pfb>
-Output written on C:\Archivos\repos\pythonungs\build\pythonClase1.pdf (122 page
-s, 1461706 bytes).
+Output written on C:\Archivos\repos\pythonungs\build\pythonClase1.pdf (128 page
+s, 1476303 bytes).
 PDF statistics:
- 848 PDF objects out of 1000 (max. 8388607)
- 245 named destinations out of 1000 (max. 500000)
+ 894 PDF objects out of 1000 (max. 8388607)
+ 257 named destinations out of 1000 (max. 500000)
  98 words of extra memory for PDF output out of 10000 (max. 10000000)
 
