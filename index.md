@@ -1,8 +1,8 @@
 # Introducción a Python
 ## Curso de Matemática para Economistas III (UNGS)
 
-Docentes: \\
-- Lic. Mateo Suster \\
+Docentes: \
+- Lic. Mateo Suster \
 - Lic. Fernando Molina
 
 <br>
@@ -31,10 +31,12 @@ Docentes: \\
   * [Programa que resuelve ecuaciones diferenciales](https://colab.research.google.com/drive/19pO-BXE5CgdNWw6VUvfoGE_V1sRvz1R8?usp=sharing)  
     * [Ejercicios de ecuaciones diferenciales](https://colab.research.google.com/drive/1V6BNFKgypzMgdhHTc-2cBumNmiDENpLO?usp=sharing)
 
-### Trabajos prácticos
+### Evaluaciones
 * [TP domiciliario N°1](https://colab.research.google.com/drive/1Zgu67ae9o1gmBU3FOOapMovTdRhlsUwY?usp=sharing)
 * [TP domiciliario N°2](https://colab.research.google.com/drive/1wLxUtrRV-16NoQciT3ExtiL4w1xZOXCx#scrollTo=Q2-XUspAj8Tn)
 * [TP domiciliario N°3](https://drive.google.com/file/d/10bwo5EnIHsCIasQ-kK6gSjmuW7yp5MA0/view?usp=sharing)
+* [Parcial N°1](https://github.com/mateosuster/pythonungs/raw/master/documents/build/mp3_py_parcial_1.pdf)
+
 
 <br>
 <br>
