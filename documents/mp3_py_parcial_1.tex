@@ -1,0 +1,102 @@
+\documentclass[a4paper,11pt]{article}
+%\documentclass[a4paper,11pt,landscape,twocolumn]{article}
+%\documentclass[a4paper]{memoir}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish, es-tabla, es-nodecimaldot]{babel}
+\usepackage{amsmath}  %permite usar \text{} en el entorno Matemática
+\usepackage{amssymb} % para el de números reales
+%\usepackage{fancyhdr} %para encabezados y pies de página lindos
+%\usepackage{lastpage} %para poder referenciar el número de la última página
+\usepackage{graphicx} %para insertar gráficos
+\usepackage{float} %para que funcione el H de la posición de las figuras
+%\usepackage{chngpage} %para cambiar márgenes temporalmente. Por ejemplo tabla o figura un poco más grande que el text width
+%\usepackage[format=plain, indention=0cm, font=small, labelfont=bf, labelsep=period, textfont=sl]{caption} %tuneado del caption de las figuras
+\usepackage{mathtools} % para usar dcases, la versión displayMath de cases (funciones partidas)
+\usepackage{enumerate} %para personalizar los enumeradores
+\usepackage{framed} %para poner párrafos adentro de un caja con marco
+%\usepackage{hyperref} %para que el índice tenga enlaces internos
+%\usepackage{lastpage} %para poder referenciar el número de la última página
+%\usepackage{fullpage}
+\usepackage[cm]{fullpage}
+\usepackage{wrapfig} %para poner tablas o figuras con texto alrededor.
+\usepackage{array}
+\usepackage{hyperref} %para poner hipervinculos
+\usepackage{epigraph}
+\usepackage{wrapfig} %para poner tablas o figuras con texto alrededor.
+
+
+
+\newcolumntype{x}[1]{>{\centering\arraybackslash\hspace{0pt}}p{#1}}
+
+%\setlength{\columnseprule}{0.5pt}
+\setlength{\columnsep}{.8cm}
+
+\setlength{\epigraphwidth}{.3\textwidth}
+%\setlength{\epigraphwidth}{0.7\textwidth}
+
+
+
+
+
+\title{1er Parcial de Introducción a la Programación en Python\\ Matemática para Economistas III \\ IDEI-UNGS.}
+%\author{Docente: Mateo Suster \\ msuster@campus.ungs.edu.ar }
+%\date{}
+
+
+\renewcommand{\arraystretch}{1.3}  %para que las celdas de las tablas sean un poco más altas y entre bien el Q moño.
+\begin{document}
+\maketitle
+\epigraph{\itshape Tenés que combatir el algoritmo, porque vos buscaste dos o tres cosas y te tiran por la cabeza 70.000 idioteces que no te interesan}{Adrián Dárgelos }	
+
+\noindent Docente: Mateo Suster --- msuster@campus.ungs.edu.ar --- \\
+Fecha límite de entrega: Lunes 10 de Mayo 23:59 hs
+%\begin{framed}
+%	\noindent Los cálculos deben ir acompañados de explicaciones escritas que aclaren su significado. Un resultado suelto, no acompañado de explicación se considerará como problema no resuelto.
+%\end{framed}
+%\vspace{-0.5cm}
+
+%/1ra seccion
+\subsection*{Ejercicios del TP.}
+	\begin{enumerate}
+		\item Elegir una ecuación diferencial (de la práctica o planteada por usted) y presentarla en lenguaje Markdown.
+		\item Justificar la elección realizada en el punto anterior (explicación mínima, corta y simple de porqué le interesa resolver la ecuación elegida).
+		\item Resolver la ecuación diferencial con la librería SymPy. Discutir la estabilidad dinámica de la solución. 
+		\item Resolver nuevamente la misma ecuación diferencial modificando las condiciones iniciales. Visualizar en \textbf{un mismo gráfico} la evolución a lo largo del tiempo de la ecuación elegida con las dos condiciones iniciales propuestas. Explicar porqué y cómo se modifica el comportamiento de la función. Tener en cuenta que quizás sea necesario ir variando el rango de tiempo en donde se evalúa la ecuación para lograr una mejor visualización.
+		
+		\item Definir tres (3) listas distintas con al menos 5 elementos de (inventar lo menos posible):
+		    \begin{itemize}
+		        \item Nombres de paises
+		        \item Población de paises
+		        \item Casos confirmados acumulados de COVID-19 al día de la fecha  
+		    \end{itemize}
+        A partir de dichos objetos, escribir un programa que evalúe si `Argentina` se encuentra dentro de la lista de países. Luego, en caso de ser cierto, el programa debe incluir un bucle while que estime la tasa de casos confirmados cada millón de habitantes (u otra métrica de interés) para todos los países y guarde dichos valores en una nueva lista. En caso contrario, el programa deberá imprimir por pantalla alguna explicación de porqué no realizó los cálculos. Explicar el procedimiento y evaluar el funcionamiento del programa con una lista que incluya `Argentina` y con otra que lo excluya.
+        \item Encapsular el programa del cálculo anterior en una función que devuelva la métrica elegida \textbf{si y solo si todas las listas de input} poseen la misma longitud. Denominar la función con un nombre representativo del algoritmo.
+        \item Hacer un gráfico a elección para visualizar las tasas calculadas, incluyendo en el eje x el nombre de cada país. \textbf{Nota:} buscar en la documentación de la librería matplotlib un gráfico adecuado (por ejemplo, de barras) y citar la fuente.
+
+\end{enumerate}
+
+
+
+\subsection*{Pautas del examen}
+El examen deberá ser realizado a partir de los siguientes lineamientos:
+\begin{enumerate}
+%	\item Al enunciado del TP antes presentado
+	\item Se debe resolver individualmente. 
+	\item Se deberá entregar el código de Python utilizado en formato \texttt{.ipynb} \textbf{exclusivamente}.
+	\item Dentro del archivo se debe explicitar el apellido y nombre del estudiante (\textsc{importante}).
+	\item Se evaluará positivamente a la inclusión de las buenas prácticas de programación vistas en clase, así como la \textbf{prolijidad} y \textbf{originalidad} de las soluciones propuestas.
+	\item Es válido (y preferible) solicitar ayuda entre pares (alumnes y/o docente) por Slack antes que por otro medio. Su consulta no molesta (al contrario, enriquece).
+	\item Utilizar código ajeno no está prohibido, siempre y cuando se explicite la fuente correspondiente. Se podrá agregar todas las aclaraciones extras que se deseen o se consideren relevantes.
+	\item La entrega deberá realizarse a través de mail a la casilla msuster@campus.ungs.edu.ar con el asunto "MPE III - Parcial de Python".
+	\item Último, pero no menos importante: antes de entregar, revise que el código se ejecute de principio a fin sin errores !
+\end{enumerate}
+
+
+
+
+
+
+
+
+
+\end{document}
