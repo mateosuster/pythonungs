@@ -1,21 +1,43 @@
 # Introducción a Python
-## UNGS
+## Curso de Matemática para Economistas III (UNGS)
+
+Docentes: \\
+- Lic. Mateo Suster \\
+- Lic. Fernando Molina
+
+<br>
+<br>
+
+## Contenidos
+#### Introducción a Python
+  * [Sintaxis básica y asignación de variables](https://colab.research.google.com/drive/1tQeB0IJ1T0GoxvT95oy7I5WNSqkVOduT?usp=sharing)
+    * [Ejercicios de asignaciones](https://colab.research.google.com/drive/1iUjhF72fVzcvhBW9obL_E1mIbzsiX6mK?usp=sharing)
+  * [Números y listas](https://colab.research.google.com/drive/15RFG4oE_3lv_ArXkZvudDEDxgLJqrqrs?usp=sharing)
+    * [Ejercicios operadores, números y listas](https://colab.research.google.com/drive/1JUZ0uU-YNSlt64j97qJoC-8IeWImWkj9?usp=sharing)
+  * [Cadenas, tuplas y diccionarios](https://colab.research.google.com/drive/1nES9LPtKgGxoPQMEpix9U0a78hC3OAST?usp=sharing)
+    * [Ejercicios Cadenas, tuplas y diccionarios](https://colab.research.google.com/drive/17DG6kJWtbkwVDVOcF9Nml4o81MYPSr8k?usp=sharing) 
+
+### Programación funcional
+  * [Operadores lógicos y Estructuras de control (`if` y `while`)](https://colab.research.google.com/drive/15IXq-bqW4cGecCNcJ2DPBWLVO_us-Sau?usp=sharing)
+    * [Ejercicios Estructuras de control (`if` y `while`)](https://colab.research.google.com/drive/1d7oyEBkzSwHCz3TmYQCk4nIgrkpjXQ4g?usp=sharing)
+  * [Funciones](https://colab.research.google.com/drive/1fgHJykIEOGvy5WV4CduyBGObTm-gGTLt?usp=sharing)
+    * [Ejercicios sobre funciones](https://colab.research.google.com/drive/1gEvU7HznPoTRAWzpTX2cbBu2eAbGA2TU?usp=sharing)
 
 
-## Diapos y material clases
+### Datos y visualizaciones
+  * [Importación de librerías - Gráficos](https://colab.research.google.com/drive/1gAkSxnh6xCAcPwtuPBecsVhfeN40ajvc?usp=sharing)
 
-- [Clase 1](https://github.com/sebasped/pythonungs/blob/master/pythonClase1.pdf): intro programación y Python. Algoritmo y programa. Tipos de datos. Variables y expresiones. Asignación. Listas.
-- [Clase 2 (primera parte)](https://github.com/sebasped/pythonungs/blob/master/pythonClase2.pdf): ciclo, importar paquetes en Python, graficar.
-- [Clase 2 (segunda parte)](https://github.com/sebasped/pythonungs/blob/master/pythonClase2parte2.pdf): funciones.
-- [Ejercicio](https://github.com/sebasped/pythonungs/blob/master/pythonEjercicio.pdf): función y condicional.
-- [Ejercicio 2](https://github.com/sebasped/pythonungs/blob/master/pythonEjercicio2.pdf): entendiendo código, función/ciclo/condicional.
-- [Clase 3](https://github.com/sebasped/pythonungs/blob/master/pythonClase3.pdf): primer programa para resolver EDOs.
-- [Programa resuelve EDOs](https://github.com/sebasped/pythonungs/blob/master/resuelveEcDif.py): cálculo simbólico para EDOs lineales (adaptable fácilmente a sistemas). También se puede graficar la solución. (Para no lineales funciona, aunque puede llegar a ser un poquitín más trabajoso). 
-- [Programa resuelve EDOs 2](https://github.com/sebasped/pythonungs/blob/master/odeFinal.py): cálculo numérico para EDOs o sistemas, lineales o no lineales (de la forma dy/dt=f(t,y)). Como resuelve numéricamente, solamente se puede graficar la solución (pero no da la solución simbólicamente).
-- [Trabajo Práctico para entregar](https://github.com/sebasped/pythonungs/blob/master/tp_python.pdf)
-- [Clase 4](https://github.com/sebasped/pythonungs/blob/master/pythonClase4.pdf): resolviendo ecuaciones numéricamente. Calculando la YTM.
-- [Trabajo Práctico 2 para entregar](https://github.com/sebasped/pythonungs/blob/master/tp_python2.pdf)
+### Ecuaciones dinámicas
+  * [Programa que resuelve ecuaciones diferenciales](https://colab.research.google.com/drive/19pO-BXE5CgdNWw6VUvfoGE_V1sRvz1R8?usp=sharing)  
+    * [Ejercicios de ecuaciones diferenciales](https://colab.research.google.com/drive/1V6BNFKgypzMgdhHTc-2cBumNmiDENpLO?usp=sharing)
 
+### Trabajos prácticos
+* [TP domiciliario N°1](https://colab.research.google.com/drive/1Zgu67ae9o1gmBU3FOOapMovTdRhlsUwY?usp=sharing)
+* [TP domiciliario N°2](https://colab.research.google.com/drive/1wLxUtrRV-16NoQciT3ExtiL4w1xZOXCx#scrollTo=Q2-XUspAj8Tn)
+* [TP domiciliario N°3](https://drive.google.com/file/d/10bwo5EnIHsCIasQ-kK6gSjmuW7yp5MA0/view?usp=sharing)
+
+<br>
+<br>
 
 ## Software
 
@@ -36,9 +58,8 @@
 
 ### Material, cursos, tutoriales, bibliografía:
 - [Tutorial de Python para no programadores](http://jjc.freeshell.org/easytut/easytut_es/easytut.html)
-- [Aprendiendo Python](http://www.python.org.ar/wiki/AprendiendoPython)
-- [Aprenda a pensar como un programador con Python](https://argentinaenpython.com/quiero-aprender-python/aprenda-a-pensar-como-un-programador-con-python.pdf)
-- El anterior en inglés: [How to Think Like a Computer Scientist](http://openbookproject.net/thinkcs/python/english2e/)
+- [Aprendiendo Python](http://www.python.org.ar/wiki/AprendiendoPython). En español: [Aprenda a pensar como un programador con Python](https://argentinaenpython.com/quiero-aprender-python/aprenda-a-pensar-como-un-programador-con-python.pdf)
+- [How to Think Like a Computer Scientist](http://openbookproject.net/thinkcs/python/english2e/)
 - [Python para todos](https://launchpadlibrarian.net/18980633/Python%20para%20todos.pdf)
 - Cursos online (en inglés): coursera, datacamp, udemy, Stanford online, edx, codeacademy, Harvard online, etc.
 - [Python Tutorials freeCodeCamp](https://www.youtube.com/playlist?list=PLWKjhJtqVAbnqBxcdjVGgT3uVR10bzTEB) (videos en inglés)
@@ -56,14 +77,4 @@
 - [https://repl.it/languages/Python2](https://repl.it/languages/Python2)
 - [https://tio.run/#python2](https://tio.run/#python2)
 	
-
-## Material de interés/extra
-- [Estabilidad ODEs orden 1](https://github.com/sebasped/pythonungs/blob/master/edosOrden1Estabilidad.pdf)
-- [Int. a las ecuaciones diferenciales ordinarias, Noemí Wolanski](http://cms.dm.uba.ar/depto/public/Curso%20de%20grado/fascgrado1.pdf)
-
-## Eventos
-- [FLISoL UNGS](https://eventol.flisol.org.ar/events/malvinas-argentinas/): Sáb 27-Abr-2019 desde las 9:00 hs. Entrada libre y gratuita.
-	- [Instagram](https://www.instagram.com/flisolungs/)
-	- [Twitter](https://www.twitter.com/flisol_ungs)
-	- [Facebook](https://www.facebook.com/groups/guffslug/)
 
