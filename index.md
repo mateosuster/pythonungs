@@ -23,6 +23,9 @@ Docentes:
   * [Operadores lógicos y Estructuras de control (`if` y `while`)](https://colab.research.google.com/drive/15IXq-bqW4cGecCNcJ2DPBWLVO_us-Sau?usp=sharing)
 	* [Diapositivas](https://github.com/mateosuster/pythonungs/blob/master/documents/build/mpe3_py_if_while.pdf)
     * [Ejercicios Estructuras de control (`if` y `while`)](https://colab.research.google.com/drive/1d7oyEBkzSwHCz3TmYQCk4nIgrkpjXQ4g?usp=sharing)
+    
+	<!-- * [Bucle `for`](https://colab.research.google.com/drive/1isk6NI5RwM-_1JXQNaA4P172I0N9As32?usp=sharing) -->
+
   * [Funciones](https://colab.research.google.com/drive/1fgHJykIEOGvy5WV4CduyBGObTm-gGTLt?usp=sharing)
     * [Diapositivas](https://github.com/mateosuster/pythonungs/blob/master/documents/build/mpe3_py_funciones.pdf)
 	* [Ejercicios sobre funciones](https://colab.research.google.com/drive/1gEvU7HznPoTRAWzpTX2cbBu2eAbGA2TU?usp=sharing)
@@ -64,8 +67,8 @@ Docentes:
 
 ### Material, cursos, tutoriales, bibliografía:
 - [Tutorial de Python para no programadores](http://jjc.freeshell.org/easytut/easytut_es/easytut.html)
-- [Aprendiendo Python](http://www.python.org.ar/wiki/AprendiendoPython). En español: [Aprenda a pensar como un programador con Python](https://argentinaenpython.com/quiero-aprender-python/aprenda-a-pensar-como-un-programador-con-python.pdf)
-- [How to Think Like a Computer Scientist](http://openbookproject.net/thinkcs/python/english2e/)
+- [Aprendiendo Python](http://www.python.org.ar/wiki/AprendiendoPython)
+- [How to Think Like a Computer Scientist](http://openbookproject.net/thinkcs/python/english2e/). En español: [Aprenda a pensar como un programador con Python](https://argentinaenpython.com/quiero-aprender-python/aprenda-a-pensar-como-un-programador-con-python.pdf)
 - [Python para todos](https://launchpadlibrarian.net/18980633/Python%20para%20todos.pdf)
 - Cursos online (en inglés): coursera, datacamp, udemy, Stanford online, edx, codeacademy, Harvard online, etc.
 - [Python Tutorials freeCodeCamp](https://www.youtube.com/playlist?list=PLWKjhJtqVAbnqBxcdjVGgT3uVR10bzTEB) (videos en inglés)
@@ -77,7 +80,7 @@ Docentes:
 - [NumFOCUS](https://numfocus.org/sponsored-projects)
 
 ### Intérpretes online
-- [https://colab.research.google.com/notebooks/welcome.ipynb](https://colab.research.google.com/notebooks/welcome.ipynb): intérprete online que se banca gráficos. [Instructivo de cómo usarlo.](https://github.com/sebasped/pythonungs/blob/master/python_online_con_graficos.pdf)
+- [Google Colab](https://colab.research.google.com/notebooks/welcome.ipynb): intérprete online que se banca gráficos. [Instructivo de cómo usarlo.](https://github.com/sebasped/pythonungs/blob/master/python_online_con_graficos.pdf)
 - [https://www.jdoodle.com/python-programming-online](https://www.jdoodle.com/python-programming-online)
 - [https://paiza.io/en/projects/new?language=python](https://paiza.io/en/projects/new?language=python)
 - [https://repl.it/languages/Python2](https://repl.it/languages/Python2)
