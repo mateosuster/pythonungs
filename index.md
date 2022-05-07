@@ -15,11 +15,11 @@ Docentes:
   * [Sintaxis básica y asignación de variables](https://colab.research.google.com/drive/1tQeB0IJ1T0GoxvT95oy7I5WNSqkVOduT?usp=sharing)
     * [Diapositivas](https://github.com/mateosuster/pythonungs/blob/master/documents/build/mpe3_py_intro_y_sintaxis.pdf)
 	* [Ejercicios de asignaciones](https://colab.research.google.com/drive/1iUjhF72fVzcvhBW9obL_E1mIbzsiX6mK?usp=sharing)
-  * [Números y listas](https://colab.research.google.com/drive/15RFG4oE_3lv_ArXkZvudDEDxgLJqrqrs?usp=sharing)
-    * [Ejercicios operadores, números y listas](https://colab.research.google.com/drive/1JUZ0uU-YNSlt64j97qJoC-8IeWImWkj9?usp=sharing)
+  * [Números, listas y tuplas](https://colab.research.google.com/drive/15RFG4oE_3lv_ArXkZvudDEDxgLJqrqrs?usp=sharing)
 	* [Diapositivas](https://github.com/mateosuster/pythonungs/blob/master/documents/build/mpe3_py_numeros_y_listas.pdf)
-  * [Cadenas, tuplas y diccionarios](https://colab.research.google.com/drive/1nES9LPtKgGxoPQMEpix9U0a78hC3OAST?usp=sharing)
-    * [Ejercicios Cadenas, tuplas y diccionarios](https://colab.research.google.com/drive/17DG6kJWtbkwVDVOcF9Nml4o81MYPSr8k?usp=sharing) 
+	* [Ejercicios números, listas y tuplas](https://colab.research.google.com/drive/1JUZ0uU-YNSlt64j97qJoC-8IeWImWkj9?usp=sharing)
+  * [Cadenas (strings) y diccionarios](https://colab.research.google.com/drive/1nES9LPtKgGxoPQMEpix9U0a78hC3OAST?usp=sharing)
+    * [Ejercicios Cadenas y diccionarios](https://colab.research.google.com/drive/17DG6kJWtbkwVDVOcF9Nml4o81MYPSr8k?usp=sharing) 
 
 ### Programación funcional
   * [Operadores lógicos y Estructuras de control (`if` y `while`)](https://colab.research.google.com/drive/15IXq-bqW4cGecCNcJ2DPBWLVO_us-Sau?usp=sharing)
