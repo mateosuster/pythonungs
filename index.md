@@ -9,7 +9,9 @@ Docentes:
 <br>
 
 ## Contenidos
-#### Introducción a Python
+### [Videos](https://youtube.com/playlist?list=PL2h-fkhd9MI34CPpy547kB6ScpSqu4OmZ)
+
+### Introducción a Python
   * [Sintaxis básica y asignación de variables](https://colab.research.google.com/drive/1tQeB0IJ1T0GoxvT95oy7I5WNSqkVOduT?usp=sharing)
     * [Diapositivas](https://github.com/mateosuster/pythonungs/blob/master/documents/build/mpe3_py_intro_y_sintaxis.pdf)
 	* [Ejercicios de asignaciones](https://colab.research.google.com/drive/1iUjhF72fVzcvhBW9obL_E1mIbzsiX6mK?usp=sharing)
