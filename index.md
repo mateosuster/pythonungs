@@ -15,14 +15,17 @@ Docentes:
 	* [Ejercicios de asignaciones](https://colab.research.google.com/drive/1iUjhF72fVzcvhBW9obL_E1mIbzsiX6mK?usp=sharing)
   * [Números y listas](https://colab.research.google.com/drive/15RFG4oE_3lv_ArXkZvudDEDxgLJqrqrs?usp=sharing)
     * [Ejercicios operadores, números y listas](https://colab.research.google.com/drive/1JUZ0uU-YNSlt64j97qJoC-8IeWImWkj9?usp=sharing)
+	* [Diapositivas](https://github.com/mateosuster/pythonungs/blob/master/documents/build/mpe3_py_numeros_y_listas.pdf)
   * [Cadenas, tuplas y diccionarios](https://colab.research.google.com/drive/1nES9LPtKgGxoPQMEpix9U0a78hC3OAST?usp=sharing)
     * [Ejercicios Cadenas, tuplas y diccionarios](https://colab.research.google.com/drive/17DG6kJWtbkwVDVOcF9Nml4o81MYPSr8k?usp=sharing) 
 
 ### Programación funcional
   * [Operadores lógicos y Estructuras de control (`if` y `while`)](https://colab.research.google.com/drive/15IXq-bqW4cGecCNcJ2DPBWLVO_us-Sau?usp=sharing)
+	* [Diapositivas](https://github.com/mateosuster/pythonungs/blob/master/documents/build/mpe3_py_if_while.pdf)
     * [Ejercicios Estructuras de control (`if` y `while`)](https://colab.research.google.com/drive/1d7oyEBkzSwHCz3TmYQCk4nIgrkpjXQ4g?usp=sharing)
   * [Funciones](https://colab.research.google.com/drive/1fgHJykIEOGvy5WV4CduyBGObTm-gGTLt?usp=sharing)
-    * [Ejercicios sobre funciones](https://colab.research.google.com/drive/1gEvU7HznPoTRAWzpTX2cbBu2eAbGA2TU?usp=sharing)
+    * [Diapositivas](https://github.com/mateosuster/pythonungs/blob/master/documents/build/mpe3_py_funciones.pdf)
+	* [Ejercicios sobre funciones](https://colab.research.google.com/drive/1gEvU7HznPoTRAWzpTX2cbBu2eAbGA2TU?usp=sharing)
 
 
 ### Datos y visualizaciones
@@ -35,8 +38,8 @@ Docentes:
 ### Evaluaciones
 * [TP domiciliario N°1](https://colab.research.google.com/drive/1Zgu67ae9o1gmBU3FOOapMovTdRhlsUwY?usp=sharing)
 * [TP domiciliario N°2](https://colab.research.google.com/drive/1wLxUtrRV-16NoQciT3ExtiL4w1xZOXCx#scrollTo=Q2-XUspAj8Tn)
-* [TP domiciliario N°3](https://drive.google.com/file/d/10bwo5EnIHsCIasQ-kK6gSjmuW7yp5MA0/view?usp=sharing)
-* [Parcial N°1](https://github.com/mateosuster/pythonungs/raw/master/documents/build/mp3_py_parcial_1.pdf)
+* [TP domiciliario N°3](https://github.com/mateosuster/pythonungs/blob/master/documents/build/mpe3_py_tp_3.pdf)
+* [Parcial N°1](https://github.com/mateosuster/pythonungs/blob/master/documents/build/mp3_py_parcial_1.pdf)
 
 
 <br>
