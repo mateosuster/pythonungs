@@ -30,9 +30,10 @@ Docentes:
     * [Diapositivas](https://github.com/mateosuster/pythonungs/blob/master/documents/build/mpe3_py_funciones.pdf)
 	* [Ejercicios sobre funciones](https://colab.research.google.com/drive/1gEvU7HznPoTRAWzpTX2cbBu2eAbGA2TU?usp=sharing)
 
-
+<!--
 ### Datos y visualizaciones
   * [Importación de librerías - Gráficos](https://colab.research.google.com/drive/1gAkSxnh6xCAcPwtuPBecsVhfeN40ajvc?usp=sharing)
+-->
 
 ### Ecuaciones dinámicas
   * [Programa que resuelve ecuaciones diferenciales](https://colab.research.google.com/drive/19pO-BXE5CgdNWw6VUvfoGE_V1sRvz1R8?usp=sharing)  
