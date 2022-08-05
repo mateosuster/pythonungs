@@ -12,39 +12,49 @@ Docentes:
 ### [Videos](https://youtube.com/playlist?list=PL2h-fkhd9MI34CPpy547kB6ScpSqu4OmZ)
 
 ### Introducción a Python
-  * [Sintaxis básica y asignación de variables](https://colab.research.google.com/drive/1tQeB0IJ1T0GoxvT95oy7I5WNSqkVOduT?usp=sharing)
+  * [Sintaxis básica y asignación de variables](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/introduccion_a_python/1.0_Sintaxis_b%C3%A1sica_y_asignaci%C3%B3n_de_variables.ipynb)
     * [Diapositivas](https://github.com/mateosuster/pythonungs/blob/master/documents/build/mpe3_py_intro_y_sintaxis.pdf)
-	* [Ejercicios de asignaciones](https://colab.research.google.com/drive/1iUjhF72fVzcvhBW9obL_E1mIbzsiX6mK?usp=sharing)
-  * [Números, listas y tuplas](https://colab.research.google.com/drive/15RFG4oE_3lv_ArXkZvudDEDxgLJqrqrs?usp=sharing)
+	* [Ejercicios de asignaciones](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/introduccion_a_python/1.1_Ejercicios_sobre_asignaci%C3%B3n_de_variables.ipynb)
+  * REV[Números, listas y tuplas](https://colab.research.google.com/drive/15RFG4oE_3lv_ArXkZvudDEDxgLJqrqrs?usp=sharing)
 	* [Diapositivas](https://github.com/mateosuster/pythonungs/blob/master/documents/build/mpe3_py_numeros_y_listas.pdf)
-	* [Ejercicios números, listas y tuplas](https://colab.research.google.com/drive/1JUZ0uU-YNSlt64j97qJoC-8IeWImWkj9?usp=sharing)
-  * [Cadenas (strings) y diccionarios](https://colab.research.google.com/drive/1nES9LPtKgGxoPQMEpix9U0a78hC3OAST?usp=sharing)
-    * [Ejercicios Cadenas y diccionarios](https://colab.research.google.com/drive/17DG6kJWtbkwVDVOcF9Nml4o81MYPSr8k?usp=sharing) 
+	* [Ejercicios números, listas y tuplas](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/introduccion_a_python/2.1_Ejercicios_operadores%2C_n%C3%BAmeros%2C_listas_y_tuplas.ipynb)
+  * [Cadenas (strings) y diccionarios](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/introduccion_a_python/3.0_Cadenas_y_diccionarios.ipynb)
+    * [Ejercicios Cadenas y diccionarios](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/introduccion_a_python/3.1_Ejercicios_Cadenas%2C_Tuplas_y_Diccionarios.ipynb) 
 
 ### Programación funcional
-  * [Operadores lógicos y Estructuras de control (`if` y `while`)](https://colab.research.google.com/drive/15IXq-bqW4cGecCNcJ2DPBWLVO_us-Sau?usp=sharing)
+  * [Operadores lógicos y Estructuras de control (`if` y `while`)](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/programacion_funcional/1.0_Estructuras_de_control_I.ipynb)
 	* [Diapositivas](https://github.com/mateosuster/pythonungs/blob/master/documents/build/mpe3_py_if_while.pdf)
-    * [Ejercicios Estructuras de control (`if` y `while`)](https://colab.research.google.com/drive/1d7oyEBkzSwHCz3TmYQCk4nIgrkpjXQ4g?usp=sharing)
+    * [Ejercicios Estructuras de control (`if` y `while`)](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/programacion_funcional/1.1_Ejercicios_if_y_while.ipynb)
     
-	<!-- * [Bucle `for`](https://colab.research.google.com/drive/1isk6NI5RwM-_1JXQNaA4P172I0N9As32?usp=sharing) -->
+	* REV[Bucle `for`]() 
 
-  * [Funciones](https://colab.research.google.com/drive/1fgHJykIEOGvy5WV4CduyBGObTm-gGTLt?usp=sharing)
+  * [Funciones](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/programacion_funcional/3.0_MPE_III_Funciones.ipynb)
     * [Diapositivas](https://github.com/mateosuster/pythonungs/blob/master/documents/build/mpe3_py_funciones.pdf)
-	* [Ejercicios sobre funciones](https://colab.research.google.com/drive/1gEvU7HznPoTRAWzpTX2cbBu2eAbGA2TU?usp=sharing)
+	* [Ejercicios sobre funciones](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/programacion_funcional/3.1_Ejercicios_Funciones.ipynb)
 
 
 ### Datos y visualizaciones
-  * [Importación de librerías - Gráficos](https://colab.research.google.com/drive/1gAkSxnh6xCAcPwtuPBecsVhfeN40ajvc?usp=sharing)
+  * [Importación de librerías - Gráficos](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/manipulacion_de_datos/0_Importando_librer%C3%ADas.ipynb)
+  * [Intro Pandas](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/manipulacion_de_datos/1_Intro_Pandas.ipynb)
+  * [Pandas Indexing](hhttps://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/manipulacion_de_datos/2_Pandas_Indexing.ipynb)
+   * [Ejercicios Pandas I](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/manipulacion_de_datos/3_Ejercicios_pandas.ipynb)
+  *[Manipulación de datos](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/manipulacion_de_datos/4_Manipulaci%C3%B3n_de_DataFrames.ipynb)
 
 ### Ecuaciones dinámicas
   * [Programa que resuelve ecuaciones diferenciales](https://colab.research.google.com/drive/19pO-BXE5CgdNWw6VUvfoGE_V1sRvz1R8?usp=sharing)  
     * [Ejercicios de ecuaciones diferenciales](https://colab.research.google.com/drive/1V6BNFKgypzMgdhHTc-2cBumNmiDENpLO?usp=sharing)
 
+#### Matemática financiera
+  * [Valor Presente y Futuro](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/mate_financiera/0_Valor_Presente_y_Futuro.ipynb)
+  * REV[Valor Presente Neto y TIR](https://colab.research.google.com/drive/1LvXrD6JUFi4e6v1hfErbNFTAJwKwC_Xa?usp=sharing)
+  * [Bonos](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/mate_financiera/2_Bonos.ipynb)
+
+
 ### Evaluaciones
 * [TP domiciliario N°1](https://colab.research.google.com/drive/1Zgu67ae9o1gmBU3FOOapMovTdRhlsUwY?usp=sharing)
 * [TP domiciliario N°2](https://colab.research.google.com/drive/1wLxUtrRV-16NoQciT3ExtiL4w1xZOXCx#scrollTo=Q2-XUspAj8Tn)
-* [TP domiciliario N°3](https://github.com/mateosuster/pythonungs/blob/master/documents/build/mpe3_py_tp_3.pdf)
-* [Parcial N°1](https://github.com/mateosuster/pythonungs/blob/master/documents/build/mp3_py_parcial_1.pdf)
+* [TP domiciliario N°3](https://drive.google.com/file/d/10bwo5EnIHsCIasQ-kK6gSjmuW7yp5MA0/view?usp=sharing)
+* [TP domiciliario N°4](https://drive.google.com/file/d/1n9DLvxf7bJ8fSTDMrI5ki26bxc5YY40j/view?usp=sharing)
 
 
 <br>
