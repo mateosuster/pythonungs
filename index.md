@@ -62,10 +62,10 @@ Docentes:
 
 ### Intérpretes online
 - [Google Colab](https://colab.research.google.com/notebooks/welcome.ipynb)Ñ Intérprete oficial de la materia, pero se puede usar el que resulte más cómodo
-- [https://www.jdoodle.com/python-programming-online](https://www.jdoodle.com/python-programming-online)
-- [https://paiza.io/en/projects/new?language=pytho{](https://paiza.io/en/projects/new?language=python)
-- [https://repl.it/languages/Python2](https://repl.it/languages/Python2)
-- [https://tio.run/#python2](https://tio.run/#python2)
+- [Jdoodle](https://www.jdoodle.com/python-programming-online)
+- [paiza.io](https://paiza.io/en/projects/new?language=python)
+- [replit](https://repl.it/languages/Python2)
+- [TIO](https://tio.run/#python2)
 
 
 ## Software
@@ -77,27 +77,29 @@ Docentes:
 
 ## Recursos Python
 ### Comunidades:
-- [http://www.python.org.ar/](http://www.python.org.ar/)
-- [https://argentinaenpython.com/](https://argentinaenpython.com/)
-- [Pibes de Sistemas](https://twitter.com/pibesdesistemas)
+- [Comunidad Python Argentina](http://www.python.org.ar/)
+- [Argentina en Python (comunidad "viajera")](https://argentinaenpython.com/)
+<!-- - [Pibes de Sistemas (influencer)](https://twitter.com/pibesdesistemas) -->
 - [Chicas en Tecnología](https://www.chicasentecnologia.org/)
 - [Las de Sistemas](https://twitter.com/lasdesistemas)
+- [Linux Chix Argentina (Comunidad para visibilizar mujeres del mundo GNU/Linux)](https://twitter.com/linuxchixar)
 - [Bs As Python MeetUp](https://www.meetup.com/Buenos-Aires-Python-Meetup/)
-- [Linux Chix Argentina](https://twitter.com/linuxchixar)
 
-### Material, cursos, tutoriales, bibliografía:
+
+### Materiales, cursos, tutoriales, bibliografía:
 - [Tutorial de Python para no programadores](http://jjc.freeshell.org/easytut/easytut_es/easytut.html)
-- [Aprendiendo Python](http://www.python.org.ar/wiki/AprendiendoPython)
+<!-- - [Aprendiendo Python](http://www.python.org.ar/wiki/AprendiendoPython) -->
 - [How to Think Like a Computer Scientist](http://openbookproject.net/thinkcs/python/english2e/). En español: [Aprenda a pensar como un programador con Python](https://argentinaenpython.com/quiero-aprender-python/aprenda-a-pensar-como-un-programador-con-python.pdf)
 - [Python para todos](https://launchpadlibrarian.net/18980633/Python%20para%20todos.pdf)
-- Cursos online (en inglés): coursera, datacamp, udemy, Stanford online, edx, codeacademy, Harvard online, etc.
-- [Python Tutorials freeCodeCamp](https://www.youtube.com/playlist?list=PLWKjhJtqVAbnqBxcdjVGgT3uVR10bzTEB) (videos en inglés)
-- [Automate the Boring Stuff](https://automatetheboringstuff.com): varios libros y videos en inglés (Automate the Boring Stuff with Python, Cracking Codes with Python, Making Games with Python & Pygame, Invent Your Own Computer Games with Python).
-- [670+ Free Online Programming & Computer Science Course](https://www.freecodecamp.org/news/free-programming-courses-august-2019/).
 - [The Hitchhiker’s Guide to Python!](https://docs.python-guide.org/)
-- [Scipy Lectures](https://scipy-lectures.org/index.html)
-- [Scikit-learn](https://scikit-learn.org/)
+- [Automate the Boring Stuff](https://automatetheboringstuff.com): libros y videos sobre automatización (en inglés)
+- [Scipy Lectures](https://scipy-lectures.org/index.html) (documentos de la librería Scipy)
+- [Scikit-learn](https://scikit-learn.org/) (página web oficial de la librería Scikit-learn)
 - [NumFOCUS](https://numfocus.org/sponsored-projects)
+- [Python Tutorials freeCodeCamp](https://www.youtube.com/playlist?list=PLWKjhJtqVAbnqBxcdjVGgT3uVR10bzTEB) (videos en inglés)
+- [670+ Free Online Programming & Computer Science Course](https://www.freecodecamp.org/news/free-programming-courses-august-2019/).
+- Cursos online (*materiales infinitos*): coursera, datacamp, udemy, Stanford online, edx, codeacademy, Harvard online, etc.
+[on
 
 	
 
