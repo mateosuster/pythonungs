@@ -61,7 +61,7 @@ Docentes:
 <br>
 
 ### Intérpretes online
-- [Google Colab](https://colab.research.google.com/notebooks/welcome.ipynb)Ñ Intérprete oficial de la materia, pero se puede usar el que resulte más cómodo
+- [Google Colab](https://colab.research.google.com/notebooks/welcome.ipynb) (intérprete oficial de la materia, pero se puede usar el que resulte más cómodo)
 - [Jdoodle](https://www.jdoodle.com/python-programming-online)
 - [paiza.io](https://paiza.io/en/projects/new?language=python)
 - [replit](https://repl.it/languages/Python2)
