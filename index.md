@@ -78,12 +78,14 @@ Docentes:
 ## Recursos Python
 ### Comunidades:
 - [Comunidad Python Argentina](http://www.python.org.ar/)
-- [Argentina en Python (comunidad "viajera")](https://argentinaenpython.com/)
+- [Argentina en Python](https://argentinaenpython.com/) (comunidad "viajera")
 <!-- - [Pibes de Sistemas (influencer)](https://twitter.com/pibesdesistemas) -->
 - [Chicas en Tecnología](https://www.chicasentecnologia.org/)
 - [Las de Sistemas](https://twitter.com/lasdesistemas)
-- [Linux Chix Argentina (Comunidad para visibilizar mujeres del mundo GNU/Linux)](https://twitter.com/linuxchixar)
+- [Linux Chix Argentina](https://twitter.com/linuxchixar) (Comunidad para visibilizar mujeres del mundo GNU/Linux)
 - [Bs As Python MeetUp](https://www.meetup.com/Buenos-Aires-Python-Meetup/)
+- [NumFOCUS](https://numfocus.org/sponsored-projects)
+
 
 
 ### Materiales, cursos, tutoriales, bibliografía:
@@ -95,7 +97,6 @@ Docentes:
 - [Automate the Boring Stuff](https://automatetheboringstuff.com): libros y videos sobre automatización (en inglés)
 - [Scipy Lectures](https://scipy-lectures.org/index.html) (documentos de la librería Scipy)
 - [Scikit-learn](https://scikit-learn.org/) (página web oficial de la librería Scikit-learn)
-- [NumFOCUS](https://numfocus.org/sponsored-projects)
 - [Python Tutorials freeCodeCamp](https://www.youtube.com/playlist?list=PLWKjhJtqVAbnqBxcdjVGgT3uVR10bzTEB) (videos en inglés)
 - [670+ Free Online Programming & Computer Science Course](https://www.freecodecamp.org/news/free-programming-courses-august-2019/).
 - Cursos online (*materiales infinitos*): coursera, datacamp, udemy, Stanford online, edx, codeacademy, Harvard online, etc.
