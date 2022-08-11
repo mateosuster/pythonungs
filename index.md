@@ -60,6 +60,14 @@ Docentes:
 <br>
 <br>
 
+### Intérpretes online
+- [Google Colab](https://colab.research.google.com/notebooks/welcome.ipynb)Ñ Intérprete oficial de la materia, pero se puede usar el que resulte más cómodo
+- [https://www.jdoodle.com/python-programming-online](https://www.jdoodle.com/python-programming-online)
+- [https://paiza.io/en/projects/new?language=python](https://paiza.io/en/projects/new?language=python)
+- [https://repl.it/languages/Python2](https://repl.it/languages/Python2)
+- [https://tio.run/#python2](https://tio.run/#python2)
+
+
 ## Software
 
 - [Anaconda](https://www.anaconda.com/distribution/#download-section)
@@ -91,11 +99,5 @@ Docentes:
 - [Scikit-learn](https://scikit-learn.org/)
 - [NumFOCUS](https://numfocus.org/sponsored-projects)
 
-### Intérpretes online
-- [Google Colab](https://colab.research.google.com/notebooks/welcome.ipynb): intérprete online que se banca gráficos. [Instructivo de cómo usarlo.](https://github.com/sebasped/pythonungs/blob/master/python_online_con_graficos.pdf)
-- [https://www.jdoodle.com/python-programming-online](https://www.jdoodle.com/python-programming-online)
-- [https://paiza.io/en/projects/new?language=python](https://paiza.io/en/projects/new?language=python)
-- [https://repl.it/languages/Python2](https://repl.it/languages/Python2)
-- [https://tio.run/#python2](https://tio.run/#python2)
 	
 
