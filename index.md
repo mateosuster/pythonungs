@@ -10,6 +10,7 @@ Docentes:
 
 ## Contenidos
 ### [Videos](https://youtube.com/playlist?list=PL2h-fkhd9MI34CPpy547kB6ScpSqu4OmZ)
+### [Canal de Slack](https://join.slack.com/t/mate320222docuatri/shared_invite/zt-1e664ei5g-pWALf3Xh10UwpnAVhkP~FA)
 
 ### Introducción a Python
   * [Sintaxis básica y asignación de variables](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/introduccion_a_python/1.0_Sintaxis_b%C3%A1sica_y_asignaci%C3%B3n_de_variables.ipynb)
