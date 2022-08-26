@@ -14,7 +14,7 @@ Docentes:
 <br>
 
 ## Contenidos
-### Introducción a Python
+### Introducción a Python (se irán desbloqueando a medida que avance el curso)
   * [Presentación de Google Colab](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/introduccion_a_python/0_Intro_Colab_y_Markdown.ipynb)
   * [Sintaxis básica y asignación de variables](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/introduccion_a_python/1.0_Sintaxis_b%C3%A1sica_y_asignaci%C3%B3n_de_variables.ipynb)
     * [Diapositivas](https://github.com/mateosuster/pythonungs/blob/master/documents/build/mpe3_py_intro_y_sintaxis.pdf)

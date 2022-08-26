@@ -2,3 +2,6 @@
 	- REV[Números, listas y tuplas](https://colab.research.google.com/drive/15RFG4oE_3lv_ArXkZvudDEDxgLJqrqrs?usp=sharing)
 	- REV[Bucle `for`]() 
 	- REV[Valor Presente Neto y TIR](https://colab.research.google.com/drive/1LvXrD6JUFi4e6v1hfErbNFTAJwKwC_Xa?usp=sharing)
+
+- Optimizaciones
+	- Clase for: 1) agregar tiempos de ejecucion entre while y for 2) expplciar enumerate
