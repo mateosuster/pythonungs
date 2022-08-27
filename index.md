@@ -25,6 +25,10 @@ Docentes:
   * [Cadenas (strings) y diccionarios](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/introduccion_a_python/3.0_Cadenas_y_diccionarios.ipynb)
     * [Ejercicios Cadenas y diccionarios](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/introduccion_a_python/3.1_Ejercicios_Cadenas%2C_Tuplas_y_Diccionarios.ipynb) 
 
+### Evaluaciones
+* [TP domiciliario N°1](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/TPs/MPE_III_TP_domiciliario_N%C2%B01.ipynb)
+
+
 <!-- ### Programación funcional
   * [Operadores lógicos y Estructuras de control (`if` y `while`)](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/programacion_funcional/1.0_Estructuras_de_control_I.ipynb)
 	* [Diapositivas](https://github.com/mateosuster/pythonungs/blob/master/documents/build/mpe3_py_if_while.pdf)
@@ -54,8 +58,6 @@ Docentes:
   * [Bonos](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/mate_financiera/2_Bonos.ipynb)
 
 
-### Evaluaciones
-* [TP domiciliario N°1](https://colab.research.google.com/drive/1Zgu67ae9o1gmBU3FOOapMovTdRhlsUwY?usp=sharing)
 * [TP domiciliario N°2](https://colab.research.google.com/drive/1wLxUtrRV-16NoQciT3ExtiL4w1xZOXCx#scrollTo=Q2-XUspAj8Tn)
 * [TP domiciliario N°3](https://drive.google.com/file/d/10bwo5EnIHsCIasQ-kK6gSjmuW7yp5MA0/view?usp=sharing)
 * [TP domiciliario N°4](https://drive.google.com/file/d/1n9DLvxf7bJ8fSTDMrI5ki26bxc5YY40j/view?usp=sharing)
