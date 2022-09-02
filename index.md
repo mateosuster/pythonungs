@@ -27,6 +27,7 @@ Docentes:
 
 ### Evaluaciones
 * [TP domiciliario N°1](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/TPs/MPE_III_TP_domiciliario_N%C2%B01.ipynb)
+	* [Errores comunes](https://colab.research.google.com/drive/1qqSrqJbmVXxykwjIb6SYIosaGQv-sKGm?usp=sharing)
 
 
 <!-- ### Programación funcional
