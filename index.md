@@ -42,7 +42,8 @@ Docentes:
 ### Datos y visualizaciones
   * [Intro Pandas](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/manipulacion_de_datos/1_Intro_Pandas.ipynb)
   * [Pandas Indexing](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/manipulacion_de_datos/2_Pandas_Indexing.ipynb)
-   * [Ejercicios Pandas I](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/manipulacion_de_datos/3_Ejercicios_pandas.ipynb)
+    * [Ejercicios Pandas I](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/manipulacion_de_datos/3_Ejercicios_pandas.ipynb)
+  
   *[Manipulación de datos](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/manipulacion_de_datos/4_Manipulaci%C3%B3n_de_DataFrames.ipynb)
 
 ### Aplicaciones matemáticas
