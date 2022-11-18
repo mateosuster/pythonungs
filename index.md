@@ -51,8 +51,10 @@ Docentes:
   * [Programa que resuelve ecuaciones diferenciales](https://colab.research.google.com/drive/19pO-BXE5CgdNWw6VUvfoGE_V1sRvz1R8?usp=sharing)  
     * [Ejercicios de ecuaciones diferenciales](https://colab.research.google.com/drive/1V6BNFKgypzMgdhHTc-2cBumNmiDENpLO?usp=sharing)
 
-##### Matemática financiera
+#### Matemática financiera
   * [Valor Presente y Futuro](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/mate_financiera/0_Valor_Presente_y_Futuro.ipynb)
+  * [Valor Presente Neto y TIR](https://colab.research.google.com/drive/1LvXrD6JUFi4e6v1hfErbNFTAJwKwC_Xa?usp=sharing)
+  * [Bonos](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/mate_financiera/2_Bonos.ipynb)
 
 
 
@@ -62,7 +64,7 @@ Docentes:
 	* [Errores comunes](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/pythonungs/codigos/TPs/tp1_errores_comunes.ipynb)
 * [TP domiciliario N°2](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/TP02_hipoteca_de_mariano.ipynb)
 * [Primer parcial](https://github.com/mateosuster/pythonungs/raw/master/documents/build/MPE_III___Primer_parcial__Python__02_2022.pdf)
-
+* [Segundo parcial]
 <!--     
 
 
@@ -72,8 +74,6 @@ Docentes:
 
 
 #### Matemática financiera
-  * [Valor Presente Neto y TIR](https://colab.research.google.com/drive/1LvXrD6JUFi4e6v1hfErbNFTAJwKwC_Xa?usp=sharing)
-  * [Bonos](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/mate_financiera/2_Bonos.ipynb)
 
 
 * [TP domiciliario N°2](https://colab.research.google.com/drive/1wLxUtrRV-16NoQciT3ExtiL4w1xZOXCx#scrollTo=Q2-XUspAj8Tn)
