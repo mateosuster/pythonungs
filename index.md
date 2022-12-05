@@ -66,7 +66,7 @@ Docentes:
 * [Primer parcial](https://github.com/mateosuster/pythonungs/raw/master/documents/build/MPE_III___Primer_parcial__Python__02_2022.pdf)
 * [Segundo parcial](https://github.com/mateosuster/pythonungs/raw/master/documents/MPE_III___Python___Segundo_parcial___22_02.pdf)
 * [Primer recuperatorio](https://github.com/mateosuster/pythonungs/raw/master/documents/MPE_III___Recuperatorio_1__Python____22_02.pdf)
-
+* [Propuesta resolucion Segundo Parcial](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/propuesta_resolucion_parcial2.ipynb)
 <!--     
 
 
