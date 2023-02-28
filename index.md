@@ -9,7 +9,7 @@ Docentes:
 
 
 ## Links importantes
-### [Videos](https://youtube.com/playlist?list=PL2h-fkhd9MI34CPpy547kB6ScpSqu4OmZ)
+<!-- ### [Videos](https://youtube.com/playlist?list=PL2h-fkhd9MI34CPpy547kB6ScpSqu4OmZ) --->
 ### [Canal de Slack](https://join.slack.com/t/mate320222docuatri/shared_invite/zt-1e664ei5g-pWALf3Xh10UwpnAVhkP~FA)
 <br>
 
