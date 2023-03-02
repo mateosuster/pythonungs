@@ -10,8 +10,9 @@ Docentes:
 
 ## Links importantes
 <!-- ### [Videos](https://youtube.com/playlist?list=PL2h-fkhd9MI34CPpy547kB6ScpSqu4OmZ) --->
-### [Canal de Slack](https://join.slack.com/t/mate320222docuatri/shared_invite/zt-1e664ei5g-pWALf3Xh10UwpnAVhkP~FA)
-<br>
+### [Canal de Slack](https://join.slack.com/t/mate3python1e-3nb6992/shared_invite/zt-1qduhvx7o-7z9fWrFE0EgfdbnqQb0fGg)
+### Videos (próximamente)
+br>
 
 ## Contenidos
 ### Introducción a Python (se irá actualizando a medida que avance el curso)
@@ -25,6 +26,7 @@ Docentes:
   * [Cadenas (strings) y diccionarios](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/introduccion_a_python/3.0_Cadenas_y_diccionarios.ipynb)
     * [Ejercicios Cadenas y diccionarios](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/introduccion_a_python/3.1_Ejercicios_Cadenas%2C_Tuplas_y_Diccionarios.ipynb) 
 
+<!-- 
 ### Programación funcional
   * [Operadores lógicos y Estructuras de control (`if` y `while`)](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/programacion_funcional/1.0_Estructuras_de_control_I.ipynb)
 	* [Diapositivas](https://github.com/mateosuster/pythonungs/blob/master/documents/build/mpe3_py_if_while.pdf)
@@ -68,10 +70,7 @@ Docentes:
 * [Primer recuperatorio](https://github.com/mateosuster/pythonungs/raw/master/documents/MPE_III___Recuperatorio_1__Python____22_02.pdf)
 * [Propuesta resolucion Segundo Parcial](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/propuesta_resolucion_parcial2.ipynb)
 
-
-<!--     
-
-
+   
 
 #### Matemática financiera
 
@@ -105,7 +104,6 @@ Docentes:
 ### Comunidades:
 - [Comunidad Python Argentina](http://www.python.org.ar/)
 - [Argentina en Python](https://argentinaenpython.com/) (comunidad "viajera")
-<!-- - [Pibes de Sistemas (influencer)](https://twitter.com/pibesdesistemas) -->
 - [Chicas en Tecnología](https://www.chicasentecnologia.org/)
 - [Las de Sistemas](https://twitter.com/lasdesistemas)
 - [Linux Chix Argentina](https://twitter.com/linuxchixar) (Comunidad para visibilizar mujeres del mundo GNU/Linux)
@@ -116,7 +114,6 @@ Docentes:
 
 ### Materiales, cursos, tutoriales, bibliografía:
 - [Tutorial de Python para no programadores](http://jjc.freeshell.org/easytut/easytut_es/easytut.html)
-<!-- - [Aprendiendo Python](http://www.python.org.ar/wiki/AprendiendoPython) -->
 - [How to Think Like a Computer Scientist](http://openbookproject.net/thinkcs/python/english2e/). En español: [Aprenda a pensar como un programador con Python](https://argentinaenpython.com/quiero-aprender-python/aprenda-a-pensar-como-un-programador-con-python.pdf)
 - [Python para todos](https://launchpadlibrarian.net/18980633/Python%20para%20todos.pdf)
 - [The Hitchhiker’s Guide to Python!](https://docs.python-guide.org/)
