@@ -12,7 +12,7 @@ Docentes:
 <!-- ### [Videos](https://youtube.com/playlist?list=PL2h-fkhd9MI34CPpy547kB6ScpSqu4OmZ) --->
 ### [Canal de Slack](https://join.slack.com/t/mate3python1e-3nb6992/shared_invite/zt-1qduhvx7o-7z9fWrFE0EgfdbnqQb0fGg)
 ### Videos (próximamente)
-br>
+<br>
 
 ## Contenidos
 ### Introducción a Python (se irá actualizando a medida que avance el curso)
