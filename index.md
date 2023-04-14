@@ -28,11 +28,11 @@ Docentes:
   * [Cadenas (strings) y diccionarios](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/introduccion_a_python/3.0_Cadenas_y_diccionarios.ipynb)
     * [Ejercicios Cadenas y diccionarios](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/introduccion_a_python/3.1_Ejercicios_Cadenas%2C_Tuplas_y_Diccionarios.ipynb) 
 
-<!-- 
 ### Programación funcional
   * [Operadores lógicos y Estructuras de control (`if` y `while`)](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/programacion_funcional/1.0_Estructuras_de_control_I.ipynb)
 	* [Diapositivas](https://github.com/mateosuster/pythonungs/blob/master/documents/build/mpe3_py_if_while.pdf)
     * [Ejercicios Estructuras de control (`if` y `while`)](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/programacion_funcional/1.1_Ejercicios_if_y_while.ipynb)
+<!-- 
 	* [Bucle `for`](https://colab.research.google.com/drive/1isk6NI5RwM-_1JXQNaA4P172I0N9As32?usp=sharing) 
 
 
