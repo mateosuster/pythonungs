@@ -35,6 +35,8 @@ Docentes:
 
 ### Bonus
   * [Script integrador de contenidos primera parte](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/introduccion_a_python/4.0_Pr%C3%A1ctica_1_1_tipos_datos.ipynb)
+
+  
 <!-- 
 	* [Bucle `for`](https://colab.research.google.com/drive/1isk6NI5RwM-_1JXQNaA4P172I0N9As32?usp=sharing) 
 
