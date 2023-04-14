@@ -36,7 +36,7 @@ Docentes:
 ### Bonus
   * [Script integrador de contenidos primera parte](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/introduccion_a_python/4.0_Pr%C3%A1ctica_1_1_tipos_datos.ipynb)
 
-  
+
 <!-- 
 	* [Bucle `for`](https://colab.research.google.com/drive/1isk6NI5RwM-_1JXQNaA4P172I0N9As32?usp=sharing) 
 
@@ -120,17 +120,26 @@ Docentes:
 
 
 ### Materiales, cursos, tutoriales, bibliografía:
+#### Libros
 - [Tutorial de Python para no programadores](http://jjc.freeshell.org/easytut/easytut_es/easytut.html)
 - [How to Think Like a Computer Scientist](http://openbookproject.net/thinkcs/python/english2e/). En español: [Aprenda a pensar como un programador con Python](https://argentinaenpython.com/quiero-aprender-python/aprenda-a-pensar-como-un-programador-con-python.pdf)
 - [Python para todos](https://launchpadlibrarian.net/18980633/Python%20para%20todos.pdf)
 - [The Hitchhiker’s Guide to Python!](https://docs.python-guide.org/)
 - [Automate the Boring Stuff](https://automatetheboringstuff.com): libros y videos sobre automatización (en inglés)
+
+#### Documentación
+- [Geeks for Geeks](https://geeksforgeeks.org/) (Bloog con muchísima info sobre el funcionamiento de funciones, tutoriales, cursos y demás (no sólo para Python) )
 - [Scipy Lectures](https://scipy-lectures.org/index.html) (documentos de la librería Scipy)
 - [Scikit-learn](https://scikit-learn.org/) (página web oficial de la librería Scikit-learn)
+
+#### Cursos online (*materiales infinitos*)
 - [Python Tutorials freeCodeCamp](https://www.youtube.com/playlist?list=PLWKjhJtqVAbnqBxcdjVGgT3uVR10bzTEB) (videos en inglés)
 - [670+ Free Online Programming & Computer Science Course](https://www.freecodecamp.org/news/free-programming-courses-august-2019/).
-- Cursos online (*materiales infinitos*): coursera, datacamp, udemy, Stanford online, edx, codeacademy, Harvard online, etc.
-[on
+- Coursera, datacamp, udemy, Stanford online, edx, codeacademy, Harvard online, etc.
+
+### Donde buscar ayuda sobre errores 
+- [Stackoverflow](https://stackoverflow.com/)
+
 
 	
 
