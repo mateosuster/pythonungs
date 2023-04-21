@@ -11,7 +11,7 @@ Docentes:
 ## Links importantes
 ### [Videos](https://youtube.com/playlist?list=PL2h-fkhd9MI34CPpy547kB6ScpSqu4OmZ)
 ### [Canal de Slack (Comisión Callelo)](https://join.slack.com/t/mate3python1e-3nb6992/shared_invite/zt-1sw7ag6mo-UX87rT~pfKE4tsbRb95~Wg)
-### [Canal de Slack (Comisión Pereira)](https://join.slack.com/t/mpe3python1er-uo37878/shared_invite/zt-1r89lolmf-Bf2IXQMMdfNohyr9s93R7Q)
+### [Canal de Slack (Comisión Pereira)](https://join.slack.com/t/mpe3python1er-uo37878/shared_invite/zt-1tp3j8139-lzj9vMCljkNoXQffDCMTbA)
 
 
 <br>
