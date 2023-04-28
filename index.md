@@ -36,6 +36,16 @@ Docentes:
 ### Bonus
   * [Script integrador de contenidos primera parte](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/introduccion_a_python/4.0_Pr%C3%A1ctica_1_1_tipos_datos.ipynb)
 
+### Librerías
+  * [Importación de librerías - Gráficos](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/manipulacion_de_datos/0_Importando_librer%C3%ADas.ipynb)
+
+### Aplicaciones matemáticas
+
+#### Ecuaciones dinámicas
+  * [Programa que resuelve ecuaciones diferenciales](https://colab.research.google.com/drive/19pO-BXE5CgdNWw6VUvfoGE_V1sRvz1R8?usp=sharing)  
+    * [Ejercicios de ecuaciones diferenciales](https://colab.research.google.com/drive/1V6BNFKgypzMgdhHTc-2cBumNmiDENpLO?usp=sharing)
+
+
 ### Evaluaciones
 * [TP domiciliario N°1](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/TPs/MPE_III_TP_domiciliario_N%C2%B01.ipynb)
 
@@ -47,8 +57,6 @@ Docentes:
     * [Diapositivas](https://github.com/mateosuster/pythonungs/blob/master/documents/build/mpe3_py_funciones.pdf)
 	* [Ejercicios sobre funciones](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/programacion_funcional/3.1_Ejercicios_Funciones.ipynb)
 
-### Librerías
-  * [Importación de librerías - Gráficos](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/manipulacion_de_datos/0_Importando_librer%C3%ADas.ipynb)
 
 ### Datos y visualizaciones
   * [Intro Pandas](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/manipulacion_de_datos/1_Intro_Pandas.ipynb)
@@ -56,11 +64,6 @@ Docentes:
     * [Ejercicios Pandas I](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/manipulacion_de_datos/3_Ejercicios_pandas.ipynb)
   * [Manipulación de datos](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/manipulacion_de_datos/4_Manipulaci%C3%B3n_de_DataFrames.ipynb)
 
-### Aplicaciones matemáticas
-
-#### Ecuaciones dinámicas
-  * [Programa que resuelve ecuaciones diferenciales](https://colab.research.google.com/drive/19pO-BXE5CgdNWw6VUvfoGE_V1sRvz1R8?usp=sharing)  
-    * [Ejercicios de ecuaciones diferenciales](https://colab.research.google.com/drive/1V6BNFKgypzMgdhHTc-2cBumNmiDENpLO?usp=sharing)
 
 #### Matemática financiera
   * [Valor Presente y Futuro](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/mate_financiera/0_Valor_Presente_y_Futuro.ipynb)
