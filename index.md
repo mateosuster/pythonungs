@@ -33,6 +33,12 @@ Docentes:
 	* [Diapositivas](https://github.com/mateosuster/pythonungs/blob/master/documents/build/mpe3_py_if_while.pdf)
     * [Ejercicios Estructuras de control (`if` y `while`)](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/programacion_funcional/1.1_Ejercicios_if_y_while.ipynb)
 
+  * [Funciones](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/programacion_funcional/3.0_MPE_III_Funciones.ipynb)
+    * [Diapositivas](https://github.com/mateosuster/pythonungs/blob/master/documents/build/mpe3_py_funciones.pdf)
+	* [Ejercicios sobre funciones](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/programacion_funcional/3.1_Ejercicios_Funciones.ipynb)
+
+
+
 ### Bonus
   * [Script integrador de contenidos primera parte](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/introduccion_a_python/4.0_Pr%C3%A1ctica_1_1_tipos_datos.ipynb)
 
@@ -52,10 +58,6 @@ Docentes:
 <!-- 
 	* [Bucle `for`](https://colab.research.google.com/drive/1isk6NI5RwM-_1JXQNaA4P172I0N9As32?usp=sharing) 
 
-
-  * [Funciones](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/programacion_funcional/3.0_MPE_III_Funciones.ipynb)
-    * [Diapositivas](https://github.com/mateosuster/pythonungs/blob/master/documents/build/mpe3_py_funciones.pdf)
-	* [Ejercicios sobre funciones](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/programacion_funcional/3.1_Ejercicios_Funciones.ipynb)
 
 
 ### Datos y visualizaciones
