@@ -43,7 +43,7 @@ Docentes:
   * [Script integrador de contenidos primera parte](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/introduccion_a_python/4.0_Pr%C3%A1ctica_1_1_tipos_datos.ipynb)
 
 ### Librerías
-  * [Importación de librerías - Gráficos](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/manipulacion_de_datos/0_Importando_librer%C3%ADas.ipynb)
+  * [Importación de librerías - Gráficos](https://drive.google.com/file/d/1MYu_EcFPMlii0P0RnTFlOjCsa420BwKD/view?usp=sharing)
 
 ### Aplicaciones matemáticas
 
