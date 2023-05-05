@@ -143,6 +143,7 @@ Docentes:
 #### Cursos online (*materiales infinitos*)
 - [Python Tutorials freeCodeCamp](https://www.youtube.com/playlist?list=PLWKjhJtqVAbnqBxcdjVGgT3uVR10bzTEB) (videos en inglés)
 - [670+ Free Online Programming & Computer Science Course](https://www.freecodecamp.org/news/free-programming-courses-august-2019/).
+- [Aprende a programar con Python. Curso de MasterMind por Nate Gentile](https://www.mastermind.ac/courses/iniciacion-python)
 - Coursera, datacamp, udemy, Stanford online, edx, codeacademy, Harvard online, etc.
 
 ### Donde buscar ayuda sobre errores 
