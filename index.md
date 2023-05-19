@@ -52,6 +52,11 @@ Docentes:
   * [Programa que resuelve ecuaciones diferenciales](https://colab.research.google.com/drive/19pO-BXE5CgdNWw6VUvfoGE_V1sRvz1R8?usp=sharing)  
     * [Ejercicios de ecuaciones diferenciales](https://colab.research.google.com/drive/1V6BNFKgypzMgdhHTc-2cBumNmiDENpLO?usp=sharing)
 
+### Datos y visualizaciones
+  * [Intro Pandas](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/pandas/Practica_2_1_Intro_Pandas.ipynb)
+  * [Pandas Indexing](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/pandas/Practica_2_2_Pandas_Indexing.ipynb)
+    * [Ejercicios Pandas I](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/manipulacion_de_datos/3_Ejercicios_pandas.ipynb)
+
 
 ### Evaluaciones
 * [TP domiciliario N°1](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/TPs/MPE_III_TP_domiciliario_N%C2%B01.ipynb)
