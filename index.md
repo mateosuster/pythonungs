@@ -32,6 +32,8 @@ Docentes:
   * [Operadores lógicos y Estructuras de control (`if` y `while`)](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/programacion_funcional/1.0_Estructuras_de_control_I.ipynb)
 	* [Diapositivas](https://github.com/mateosuster/pythonungs/blob/master/documents/build/mpe3_py_if_while.pdf)
     * [Ejercicios Estructuras de control (`if` y `while`)](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/programacion_funcional/1.1_Ejercicios_if_y_while.ipynb)
+  * [Bucle `for`](https://colab.research.google.com/drive/1isk6NI5RwM-_1JXQNaA4P172I0N9As32?usp=sharing) 
+
 
   * [Funciones](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/programacion_funcional/3.0_MPE_III_Funciones.ipynb)
     * [Diapositivas](https://github.com/mateosuster/pythonungs/blob/master/documents/build/mpe3_py_funciones.pdf)
@@ -66,7 +68,6 @@ Docentes:
 
 
 <!-- 
-	* [Bucle `for`](https://colab.research.google.com/drive/1isk6NI5RwM-_1JXQNaA4P172I0N9As32?usp=sharing) 
 
 
 
