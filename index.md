@@ -56,6 +56,7 @@ Docentes:
   * [Intro Pandas](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/pandas/Practica_2_1_Intro_Pandas.ipynb)
   * [Pandas Indexing](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/pandas/Practica_2_2_Pandas_Indexing.ipynb)
     * [Ejercicios Pandas I](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/manipulacion_de_datos/3_Ejercicios_pandas.ipynb)
+  * [Manipulación de datos](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/manipulacion_de_datos/4_Manipulaci%C3%B3n_de_DataFrames.ipynb)
 
 
 ### Evaluaciones
@@ -73,8 +74,7 @@ Docentes:
   * [Intro Pandas](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/manipulacion_de_datos/1_Intro_Pandas.ipynb)
   * [Pandas Indexing](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/manipulacion_de_datos/2_Pandas_Indexing.ipynb)
     * [Ejercicios Pandas I](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/manipulacion_de_datos/3_Ejercicios_pandas.ipynb)
-  * [Manipulación de datos](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/manipulacion_de_datos/4_Manipulaci%C3%B3n_de_DataFrames.ipynb)
-
+  
 
 #### Matemática financiera
   * [Valor Presente y Futuro](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/mate_financiera/0_Valor_Presente_y_Futuro.ipynb)
