@@ -60,6 +60,11 @@ Docentes:
     * [Ejercicios Pandas I](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/manipulacion_de_datos/3_Ejercicios_pandas.ipynb)
   * [Manipulación de datos](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/manipulacion_de_datos/4_Manipulaci%C3%B3n_de_DataFrames.ipynb)
 
+#### Matemática financiera
+  * [Valor Presente y Futuro](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/mate_financiera/0_Valor_Presente_y_Futuro.ipynb)
+  * [Valor Presente Neto y TIR](https://colab.research.google.com/drive/1LvXrD6JUFi4e6v1hfErbNFTAJwKwC_Xa?usp=sharing)
+  * [Bonos](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/mate_financiera/2_Bonos.ipynb)
+
 
 ### Evaluaciones
 * [TP domiciliario N°1](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/TPs/MPE_III_TP_domiciliario_N%C2%B01.ipynb)
@@ -77,10 +82,6 @@ Docentes:
     * [Ejercicios Pandas I](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/manipulacion_de_datos/3_Ejercicios_pandas.ipynb)
   
 
-#### Matemática financiera
-  * [Valor Presente y Futuro](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/mate_financiera/0_Valor_Presente_y_Futuro.ipynb)
-  * [Valor Presente Neto y TIR](https://colab.research.google.com/drive/1LvXrD6JUFi4e6v1hfErbNFTAJwKwC_Xa?usp=sharing)
-  * [Bonos](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/mate_financiera/2_Bonos.ipynb)
 
 
 
