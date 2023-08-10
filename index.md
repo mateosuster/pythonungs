@@ -9,9 +9,14 @@ Docentes:
 
 
 ## Links importantes
+### [Videos]
+### [Canal de Slack (Comisión Callelo)](https://join.slack.com/t/mate3python20-pb92732/shared_invite/zt-210q6on9u-SEXFVInwsGbAKmowk9RQnA)
+<!--
 ### [Videos](https://youtube.com/playlist?list=PL2h-fkhd9MI34CPpy547kB6ScpSqu4OmZ)
-### [Canal de Slack (Comisión Callelo)](https://join.slack.com/t/mate3python1e-3nb6992/shared_invite/zt-1sw7ag6mo-UX87rT~pfKE4tsbRb95~Wg)
+
 ### [Canal de Slack (Comisión Pereira)](https://join.slack.com/t/mpe3python1er-uo37878/shared_invite/zt-1tp3j8139-lzj9vMCljkNoXQffDCMTbA)
+
+ -->
 
 
 <br>
@@ -68,9 +73,13 @@ Docentes:
 
 
 ### Evaluaciones
+<!--
 * [TP domiciliario N°1](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/TPs/MPE_III_TP_domiciliario_N%C2%B01.ipynb)
 	* [Errores comunes](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/pythonungs/codigos/TPs/tp1_errores_comunes.ipynb)
 * [Primer parcial](https://drive.google.com/file/d/1TDdQqu-nB643Muml_bU7bwewhApcdzRX/view?usp=sharing)
+
+ -->
+
 
 
 <!-- 
