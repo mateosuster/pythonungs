@@ -9,7 +9,8 @@ Docentes:
 
 
 ## Links importantes
-### [Videos]
+### [Videos](https://youtube.com/playlist?list=PL2h-fkhd9MI0xKsPaNTeprgQKiPD4nwFC&si=XcHNmTRdmkLwqGyR)
+
 ### [Canal de Slack (Comisión Callelo)](https://join.slack.com/t/mate3python20-pb92732/shared_invite/zt-210q6on9u-SEXFVInwsGbAKmowk9RQnA)
 <!--
 ### [Videos](https://youtube.com/playlist?list=PL2h-fkhd9MI0xKsPaNTeprgQKiPD4nwFC&si=XcHNmTRdmkLwqGyR)
