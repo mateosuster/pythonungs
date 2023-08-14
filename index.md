@@ -12,7 +12,7 @@ Docentes:
 ### [Videos]
 ### [Canal de Slack (Comisión Callelo)](https://join.slack.com/t/mate3python20-pb92732/shared_invite/zt-210q6on9u-SEXFVInwsGbAKmowk9RQnA)
 <!--
-### [Videos](https://youtube.com/playlist?list=PL2h-fkhd9MI34CPpy547kB6ScpSqu4OmZ)
+### [Videos](https://youtube.com/playlist?list=PL2h-fkhd9MI0xKsPaNTeprgQKiPD4nwFC&si=XcHNmTRdmkLwqGyR)
 
 ### [Canal de Slack (Comisión Pereira)](https://join.slack.com/t/mpe3python1er-uo37878/shared_invite/zt-1tp3j8139-lzj9vMCljkNoXQffDCMTbA)
 
@@ -25,7 +25,9 @@ Docentes:
 ### Introducción a Python (se irá actualizando a medida que avance el curso)
   * [Presentación de Google Colab](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/introduccion_a_python/0_Intro_Colab_y_Markdown.ipynb)
   * [Sintaxis básica y asignación de variables](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/introduccion_a_python/1.0_Sintaxis_b%C3%A1sica_y_asignaci%C3%B3n_de_variables.ipynb)
-    * [Diapositivas](https://github.com/mateosuster/pythonungs/blob/master/documents/build/mpe3_py_intro_y_sintaxis.pdf)
+    * [Diapositiva 0](https://github.com/mateosuster/pythonungs/blob/master/documents/python_clase_1.pdf)
+	* [Diapositiva 1](https://github.com/mateosuster/pythonungs/blob/master/documents/python_clase_1_1.pdf)
+	* [Diapositiva 2](https://github.com/mateosuster/pythonungs/blob/master/documents/python_clase_1_2.pdf)
 	* [Ejercicios de asignaciones](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/introduccion_a_python/1.1_Ejercicios_sobre_asignaci%C3%B3n_de_variables.ipynb)
   * [Números, listas y tuplas](https://colab.research.google.com/drive/15RFG4oE_3lv_ArXkZvudDEDxgLJqrqrs?usp=sharing)
 	* [Diapositivas](https://github.com/mateosuster/pythonungs/blob/master/documents/build/mpe3_py_numeros_y_listas.pdf)
@@ -59,17 +61,19 @@ Docentes:
   * [Programa que resuelve ecuaciones diferenciales](https://colab.research.google.com/drive/19pO-BXE5CgdNWw6VUvfoGE_V1sRvz1R8?usp=sharing)  
     * [Ejercicios de ecuaciones diferenciales](https://colab.research.google.com/drive/1V6BNFKgypzMgdhHTc-2cBumNmiDENpLO?usp=sharing)
 
+#### Matemática financiera
+  * [Valor Presente y Futuro](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/mate_financiera/0_Valor_Presente_y_Futuro.ipynb)
+  * [Valor Presente Neto y TIR](https://colab.research.google.com/drive/1LvXrD6JUFi4e6v1hfErbNFTAJwKwC_Xa?usp=sharing)
+  * [Bonos](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/mate_financiera/2_Bonos.ipynb)
+
+
+
 ### Datos y visualizaciones
   * [Intro Pandas](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/pandas/Practica_2_1_Intro_Pandas.ipynb)
   * [Pandas Indexing](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/pandas/Practica_2_2_Pandas_Indexing.ipynb)
     * [Ejercicios Pandas I](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/manipulacion_de_datos/3_Ejercicios_pandas.ipynb)
   * [Manipulación de datos](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/manipulacion_de_datos/4_Manipulaci%C3%B3n_de_DataFrames.ipynb)
   * [Visualizaciones](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/pandas/Pr%C3%A1ctica_Visualizacion_de_datos.ipynb)
-
-#### Matemática financiera
-  * [Valor Presente y Futuro](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/mate_financiera/0_Valor_Presente_y_Futuro.ipynb)
-  * [Valor Presente Neto y TIR](https://colab.research.google.com/drive/1LvXrD6JUFi4e6v1hfErbNFTAJwKwC_Xa?usp=sharing)
-  * [Bonos](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/mate_financiera/2_Bonos.ipynb)
 
 
 ### Evaluaciones
@@ -129,7 +133,7 @@ Docentes:
 
 ## Software
 
-- [Anaconda](https://www.anaconda.com/distribution/#download-section)
+- [Anaconda](https://www.anaconda.com/)
 - [Python.org](https://www.python.org/downloads/)
 - [Python IDEs](https://wiki.python.org/moin/IntegratedDevelopmentEnvironments)
 
