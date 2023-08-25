@@ -30,10 +30,10 @@ Docentes:
 	* [Diapositiva 1](https://github.com/mateosuster/pythonungs/blob/master/documents/python_clase_1_1.pdf)
 	* [Diapositiva 2](https://github.com/mateosuster/pythonungs/blob/master/documents/python_clase_1_2.pdf)
 	* [Ejercicios de asignaciones](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/introduccion_a_python/1.1_Ejercicios_sobre_asignaci%C3%B3n_de_variables.ipynb)
-  * [Números, listas y tuplas](https://colab.research.google.com/drive/15RFG4oE_3lv_ArXkZvudDEDxgLJqrqrs?usp=sharing)
+  * [Números y listas](https://colab.research.google.com/drive/15RFG4oE_3lv_ArXkZvudDEDxgLJqrqrs?usp=sharing)
 	* [Diapositivas](https://github.com/mateosuster/pythonungs/blob/master/documents/build/mpe3_py_numeros_y_listas.pdf)
 	* [Ejercicios números, listas y tuplas](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/introduccion_a_python/2.1_Ejercicios_operadores%2C_n%C3%BAmeros%2C_listas_y_tuplas.ipynb)
-  * [Cadenas (strings) y diccionarios](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/introduccion_a_python/3.0_Cadenas_y_diccionarios.ipynb)
+  * [Tuplas, cadenas (strings) y diccionarios](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/introduccion_a_python/3.0_Tuplas_Cadenas_y_diccionarios.ipynb)
     * [Ejercicios Cadenas y diccionarios](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/introduccion_a_python/3.1_Ejercicios_Cadenas%2C_Tuplas_y_Diccionarios.ipynb) 
 
 ### Programación funcional
