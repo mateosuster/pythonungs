@@ -11,11 +11,13 @@ Docentes:
 ## Links importantes
 ### [Videos](https://youtube.com/playlist?list=PL2h-fkhd9MI0xKsPaNTeprgQKiPD4nwFC&si=XcHNmTRdmkLwqGyR)
 
-### [Canal de Slack (Comisión Callelo)](https://join.slack.com/t/mate3python20-pb92732/shared_invite/zt-210q6on9u-SEXFVInwsGbAKmowk9RQnA)
+### [Canal de Slack (Comisión 2 - Callelo)](https://join.slack.com/t/slack-dhs1196/shared_invite/zt-2f6hd6wqv-Cft72HKf888lgug_recDXA)
+
+### [Canal de Slack (Comisión 01 - Pereira)](https://join.slack.com/t/mate3com12024-2y67737/shared_invite/zt-2fd53a4k2-vgzzdoKGnES3RvY5P8cwYA)
 <!--
 ### [Videos](https://youtube.com/playlist?list=PL2h-fkhd9MI0xKsPaNTeprgQKiPD4nwFC&si=XcHNmTRdmkLwqGyR)
 
-### [Canal de Slack (Comisión Pereira)](https://join.slack.com/t/mpe3python1er-uo37878/shared_invite/zt-1tp3j8139-lzj9vMCljkNoXQffDCMTbA)
+
 
  -->
 
@@ -78,13 +80,13 @@ Docentes:
 
 
 ### Evaluaciones
-* [TP domiciliario N°1](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/TPs/MPE_III_TP_domiciliario_N%C2%B01.ipynb)
+<!-- * [TP domiciliario N°1](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/TPs/MPE_III_TP_domiciliario_N%C2%B01.ipynb)
 	* [Errores comunes](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/pythonungs/codigos/TPs/tp1_errores_comunes.ipynb)
 * [TP domiciliario N°2](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/TP02_hipoteca_de_mariano.ipynb)
 * [TP domiciliario N°3](https://drive.google.com/file/d/1kJCT01RhOPNwOtrq60lJofdRCpHNIBNy/view?usp=sharing)
 * [TP domiciliario N°4](https://drive.google.com/file/d/1t6-oIcpvvH0MKXDufhR-YiI8wWzxOMYd/view?usp=sharing)
 	* [Resolución propuesta TP N°4](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/TPs/MPE3_022023_TP4_resolucion.ipynb)
-* [TP domiciliario N°5](https://drive.google.com/file/d/1KDOR3LGRHJdBuDZFy51eaYC4DmwyjYpL/view?usp=sharing)
+* [TP domiciliario N°5](https://drive.google.com/file/d/1KDOR3LGRHJdBuDZFy51eaYC4DmwyjYpL/view?usp=sharing) -->
   
 <!--
 * [Primer parcial](https://drive.google.com/file/d/1TDdQqu-nB643Muml_bU7bwewhApcdzRX/view?usp=sharing)
