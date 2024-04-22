@@ -82,9 +82,9 @@ Docentes:
 ### Evaluaciones
 * [TP domiciliario N°1](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/TPs/MPE_III_TP_domiciliario_N%C2%B01.ipynb)
   * [Errores comunes](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/pythonungs/codigos/TPs/tp1_errores_comunes.ipynb)
+* [TP domiciliario N°2](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/TP02_hipoteca_de_mariano.ipynb)
 
 <!--  
-* [TP domiciliario N°2](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/TP02_hipoteca_de_mariano.ipynb)
 * [TP domiciliario N°3](https://drive.google.com/file/d/1kJCT01RhOPNwOtrq60lJofdRCpHNIBNy/view?usp=sharing)
 * [TP domiciliario N°4](https://drive.google.com/file/d/1t6-oIcpvvH0MKXDufhR-YiI8wWzxOMYd/view?usp=sharing)
 	* [Resolución propuesta TP N°4](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/TPs/MPE3_022023_TP4_resolucion.ipynb)
