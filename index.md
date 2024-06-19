@@ -25,7 +25,7 @@ Docentes:
 <br>
 
 ## Contenidos
-### Introducción a Python (se irá actualizando a medida que avance el curso)
+### Introducción a Python
   * [Presentación de Google Colab](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/introduccion_a_python/0_Intro_Colab_y_Markdown.ipynb)
   * [Sintaxis básica y asignación de variables](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/introduccion_a_python/1.0_Sintaxis_b%C3%A1sica_y_asignaci%C3%B3n_de_variables.ipynb)
     * [Diapositiva 0](https://github.com/mateosuster/pythonungs/blob/master/documents/python_clase_1.pdf)
@@ -76,6 +76,7 @@ Docentes:
   * [Pandas Indexing](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/pandas/Practica_2_2_Pandas_Indexing.ipynb)
     * [Ejercicios Pandas I](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/manipulacion_de_datos/3_Ejercicios_pandas.ipynb)
   * [Manipulación de datos](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/manipulacion_de_datos/4_Manipulaci%C3%B3n_de_DataFrames.ipynb)
+  * [Joins](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/pandas/10%20-%20Merging%20DataFrames.ipynb)
   * [Visualizaciones](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/pandas/Pr%C3%A1ctica_Visualizacion_de_datos.ipynb)
 
 
