@@ -79,10 +79,17 @@ Docentes:
   * [Joins](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/pandas/10%20-%20Merging%20DataFrames.ipynb)
   * [Visualizaciones](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/pandas/Pr%C3%A1ctica_Visualizacion_de_datos.ipynb)
 
+### Programación Orientada a Objetos (POO)
+  * [Intro POO]()
+
+### Introducción al uso de Large Language Models (LLMs)
+  * [Intro a LLMs]()
+  * [Buenas prácticas de Prompt Engineering]()
 
 ### Evaluaciones
-<!-- * [TP domiciliario N°1](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/TPs/MPE_III_TP_domiciliario_N%C2%B01.ipynb)
-  * [Errores comunes](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/pythonungs/codigos/TPs/tp1_errores_comunes.ipynb)
+* [TP domiciliario N°1](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/TPs/MPE_III_TP_domiciliario_N%C2%B01.ipynb)
+
+<!--   * [Errores comunes](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/pythonungs/codigos/TPs/tp1_errores_comunes.ipynb)
 * [TP domiciliario N°2](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/TPs/TP02_hipoteca_de_mariano.ipynb) -->
 
 <!--  
