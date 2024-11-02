@@ -75,7 +75,7 @@ Docentes:
 ### Datos y visualizaciones
   * [Intro Pandas](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/pandas/Practica_2_1_Intro_Pandas.ipynb)
   * [Pandas Indexing](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/pandas/Practica_2_2_Pandas_Indexing.ipynb)
-    * [Ejercicios Pandas I](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/manipulacion_de_datos/3_Ejercicios_pandas.ipynb)
+    * [Ejercicios Pandas](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/manipulacion_de_datos/3_Ejercicios_pandas.ipynb)
   * [Manipulación de datos](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/manipulacion_de_datos/4_Manipulaci%C3%B3n_de_DataFrames.ipynb)
   * [Joins](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/pandas/10%20-%20Merging%20DataFrames.ipynb)
   * [Visualizaciones](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/pandas/Pr%C3%A1ctica_Visualizacion_de_datos.ipynb)
@@ -92,6 +92,7 @@ Docentes:
   * [Errores comunes](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/TPs/MPE_III_TP_domiciliario_N%C2%B01_Errores_comunes.ipynb)
 * [TP domiciliario N°2](https://drive.google.com/file/d/1lVrkr4EGp5OPMNKalbUr4TkSlhMyOlml/view?usp=sharing)
 * [TP domiciliario N°3](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/TPs/TP02_hipoteca_de_mariano.ipynb)
+  * [Propuesta de resolución del TP N°3](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/TPs/MPE_III_Posible_soluci%C3%B3n_al_TP_de_la_hipoteca_de_Mariano.ipynb)
 
 <!--   
  -->
