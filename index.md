@@ -85,8 +85,7 @@ Docentes:
   * [Intro POO]()
 
 ### Introducción al uso de Large Language Models (LLMs)
-  * [Intro a LLMs]()
-  * [Buenas prácticas de Prompt Engineering]()
+  * [Buenas prácticas de Prompt Engineering](https://docs.google.com/presentation/d/1_-5daXNb3naPCzeUXScTyGfB9EXzdhQ2/edit?usp=sharing&ouid=110388837573642867809&rtpof=true&sd=true)
 
 ### Evaluaciones
 * [TP domiciliario N°1](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/TPs/MPE_III_TP_domiciliario_N%C2%B01.ipynb)
