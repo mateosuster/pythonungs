@@ -9,10 +9,9 @@ Docente:
 
 ## Links importantes
 ### [Videos](https://youtube.com/playlist?list=PL2h-fkhd9MI0xKsPaNTeprgQKiPD4nwFC&si=XcHNmTRdmkLwqGyR)
+### [Canal de Slack (Comisión 1 - Pereira)](https://join.slack.com/t/mpeiii20251er-dvv6884/shared_invite/zt-31t2fheth-BVGWFC_oVPtRZTxOxKyoPA)
+### [Canal de Slack (Comisión 2 - Callelo)](https://join.slack.com/t/mpeiii20251er-hrx3307/shared_invite/zt-31t397ctx-uhU_s6SQKzwUBrBDz4gDvg)
 
-### [Canal de Slack (Comisión 2 - Callelo)](https://join.slack.com/t/slack-eza2275/shared_invite/zt-2p8kn8net-xIygL6QwZVLE_QwuJmI_Mg)
-
-<!-- ### [Canal de Slack (Comisión 1 - Pereira)](https://join.slack.com/t/mate3com12024-2y67737/shared_invite/zt-2fd53a4k2-vgzzdoKGnES3RvY5P8cwYA) -->
 <!--
 ### [Videos](https://youtube.com/playlist?list=PL2h-fkhd9MI0xKsPaNTeprgQKiPD4nwFC&si=XcHNmTRdmkLwqGyR)
 
@@ -87,11 +86,11 @@ Docente:
   * [Buenas prácticas de Prompt Engineering](https://docs.google.com/presentation/d/1_-5daXNb3naPCzeUXScTyGfB9EXzdhQ2/edit?usp=sharing&ouid=110388837573642867809&rtpof=true&sd=true)
 
 ### Evaluaciones
-* [TP domiciliario N°1](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/TPs/MPE_III_TP_domiciliario_N%C2%B01.ipynb)
+<!-- * [TP domiciliario N°1](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/TPs/MPE_III_TP_domiciliario_N%C2%B01.ipynb)
   * [Errores comunes](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/TPs/MPE_III_TP_domiciliario_N%C2%B01_Errores_comunes.ipynb)
 * [TP domiciliario N°2](https://drive.google.com/file/d/1lVrkr4EGp5OPMNKalbUr4TkSlhMyOlml/view?usp=sharing)
 * [TP domiciliario N°3](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/TPs/TP02_hipoteca_de_mariano.ipynb)
-  * [Propuesta de resolución del TP N°3](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/TPs/MPE_III_Posible_soluci%C3%B3n_al_TP_de_la_hipoteca_de_Mariano.ipynb)
+  * [Propuesta de resolución del TP N°3](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/TPs/MPE_III_Posible_soluci%C3%B3n_al_TP_de_la_hipoteca_de_Mariano.ipynb) -->
 
 <!--   
  -->
