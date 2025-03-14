@@ -1,9 +1,8 @@
 # Introducción a Python
 ## Curso de Matemática para Economistas III (UNGS)
 
-Docentes: 
+Docente: 
 - Lic. Mateo Suster 
-- Lic. Fernando Molina
 
 <br>
 
