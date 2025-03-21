@@ -98,34 +98,32 @@ Docente:
 
 
 
-### Datos y visualizaciones
+<!-- ### Datos y visualizaciones
   * [Intro Pandas](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/manipulacion_de_datos/1_Intro_Pandas.ipynb)
   * [Pandas Indexing](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/manipulacion_de_datos/2_Pandas_Indexing.ipynb)
-    * [Ejercicios Pandas I](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/manipulacion_de_datos/3_Ejercicios_pandas.ipynb)
+    * [Ejercicios Pandas I](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/manipulacion_de_datos/3_Ejercicios_pandas.ipynb) -->
   
 
 
 
 
 
-### Evaluaciones
-* [TP domiciliario N°1](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/TPs/MPE_III_TP_domiciliario_N%C2%B01.ipynb)
+<!-- ### Evaluaciones -->
+<!-- * [TP domiciliario N°1](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/TPs/MPE_III_TP_domiciliario_N%C2%B01.ipynb)
 	* [Errores comunes](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/pythonungs/codigos/TPs/tp1_errores_comunes.ipynb)
 * [TP domiciliario N°2](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/TP02_hipoteca_de_mariano.ipynb)
 * [Segundo parcial](https://github.com/mateosuster/pythonungs/raw/master/documents/MPE_III___Python___Segundo_parcial___22_02.pdf)
 * [Primer recuperatorio](https://github.com/mateosuster/pythonungs/raw/master/documents/MPE_III___Recuperatorio_1__Python____22_02.pdf)
-* [Propuesta resolucion Segundo Parcial](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/propuesta_resolucion_parcial2.ipynb)
+* [Propuesta resolucion Segundo Parcial](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/propuesta_resolucion_parcial2.ipynb) -->
 
    
 
-#### Matemática financiera
 
 
-* [TP domiciliario N°2](https://colab.research.google.com/drive/1wLxUtrRV-16NoQciT3ExtiL4w1xZOXCx#scrollTo=Q2-XUspAj8Tn)
+<!-- * [TP domiciliario N°2](https://colab.research.google.com/drive/1wLxUtrRV-16NoQciT3ExtiL4w1xZOXCx#scrollTo=Q2-XUspAj8Tn)
 * [TP domiciliario N°3](https://drive.google.com/file/d/10bwo5EnIHsCIasQ-kK6gSjmuW7yp5MA0/view?usp=sharing)
-* [TP domiciliario N°4](https://drive.google.com/file/d/1n9DLvxf7bJ8fSTDMrI5ki26bxc5YY40j/view?usp=sharing)
+* [TP domiciliario N°4](https://drive.google.com/file/d/1n9DLvxf7bJ8fSTDMrI5ki26bxc5YY40j/view?usp=sharing) -->
 
- -->
  
  
 <br>
