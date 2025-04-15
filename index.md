@@ -87,9 +87,9 @@ Docente:
   * [Errores comunes](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/TPs/MPE_III_TP_domiciliario_N%C2%B01_Errores_comunes.ipynb)
 * [TP domiciliario N°2](https://drive.google.com/file/d/1Ygzk78VmKmmVhap50aMqmWaAR634MpmK/view?usp=sharing)
 
+* [TP domiciliario N°3](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/TPs/TP02_hipoteca_de_mariano.ipynb)
 
 <!-- 
-* [TP domiciliario N°3](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/TPs/TP02_hipoteca_de_mariano.ipynb)
 * [Propuesta de resolución del TP N°3](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/TPs/MPE_III_Posible_soluci%C3%B3n_al_TP_de_la_hipoteca_de_Mariano.ipynb) 
 * [Primer parcial](https://drive.google.com/file/d/1TDdQqu-nB643Muml_bU7bwewhApcdzRX/view?usp=sharing)
 * [TP domiciliario N°3](https://drive.google.com/file/d/1kJCT01RhOPNwOtrq60lJofdRCpHNIBNy/view?usp=sharing)
