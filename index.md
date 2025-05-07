@@ -51,7 +51,7 @@ Docente:
   * [Script integrador de contenidos primera parte](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/introduccion_a_python/4.0_Pr%C3%A1ctica_1_1_tipos_datos.ipynb)
 
 ### Librerías
-  * [Importación de librerías](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/Python%20-%20Importaci%C3%B3n%20de%20librer%C3%ADas.ipynb)
+  * [Importación de librerías](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/python_importaci_n_de_librer_as.ipynb)
   * [Intro Matplotlib](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/MPE_III_intro_matplotlib.ipynb)
 
 ### Aplicaciones matemáticas
