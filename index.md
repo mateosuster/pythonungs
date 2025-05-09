@@ -89,11 +89,12 @@ Docente:
   * [Propuesta de resolucion del TP N°2](https://drive.google.com/file/d/1gzxIGuTq7rRZCc-NEybbbVAU1pWAU0qV/view?usp=sharing)
 * [TP domiciliario N°3](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/TPs/tp03_hipoteca_de_mariano.ipynb)
   * [Propuesta de resolución del TP N°3](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/TPs/mpe_iii_posible_soluci_n_al_tp_de_la_hipoteca_de_mariano.ipynb) 
+* [Primer parcial](https://drive.google.com/drive/folders/1OX91zp_QWvLxHPzxz1eU7saT1mGmWKli?usp=sharing)
 
 
 
 <!-- 
-* [Primer parcial](https://drive.google.com/file/d/1TDdQqu-nB643Muml_bU7bwewhApcdzRX/view?usp=sharing)
+
 * [TP domiciliario N°3](https://drive.google.com/file/d/1kJCT01RhOPNwOtrq60lJofdRCpHNIBNy/view?usp=sharing)
 * [TP domiciliario N°4](https://drive.google.com/file/d/1t6-oIcpvvH0MKXDufhR-YiI8wWzxOMYd/view?usp=sharing)
 * [Resolución propuesta TP N°4](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/TPs/MPE3_022023_TP4_resolucion.ipynb)
