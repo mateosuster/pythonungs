@@ -41,7 +41,7 @@ Docente:
   * [Manejo de errores](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/introduccion_a_python/Practica_manejo_de_errores.ipynb)
   * [Función input()](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/programacion_funcional/Funci%C3%B3n_input().ipynb)
 
-  * [Funciones](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/programacion_funcional/3.0_MPE_III_Funciones.ipynb)
+  * [Funciones](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/programacion_funcional/MPE_III_Funciones.ipynb)
     * [Diapositivas](https://github.com/mateosuster/pythonungs/blob/master/documents/build/mpe3_py_funciones.pdf)
 	* [Ejercicios sobre funciones](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/programacion_funcional/3.1_Ejercicios_Funciones.ipynb)
 
