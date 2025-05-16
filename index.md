@@ -90,6 +90,7 @@ Docente:
 * [TP domiciliario N°3](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/TPs/tp03_hipoteca_de_mariano.ipynb)
   * [Propuesta de resolución del TP N°3](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/TPs/mpe_iii_posible_soluci_n_al_tp_de_la_hipoteca_de_mariano.ipynb) 
 * [Primer parcial](https://drive.google.com/drive/folders/1OX91zp_QWvLxHPzxz1eU7saT1mGmWKli?usp=sharing)
+  * [Propuesta de solución](https://colab.research.google.com/drive/1vcpksUQqR3ZPtWkUo5BynW-z3pj8RSRs?usp=sharing)
 
 
 
