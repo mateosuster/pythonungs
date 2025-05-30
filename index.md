@@ -64,6 +64,7 @@ Docente:
   * [Valor Presente y Futuro](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/mate_financiera/0_Valor_Presente_y_Futuro.ipynb)
   * [Valor Presente Neto y TIR](https://colab.research.google.com/drive/1LvXrD6JUFi4e6v1hfErbNFTAJwKwC_Xa?usp=sharing)
   * [Bonos](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/mate_financiera/2_Bonos.ipynb)
+  * [Visualización de Activos Financieros con Yahoo Finance](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/manipulacion_de_datos/MPE_III_Mate_Financiera_con_Yahoo_Finance.ipynb)
 
 
 
@@ -74,8 +75,9 @@ Docente:
   * [Manipulación de datos](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/manipulacion_de_datos/4_Manipulaci%C3%B3n_de_DataFrames.ipynb)
   * [Joins](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/pandas/10%20-%20Merging%20DataFrames.ipynb)
   * [Visualizaciones (slides)](https://docs.google.com/presentation/d/1eYbD81AZLLTGCsGvgr6PaaFVgNOI0TFrVaVjM0jOmWk/edit?usp=sharing)
-    * [Visualizaciones](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/manipulacion_de_datos/visualizacion_con_pandas__matplotlib_y_plotly.ipynb)
+    * [Visualizaciones](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/manipulacion_de_datos/visualizacion_con_pandas__matplotlib_y_plotly.ipynb )
     * [Visualizaciones (viejo)](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/pandas/Pr%C3%A1ctica_Visualizacion_de_datos.ipynb)
+
 
 ### Programación Orientada a Objetos (POO)
   * [Intro POO]()
