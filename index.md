@@ -73,8 +73,9 @@ Docente:
     * [Ejercicios Pandas](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/manipulacion_de_datos/3_Ejercicios_pandas.ipynb)
   * [Manipulación de datos](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/manipulacion_de_datos/4_Manipulaci%C3%B3n_de_DataFrames.ipynb)
   * [Joins](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/pandas/10%20-%20Merging%20DataFrames.ipynb)
-  * [Visualizaciones](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/Visualizacion_con_Pandas%2C_Matplotlib_y_Plotly.ipynb)
-  * [Visualizaciones (viejo)](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/pandas/Pr%C3%A1ctica_Visualizacion_de_datos.ipynb)
+  * [Visualizaciones (slides)](https://docs.google.com/presentation/d/1eYbD81AZLLTGCsGvgr6PaaFVgNOI0TFrVaVjM0jOmWk/edit?usp=sharing)
+    * [Visualizaciones](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/manipulacion_de_datos/visualizacion_con_pandas__matplotlib_y_plotly.ipynb)
+    * [Visualizaciones (viejo)](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/pandas/Pr%C3%A1ctica_Visualizacion_de_datos.ipynb)
 
 ### Programación Orientada a Objetos (POO)
   * [Intro POO]()
