@@ -95,6 +95,7 @@ Docente:
 * [Primer parcial](https://drive.google.com/drive/folders/1OX91zp_QWvLxHPzxz1eU7saT1mGmWKli?usp=sharing)
   * [Propuesta de solución](https://colab.research.google.com/drive/1vcpksUQqR3ZPtWkUo5BynW-z3pj8RSRs?usp=sharing)
 
+* [Segundo parcial](https://drive.google.com/file/d/18vbLSO_xqJVwZ3dq9iljVGcBbIPia8TX/view?usp=sharing)
 
 
 <!-- 
