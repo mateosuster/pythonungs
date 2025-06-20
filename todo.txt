@@ -1,7 +1,12 @@
-- Arreglar links de 
-	- REV[Números, listas y tuplas](https://colab.research.google.com/drive/15RFG4oE_3lv_ArXkZvudDEDxgLJqrqrs?usp=sharing)
-	- REV[Bucle `for`]() 
-	- REV[Valor Presente Neto y TIR](https://colab.research.google.com/drive/1LvXrD6JUFi4e6v1hfErbNFTAJwKwC_Xa?usp=sharing)
+- Intro AI
+	- Dia 1 explicar prompting?
+	- explicar paper destruccion neurolinguistica 
+
+
+- En segunda parte
+	- Explicar modalidad de evaluacion del principio, contar que va a ser un tp que tienen que exponer con storytelling
+	- Pedir un REPORTE en pdf que explique el problema y que posee una tabla y un grafico
+	
 
 - Optimizaciones
 	- Clase for: 1) agregar tiempos de ejecucion entre while y for 2) expplciar enumerate
