@@ -9,8 +9,8 @@ Docente:
 
 ## Links importantes
 ### [Videos](https://youtube.com/playlist?list=PL2h-fkhd9MI0xKsPaNTeprgQKiPD4nwFC&si=XcHNmTRdmkLwqGyR)
-### [Canal de Slack (Comisión 1 - Pereira)](https://join.slack.com/t/mpeiii20251er-dvv6884/shared_invite/zt-31t2fheth-BVGWFC_oVPtRZTxOxKyoPA)
-### [Canal de Slack (Comisión 2 - Callelo)](https://join.slack.com/t/mpeiii20251er-hrx3307/shared_invite/zt-31t397ctx-uhU_s6SQKzwUBrBDz4gDvg)
+<!-- ### [Canal de Slack (Comisión 1 - Pereira)](https://join.slack.com/t/mpeiii20251er-dvv6884/shared_invite/zt-31t2fheth-BVGWFC_oVPtRZTxOxKyoPA) -->
+### [Canal de Slack (Comisión 2 - Callelo)](https://join.slack.com/t/mpeiii20252do-ftz4291/shared_invite/zt-3cd555tjq-DL68j_SzB~p9PhNjqwrwNw)
 
 <!--
 ### [Videos](https://youtube.com/playlist?list=PL2h-fkhd9MI0xKsPaNTeprgQKiPD4nwFC&si=XcHNmTRdmkLwqGyR)
