@@ -12,10 +12,25 @@ Docente:
 <!-- ### [Canal de Slack (Comisión 1 - Pereira)](https://join.slack.com/t/mpeiii20251er-dvv6884/shared_invite/zt-31t2fheth-BVGWFC_oVPtRZTxOxKyoPA) -->
 ### [Canal de Slack (Comisión 2 - Callelo)](https://join.slack.com/t/mpeiii20252do-ftz4291/shared_invite/zt-3cd555tjq-DL68j_SzB~p9PhNjqwrwNw)
 
-<!--
-### [Videos](https://youtube.com/playlist?list=PL2h-fkhd9MI0xKsPaNTeprgQKiPD4nwFC&si=XcHNmTRdmkLwqGyR)
- -->
+### Evaluaciones
+* [TP domiciliario N°1](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/MPE_III_TP_domiciliario_N%C2%B01.ipynb)
+  * [Errores comunes](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/TPs/MPE_III_TP_domiciliario_N%C2%B01_Errores_comunes.ipynb)
+* [TP domiciliario N°2](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/TPs/tp03_hipoteca_de_mariano.ipynb)
 
+<!-- * [TP domiciliario N°1](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/TPs/MPE_III_TP_domiciliario_N%C2%B01.ipynb)
+* [TP domiciliario N°2](https://drive.google.com/file/d/1Ygzk78VmKmmVhap50aMqmWaAR634MpmK/view?usp=sharing)
+  * [Propuesta de resolucion del TP N°2](https://drive.google.com/file/d/1gzxIGuTq7rRZCc-NEybbbVAU1pWAU0qV/view?usp=sharing)
+  * [Propuesta de resolución del TP N°3](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/TPs/mpe_iii_posible_soluci_n_al_tp_de_la_hipoteca_de_mariano.ipynb) 
+* [Primer parcial](https://drive.google.com/drive/folders/1OX91zp_QWvLxHPzxz1eU7saT1mGmWKli?usp=sharing)
+  * [Propuesta de solución](https://colab.research.google.com/drive/1vcpksUQqR3ZPtWkUo5BynW-z3pj8RSRs?usp=sharing)
+
+* [Segundo parcial](https://drive.google.com/file/d/18vbLSO_xqJVwZ3dq9iljVGcBbIPia8TX/view?usp=sharing) 
+
+* [TP domiciliario N°3](https://drive.google.com/file/d/1kJCT01RhOPNwOtrq60lJofdRCpHNIBNy/view?usp=sharing)
+* [TP domiciliario N°4](https://drive.google.com/file/d/1t6-oIcpvvH0MKXDufhR-YiI8wWzxOMYd/view?usp=sharing)
+* [Resolución propuesta TP N°4](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/TPs/MPE3_022023_TP4_resolucion.ipynb)
+* [TP domiciliario N°5](https://drive.google.com/file/d/1KDOR3LGRHJdBuDZFy51eaYC4DmwyjYpL/view?usp=sharing)  
+-->
 
 <br>
 
@@ -85,29 +100,7 @@ Docente:
 ### Introducción al uso de Large Language Models (LLMs)
   * [Buenas prácticas de Prompt Engineering](https://docs.google.com/presentation/d/1_-5daXNb3naPCzeUXScTyGfB9EXzdhQ2/edit?usp=sharing&ouid=110388837573642867809&rtpof=true&sd=true)
 
-### Evaluaciones
-* [TP domiciliario N°1](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/MPE_III_TP_domiciliario_N%C2%B01.ipynb)
 
-  * [Errores comunes](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/TPs/MPE_III_TP_domiciliario_N%C2%B01_Errores_comunes.ipynb)
-* [TP domiciliario N°2](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/TPs/tp03_hipoteca_de_mariano.ipynb)
-
-<!-- * [TP domiciliario N°1](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/TPs/MPE_III_TP_domiciliario_N%C2%B01.ipynb)
-* [TP domiciliario N°2](https://drive.google.com/file/d/1Ygzk78VmKmmVhap50aMqmWaAR634MpmK/view?usp=sharing)
-  * [Propuesta de resolucion del TP N°2](https://drive.google.com/file/d/1gzxIGuTq7rRZCc-NEybbbVAU1pWAU0qV/view?usp=sharing)
-  * [Propuesta de resolución del TP N°3](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/TPs/mpe_iii_posible_soluci_n_al_tp_de_la_hipoteca_de_mariano.ipynb) 
-* [Primer parcial](https://drive.google.com/drive/folders/1OX91zp_QWvLxHPzxz1eU7saT1mGmWKli?usp=sharing)
-  * [Propuesta de solución](https://colab.research.google.com/drive/1vcpksUQqR3ZPtWkUo5BynW-z3pj8RSRs?usp=sharing)
-
-* [Segundo parcial](https://drive.google.com/file/d/18vbLSO_xqJVwZ3dq9iljVGcBbIPia8TX/view?usp=sharing) -->
-
-
-<!-- 
-
-* [TP domiciliario N°3](https://drive.google.com/file/d/1kJCT01RhOPNwOtrq60lJofdRCpHNIBNy/view?usp=sharing)
-* [TP domiciliario N°4](https://drive.google.com/file/d/1t6-oIcpvvH0MKXDufhR-YiI8wWzxOMYd/view?usp=sharing)
-* [Resolución propuesta TP N°4](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/TPs/MPE3_022023_TP4_resolucion.ipynb)
-* [TP domiciliario N°5](https://drive.google.com/file/d/1KDOR3LGRHJdBuDZFy51eaYC4DmwyjYpL/view?usp=sharing)  
--->
 
 
 
