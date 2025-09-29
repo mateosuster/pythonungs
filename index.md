@@ -163,7 +163,7 @@ Docente:
 
 
 ### Materiales, cursos, tutoriales, bibliografía:
-#### Libros
+- [Python Roadmap Developer. Step by step guide to becoming a Python developer in 2025](https://roadmap.sh/python)
 - [Tutorial de Python para no programadores](http://jjc.freeshell.org/easytut/easytut_es/easytut.html)
 - [How to Think Like a Computer Scientist](http://openbookproject.net/thinkcs/python/english2e/). En español: [Aprenda a pensar como un programador con Python](https://argentinaenpython.com/quiero-aprender-python/aprenda-a-pensar-como-un-programador-con-python.pdf)
 - [Python para todos](https://launchpadlibrarian.net/18980633/Python%20para%20todos.pdf)
