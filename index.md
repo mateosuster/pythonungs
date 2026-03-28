@@ -13,8 +13,8 @@ Docente:
 <!-- ### [Canal de Slack (Comisión 2 - Callelo)](https://join.slack.com/t/mpeiii20252do-ftz4291/shared_invite/zt-3cd555tjq-DL68j_SzB~p9PhNjqwrwNw) -->
 
 ### Evaluaciones
-<!-- * [TP domiciliario N°1](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/MPE_III_TP_domiciliario_N%C2%B01.ipynb)
-  * [Errores comunes](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/TPs/MPE_III_TP_domiciliario_N%C2%B01_Errores_comunes.ipynb)
+* [TP domiciliario N°1](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/TPs/MPE_III_TP_domiciliario_N%C2%B01.ipynb)
+<!--   * [Errores comunes](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/TPs/MPE_III_TP_domiciliario_N%C2%B01_Errores_comunes.ipynb)
 * [TP domiciliario N°2](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/TPs/tp03_hipoteca_de_mariano.ipynb)
   * [Propuesta de resolución del TP N°2](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/TPs/mpe_iii_posible_soluci_n_al_tp_de_la_hipoteca_de_mariano.ipynb) 
 * [TP domiciliario N°3](https://drive.google.com/file/d/19Xz9LXL2SlnOrL-RTQfzX43OTzbUejTH/view?usp=sharing)
@@ -41,7 +41,7 @@ Docente:
 ## Contenidos
 ### Introducción a Python
   * [Presentación de Google Colab](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/introduccion_a_python/0_Intro_Colab_y_Markdown.ipynb)
-  * [Sintaxis básica y asignación de variables](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/introduccion_a_python/1.0_Sintaxis_b%C3%A1sica_y_asignaci%C3%B3n_de_variables.ipynb)
+  * [Sintaxis básica y asignación de variables](https://colab.research.google.com/gist/mateosuster/8441a495f3a5e29821ce88ae77b6f71f/mpe-iii-1-sintaxis-b-sica-y-asignaci-n-de-variables.ipynb)
     * [Diapositiva 0](https://github.com/mateosuster/pythonungs/blob/master/documents/python_clase_1.pdf)
 	* [Diapositiva 1](https://github.com/mateosuster/pythonungs/blob/master/documents/python_clase_1_1.pdf)
 	* [Diapositiva 2](https://github.com/mateosuster/pythonungs/blob/master/documents/python_clase_1_2.pdf)
