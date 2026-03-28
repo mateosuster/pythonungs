@@ -42,7 +42,7 @@ Docente:
 ## Contenidos
 ### Introducción a Python
   * [Presentación de Google Colab](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/introduccion_a_python/0_Intro_Colab_y_Markdown.ipynb)
-  * [Sintaxis básica y asignación de variables](https://colab.research.google.com/gist/mateosuster/8441a495f3a5e29821ce88ae77b6f71f/mpe-iii-1-sintaxis-b-sica-y-asignaci-n-de-variables.ipynb)
+  * [Sintaxis básica y asignación de variables]https://colab.research.google.com/gist/mateosuster/8441a495f3a5e29821ce88ae77b6f71f/mpe-iii-1-sintaxis-b-sica-y-asignaci-n-de-variables.ipynb)
     * [Diapositiva 0](https://github.com/mateosuster/pythonungs/blob/master/documents/python_clase_1.pdf)
 	* [Diapositiva 1](https://github.com/mateosuster/pythonungs/blob/master/documents/python_clase_1_1.pdf)
 	* [Diapositiva 2](https://github.com/mateosuster/pythonungs/blob/master/documents/python_clase_1_2.pdf)
