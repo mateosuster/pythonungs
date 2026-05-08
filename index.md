@@ -102,7 +102,7 @@ Docente:
 
 
 ### Programación Orientada a Objetos (POO)
-  * [Intro POO](https://github.com/mateosuster/pythonungs/blob/master/codigos/intro_poo.ipynb)
+  * [Intro POO](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/intro_poo.ipynb)
 
 ### Introducción al uso de Large Language Models (LLMs)
   * [Buenas prácticas de Prompt Engineering](https://docs.google.com/presentation/d/1_-5daXNb3naPCzeUXScTyGfB9EXzdhQ2/edit?usp=sharing&ouid=110388837573642867809&rtpof=true&sd=true)
