@@ -74,6 +74,10 @@ Docente:
   * [Importación de librerías](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/python_importaci_n_de_librer_as.ipynb)
   * [Intro Matplotlib](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/MPE_III_intro_matplotlib.ipynb)
 
+  ### Programación Orientada a Objetos (POO)
+  * [Intro POO](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/intro_poo.ipynb)
+
+
 ### Aplicaciones matemáticas
 
 #### Ecuaciones dinámicas
@@ -99,10 +103,8 @@ Docente:
     * [Visualizaciones (viejo)](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/pandas/Pr%C3%A1ctica_Visualizacion_de_datos.ipynb)
 
 
-### Programación Orientada a Objetos (POO)
-  * [Intro POO](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/intro_poo.ipynb)
 
-### Introducción al uso de Large Language Models (LLMs)
+### Introducción al uso de modelos de IA para programar
   * [Buenas prácticas de Prompt Engineering](https://docs.google.com/presentation/d/1_-5daXNb3naPCzeUXScTyGfB9EXzdhQ2/edit?usp=sharing&ouid=110388837573642867809&rtpof=true&sd=true)
 
 
