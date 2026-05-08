@@ -17,10 +17,8 @@ Docente:
   * [Errores comunes](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/TPs/MPE_III_TP_domiciliario_N%C2%B01_Errores_comunes.ipynb)
 
 * [TP domiciliario N°2](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/TPs/tp03_hipoteca_de_mariano.ipynb)
-
-
-<!--     * [Propuesta de resolución del TP N°2](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/TPs/mpe_iii_posible_soluci_n_al_tp_de_la_hipoteca_de_mariano.ipynb) 
-* [TP domiciliario N°3](https://drive.google.com/file/d/19Xz9LXL2SlnOrL-RTQfzX43OTzbUejTH/view?usp=sharing)
+   * [Propuesta de resolución del TP N°2](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/TPs/mpe_iii_posible_soluci_n_al_tp_de_la_hipoteca_de_mariano.ipynb)
+<!--     * [TP domiciliario N°3](https://drive.google.com/file/d/19Xz9LXL2SlnOrL-RTQfzX43OTzbUejTH/view?usp=sharing)
 * [Primer Parcial](https://drive.google.com/file/d/138J-CPIrT6s2qtYpAHh2gqgQbEkN9MXZ/view?usp=sharing)
   * [Propuesta de solución Primer Parcial](https://colab.research.google.com/drive/1vcpksUQqR3ZPtWkUo5BynW-z3pj8RSRs?usp=sharing)
 * [Segundo Parcial](https://drive.google.com/file/d/1WpHaDeAxyuokxI-vWADXiuS1F1QMyC9d/view?usp=sharing)
