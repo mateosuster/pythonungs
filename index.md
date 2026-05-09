@@ -75,7 +75,7 @@ Docente:
   * [Importación de librerías](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/python_importaci_n_de_librer_as.ipynb)
   * [Intro Matplotlib](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/MPE_III_intro_matplotlib.ipynb)
 
-  ### Programación Orientada a Objetos (POO)
+### Programación Orientada a Objetos (POO)
   * [Intro POO](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/intro_poo.ipynb)
 
 
