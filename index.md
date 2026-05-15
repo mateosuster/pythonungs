@@ -76,7 +76,7 @@ Docente:
   * [Intro Matplotlib](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/MPE_III_intro_matplotlib.ipynb)
 
 ### Programación Orientada a Objetos (POO)
-  * [Intro POO](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/intro_poo.ipynb)
+  * [Intro POO](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/introduccion_a_python/programacion_orientada_a_objetos.ipynb)
 
 
 ### Aplicaciones matemáticas
