@@ -107,6 +107,7 @@ Docente:
 
 ### Introducción al uso de modelos de IA para programar
   * [Buenas prácticas de Prompt Engineering](https://docs.google.com/presentation/d/1_-5daXNb3naPCzeUXScTyGfB9EXzdhQ2/edit?usp=sharing&ouid=110388837573642867809&rtpof=true&sd=true)
+  * [Clase práctica: Prompt Engineering con Python](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/anthropic/prompt_engineering_clase.ipynb)
 
 
 
