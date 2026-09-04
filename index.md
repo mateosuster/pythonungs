@@ -10,14 +10,14 @@ Docente:
 ## Links importantes
 ### [Videos](https://youtube.com/playlist?list=PL2h-fkhd9MI0xKsPaNTeprgQKiPD4nwFC&si=XcHNmTRdmkLwqGyR)
 <!-- ### [Canal de Slack (Comisión 1 - Pereira)](https://join.slack.com/t/mpeiii20251er-dvv6884/shared_invite/zt-31t2fheth-BVGWFC_oVPtRZTxOxKyoPA) -->
-<!-- ### [Canal de Slack (Comisión 2 - Callelo)](https://join.slack.com/t/mpeiii20252do-ftz4291/shared_invite/zt-3cd555tjq-DL68j_SzB~p9PhNjqwrwNw) -->
+### [Canal de Slack (Comisión 2 - Callelo)](https://join.slack.com/t/mateeconomist-5en3377/shared_invite/zt-48xrekncj-ZJNdic3XqfQQnn~wKYCWHw)
 
 ### Evaluaciones
-* [TP domiciliario N°1](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/TPs/MPE_III_TP_domiciliario_N%C2%B01.ipynb)
+<!-- * [TP domiciliario N°1](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/TPs/MPE_III_TP_domiciliario_N%C2%B01.ipynb)
   * [Errores comunes](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/TPs/MPE_III_TP_domiciliario_N%C2%B01_Errores_comunes.ipynb)
 
 * [TP domiciliario N°2](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/TPs/tp03_hipoteca_de_mariano.ipynb)
-  * [Propuesta de resolución del TP N°2](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/TPs/mpe_iii_posible_soluci_n_al_tp_de_la_hipoteca_de_mariano.ipynb)
+  * [Propuesta de resolución del TP N°2](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/TPs/mpe_iii_posible_soluci_n_al_tp_de_la_hipoteca_de_mariano.ipynb) -->
 
 <!--   * [TP domiciliario N°3](https://drive.google.com/file/d/19Xz9LXL2SlnOrL-RTQfzX43OTzbUejTH/view?usp=sharing)
 * [Primer Parcial](https://drive.google.com/file/d/138J-CPIrT6s2qtYpAHh2gqgQbEkN9MXZ/view?usp=sharing)
