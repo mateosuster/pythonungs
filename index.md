@@ -13,8 +13,9 @@ Docente:
 ### [Canal de Slack (Comisión 2 - Callelo)](https://join.slack.com/t/mateeconomist-5en3377/shared_invite/zt-48xrekncj-ZJNdic3XqfQQnn~wKYCWHw)
 
 ### Evaluaciones
-<!-- * [TP domiciliario N°1](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/TPs/MPE_III_TP_domiciliario_N%C2%B01.ipynb)
-  * [Errores comunes](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/TPs/MPE_III_TP_domiciliario_N%C2%B01_Errores_comunes.ipynb)
+* [TP domiciliario N°1](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/TPs/MPE_III_TP_domiciliario_N%C2%B01.ipynb)
+
+<!--   * [Errores comunes](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/TPs/MPE_III_TP_domiciliario_N%C2%B01_Errores_comunes.ipynb)
 
 * [TP domiciliario N°2](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/TPs/tp03_hipoteca_de_mariano.ipynb)
   * [Propuesta de resolución del TP N°2](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/TPs/mpe_iii_posible_soluci_n_al_tp_de_la_hipoteca_de_mariano.ipynb) -->
