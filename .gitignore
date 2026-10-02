@@ -1,1 +1,37 @@
+# Jupyter checkpoints
+**/.ipynb_checkpoints/
+
+# LaTeX build artifacts
+*.aux
+*.log
+*.nav
+*.out
+*.synctex.gz
+*.toc
+*.fls
+*.fdb_latexmk
+*.pdfsync
+*.vrb
+
+# HTML exports (from nbconvert)
+*_files/
+*.html
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Links folder (existing)
 links/*
