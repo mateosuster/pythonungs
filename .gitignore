@@ -11,6 +11,7 @@
 *.fls
 *.fdb_latexmk
 *.pdfsync
+*.vrb
 
 # HTML exports (from nbconvert)
 *_files/
