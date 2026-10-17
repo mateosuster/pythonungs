@@ -18,8 +18,11 @@ Docente:
 * [TP domiciliario N°2](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/TPs/tp03_hipoteca_de_mariano.ipynb)
   * [Propuesta de resolución del TP N°2](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/TPs/mpe_iii_posible_soluci_n_al_tp_de_la_hipoteca_de_mariano.ipynb)
 * [TP domiciliario N°3](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/TPs/MPE_III_TP_3.ipynb)
+   * [Propuesta de resolucion del TP N°3](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/TPs/MPE_III_TP_3_resolucion.ipynb\)
 * [TP domiciliario N°4](https://colab.research.google.com/gist/mateosuster/b101cbf1ef9cd9a41ab70bf5d310ba59/mpe-iii-tp-4.ipynb)
+   * [Propuesta de resolucion del TP N°4](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/TPs/MPE_III_TP_4_resolucion.ipynb\)
 
+* [Primer parcial](https://drive.google.com/file/d/1RXqPLcVvkJOYoS3BDeCp7vgBYCxoxjyy/view?usp=sharing)
 
 <!--      -->
 
