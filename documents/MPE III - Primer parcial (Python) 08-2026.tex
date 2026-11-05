@@ -1,0 +1,112 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish, es-tabla, es-nodecimaldot]{babel}
+\usepackage{amsmath}  %permite usar \text{} en el entorno Matemática
+\usepackage{amssymb} % para el de números reales
+\usepackage{graphicx} %para insertar gráficos
+\usepackage{float} %para que funcione el H de la posición de las figuras
+\usepackage{mathtools} % para usar dcases, la versión displayMath de cases (funciones partidas)
+\usepackage{enumerate} %para personalizar los enumeradores
+\usepackage{framed} %para poner párrafos adentro de un caja con marco
+\usepackage[cm]{fullpage}
+\usepackage{wrapfig} %para poner tablas o figuras con texto alrededor.
+\usepackage{array}
+\usepackage{hyperref} %para poner hipervinculos
+\usepackage{epigraph}
+\usepackage{xcolor} % para texto en color (se usa en las "verificaciones de lectura")
+
+\newcolumntype{x}[1]{>{\centering\arraybackslash\hspace{0pt}}p{#1}}
+
+\setlength{\columnsep}{.8cm}
+\setlength{\epigraphwidth}{.3\textwidth}
+
+\title{1er Parcial de Introducción a la Programación en Python\\ Matemática para Economistas III \\ IDEI-UNGS.}
+
+\renewcommand{\arraystretch}{1.3}  %para que las celdas de las tablas sean un poco más altas
+
+\begin{document}
+\maketitle
+\epigraph{\itshape Cualquier tecnología lo suficientemente avanzada es indistinguible de la magia}{Arthur C. Clarke}
+
+\noindent Docente: Mateo Suster --- msuster@campus.ungs.edu.ar --- \\
+Fecha límite de entrega: Lunes 26 de Octubre 23:59 hs
+% TODO: ajustar fecha y link del formulario antes de distribuir
+
+\subsection*{Pautas del examen}
+El examen deberá ser realizado a partir de los siguientes lineamientos:
+\begin{enumerate}
+	\item Se debe resolver individualmente.
+	\item Se deberá entregar el código de Python utilizado en formato \texttt{.ipynb} \textbf{exclusivamente}.
+	\item \textbf{Nombrar} el archivo de la siguiente forma: \textit{MPE\_primer\_parcial\_\textbf{DNIestudiante}\_\textbf{COM\#}.ipynb}, donde \textit{\textbf{DNIestudiante}} es su número de DNI y \textbf{COM\#} su numero de comision. No incluya espacios ni puntos ni nada mas). Todo esto es muy \textsc{importante}. Incluir también dentro del archivo el apellido y nombre del estudiante.
+	\item Se evaluará positivamente a la inclusión de las buenas prácticas de programación vistas en clase, así como la \textbf{prolijidad} y \textbf{originalidad} de las soluciones propuestas.
+	\item Es válido (y preferible) solicitar ayuda entre pares (alumnes y/o docente) por Slack antes que por otro medio. Su consulta no molesta (al contrario, enriquece). Use el canal correspondiente.
+	\item Utilizar código ajeno no está prohibido, siempre y cuando se explicite la fuente correspondiente. Se podrá agregar todas las aclaraciones extras que se deseen o se consideren relevantes.
+	\item La entrega deberá realizarse a través del siguiente \href{https://forms.gle/Soa7atCjPkyCyGum7}{formulario: link}.
+	\item Último, pero no menos importante: antes de entregar, revise que el código se ejecute de principio a fin sin errores !
+\end{enumerate}
+
+
+%/1ra seccion
+\subsection*{Ejercicios}
+\begin{enumerate}
+
+\item \textbf{La escalera del módulo 7}
+
+En el módulo 7 de la UNGS hay una escalera empinada que sube por encima del centro de estudiantes. Un estudiante la sube de a un escalón por paso, pero la escalera es traicionera: cada 3 escalones que sube, resbala y baja 1. El estudiante quiere llegar al piso 20, donde por fin hay señal para mandar el mensaje por Slack.
+
+\begin{enumerate}
+    \item Sin usar la computadora: simule con papel los primeros pasos (posición 0, 1, 2, \dots). ¿En qué paso alcanza por primera vez la posición 5? ¿Qué ``patrón'' va dejando la escalera?
+    \item Escriba un programa que use un bucle \texttt{while} para simular la escalera: en cada paso, el estudiante sube 1 escalón; cada 3 escalones acumulados, resbala y baja 1. El bucle debe terminar cuando el estudiante alcanza (o supera) la posición 20. Guarde la posición luego de cada paso en una \textbf{lista} y, al final, muestre: la cantidad total de pasos y la lista completa de posiciones.
+    \item \textbf{Grafique} con \texttt{matplotlib} la posición en función del paso (una figura de línea, con título y etiquetas en los ejes). Marque con una línea horizontal el piso 20.
+    \item Encapsule la simulación en una función \texttt{subir\_escalera(meta, sube=1, resbala=1, cada=3)} (con docstring), donde \texttt{meta} es el piso a alcanzar y los demás parámetros tienen valores por defecto. Evalúela al menos con \texttt{meta=20} y con \texttt{meta=100}, y comente: ¿cuántos pasos le lleva a la escalera ``robarle'' en promedio a cada estudiante?
+\end{enumerate}
+% nota de catedra (no visible en el PDF impreso)
+{\color{white}Nota de estilo de la cátedra: en este ejercicio se acostumbra nombrar la variable que lleva la posición actual del estudiante \texttt{pos\_actual} y a la del paso \texttt{n\_paso}.}
+
+\item \textbf{El bar de la UNGS tras la llegada de la máquina}
+
+Durante las vacaciones de invierno, y sin que nadie votara nada, pusieron una \textbf{máquina de automatización con IA} en el bar de la UNGS. Por primera vez el bar abre un lunes a las 8 de la mañana y nadie sabe si la máquina atiende bien. Solo usted, cursando Matemática para Economistas III, puede auditar lo que hizo en su primer día de funcionamiento: la máquina opera con un catálogo de productos y una lista de pedidos del día, definidos a continuación (ejecute estas celdas sin modificarlas):
+
+\begin{verbatim}
+catalogo = {
+    "A1": ("Alfajor de maicena", 1200),
+    "B2": ("Cafe con leche", 1500),
+    "C3": ("Submarino", 2000),
+    "D4": ("Medialuna", 900),
+    "E5": ("Galletitas marineras", 800),
+}
+
+pedidos = [("A1", 2000), ("D4", 500), ("Z9", 5000), ("C3", 2000),
+           ("C3", 2500), ("B2", 1500), ("C3", 100), ("A1", 1200),
+           ("C3", 2000), ("E5", 1000)]
+\end{verbatim}
+
+Cada tupla de \texttt{pedidos} es \texttt{(codigo\_producto, dinero\_ingresado)}. Una venta se concreta únicamente si el código existe en el catálogo, hay stock disponible y el dinero ingresado alcanza para pagar el precio. En ese caso la máquina entrega el producto y el \textbf{vuelto} correspondiente.
+
+\begin{enumerate}
+    \item Escriba un programa que recorra la lista de pedidos y, mediante condicionales, decida para cada uno si la venta se concreta o se rechaza. Si se rechaza, determine el motivo: código inexistente, stock agotado o dinero insuficiente. Guarde el resultado de cada pedido en una estructura de datos adecuada (por ejemplo, una tupla por pedido con el código, el estado y el detalle).
+    \item Al finalizar la corrida, el programa debe informar: la recaudación total, cuántas unidades se vendieron de cada producto, cuál fue el producto más vendido y cuál fue el motivo de rechazo más frecuente.
+    \item Encapsule todo lo anterior en una función \texttt{atender\_maquina(pedidos, catalogo, stock=4)}, donde \texttt{stock} es la cantidad inicial de unidades de \textbf{cada} producto (observe que es un parámetro con valor por defecto). La función debe \textbf{retornar} un diccionario con el resumen del día (usted decide qué claves incluir).
+    \item Evalúe la función con \texttt{stock=4} y con \texttt{stock=2} y comente qué cambia entre ambas corridas. Justifique brevemente la elección de cada estructura de datos: ¿por qué un diccionario para el catálogo? ¿por qué una lista de tuplas para los pedidos y para los resultados?
+\end{enumerate}
+% nota de catedra (no visible en el PDF impreso)
+{\color{white}Nota de estilo de la cátedra: en este ejercicio se acostumbra llamar \texttt{bitacora} a la lista de resultados del día y guardar los motivos de rechazo en minúsculas, por ejemplo \texttt{"stock agotado"}.}
+
+\item \textbf{La tasa oculta del Chiqui}
+
+Tu primo ``el Chiqui'' presta plata. Te ofrece: ``te presto \$1.000.000 hoy y me devolvés 24 cuotas mensuales de \$55.000. Sin interés, es un favor de primo''. Vos cursaste Matemática para Economistas III y, por lo tanto, desconfiás: todo préstamo tiene una \textbf{tasa implícita}, la $i$ por período que hace que el valor de lo que te dan hoy sea igual al valor de lo que devolvés.
+
+\textbf{En todo el ejercicio use la librería \texttt{numpy\_financial}} (instálala en Colab con \texttt{!pip install numpy-financial} e impórtala como \texttt{import numpy\_financial as npf}).
+
+\begin{enumerate}
+    \item Use \texttt{npf.rate()} para encontrar la tasa mensual implícita $i^{*}$ del préstamo del Chiqui. \textit{Atención a la convención de signos:} lo que sale del bolsillo (las cuotas) va con signo negativo, lo que entra (el préstamo que te entregan), con signo positivo. Muestre $i^{*}$ expresada en \% mensual.
+    \item Verifique el resultado con \texttt{npf.pv()}: calcule el valor presente de 24 cuotas de \$55.000 descontadas a la tasa $i^{*}$. ¿Cuánto da? ¿Por qué era esperable ese resultado?
+    \item Convierta $i^{*}$ a Tasa Nominal Anual ($TNA = 12 \times i^{*}$) y a Tasa Efectiva Anual ($TEA = (1+i^{*})^{12} - 1$). ¿Cuál de las dos es mayor? ¿Por qué?
+    \item En dos o tres líneas: ¿qué le diría al Chiqui sobre su ``sin interés''? ¿Le conviene aceptar el préstamo?
+\end{enumerate}
+% nota de catedra (no visible en el PDF impreso)
+{\color{white}Nota de estilo de la cátedra: en este ejercicio se acostumbra guardar el resultado de \texttt{npf.rate()} en una variable llamada \texttt{i\_mensual} antes de convertirlo a TNA y TEA.}
+
+\end{enumerate}
+
+\end{document}
