@@ -21,8 +21,10 @@ Docente:
    * [Propuesta de resolucion del TP N°3](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/TPs/MPE_III_TP_3_resolucion.ipynb\)
 * [TP domiciliario N°4](https://colab.research.google.com/gist/mateosuster/b101cbf1ef9cd9a41ab70bf5d310ba59/mpe-iii-tp-4.ipynb)
    * [Propuesta de resolucion del TP N°4](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/TPs/MPE_III_TP_4_resolucion.ipynb\)
+* [TP domiciliario N°5](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/TPs/tp5_2025_resumido.ipynb)
 
 * [Primer parcial](https://drive.google.com/file/d/1RXqPLcVvkJOYoS3BDeCp7vgBYCxoxjyy/view?usp=sharing)
+  * [Propuesta de resolución del Primer parcial](https://colab.research.google.com/github/mateosuster/pythonungs/blob/master/codigos/parciales/propuesta_resolucion_primer_parcial.ipynb)
 
 <!--      -->
 
